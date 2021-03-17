@@ -26,7 +26,7 @@ Reaching towards out-of-sight objects during walking is a common task in daily l
 
 <div class="divider"></div>
 
-**&#127941; TVCG 2020 (ISMAR Best Paper Nomination)**
+**&#127941; IEEE TVCG 2020 (ISMAR Best Paper Nomination)**
 ## Fully-Occluded Target Selection in Virtual Reality
 
 _Difeng Yu, **Qiushi Zhou**, Martin Reinoso, Joshua Newn, Jorge Goncalves, Eduardo Velloso_
