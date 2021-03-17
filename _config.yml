@@ -1,7 +1,7 @@
 # Site settings
 title_left    : "" # default: ""
 title_right   : "Qiushi Zhou" # default: ""
-description   : ""
+description   : "HCI Research"
 keywords      : "hci, research, phd, interaction, embodied"
 url           : https://qiushi-zhou.github.io/ # site url
 baseurl       : "" # apply repo name like "/myproject" if used under gh-pages branch, else (under master branch) just leave empty/blank
