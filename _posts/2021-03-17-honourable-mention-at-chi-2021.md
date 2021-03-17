@@ -6,6 +6,4 @@ description: "Our paper **Dance and Choreography in HCI: A Two-Decade Retrospect
 keywords: ""
 ---
 
-Our paper **Dance and Choreography in HCI: A Two-Decade Retrospective** has won an Honourable Mention Award at CHI 2021! <a href="https://qiushi-zhou.github.io/PDF/CHI-2021-dance.pdf">PDF</a>
-
-
+Our paper **Dance and Choreography in HCI: A Two-Decade Retrospective** won an Honourable Mention Award at CHI 2021! <a href="https://qiushi-zhou.github.io/PDF/CHI-2021-dance.pdf">PDF</a>
