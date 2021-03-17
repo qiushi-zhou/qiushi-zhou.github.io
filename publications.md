@@ -59,7 +59,7 @@ Selection studies are prevalent and indispensable for VR research. However, due 
 
 <div class="divider"></div>
 
-**IEEE VR 2020**
+**IMWUT 2019 (UbiComp Workshop)**
 ## Ubiquitous Smart Eyewear Interactions using Implicit Sensing and Unobtrusive Information Output
 
 _**Qiushi Zhou**, Joshua Newn, Benjamin Tag, Hao-Ping Lee, Chaofan Wang , Eduardo Velloso_
@@ -70,7 +70,7 @@ Premature technology, privacy, intrusiveness, power consumption, and user habits
 
 <div class="divider"></div>
 
-**CHI 2019**
+**CHI 2019 (LBW)**
 ## Cognitive Aid: Task Assistance Based On Mental Workload Estimation
 
 _**Qiushi Zhou**, Joshua Newn, Namrata Srivastava, Tilman Dingler, Jorge Goncalves, Eduardo Velloso_
