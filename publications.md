@@ -4,8 +4,8 @@ title: Publications
 permalink: /publications/
 ---
 
-**CHI 2021**
-## 	&#127942; Dance and Choreography in HCI: A Two-Decade Retrospective
+**&#127941; CHI 2021 (Honourable Mention)**
+## Dance and Choreography in HCI: A Two-Decade Retrospective
 
 **_Qiushi Zhou_**_, Chengcheng Chua, Jarrod Knibbe, Jorge Goncalves, Eduardo Velloso_
 
@@ -26,7 +26,7 @@ Reaching towards out-of-sight objects during walking is a common task in daily l
 
 <div class="divider"></div>
 
-**TVCG 2020**
+**&#127941; TVCG 2020 (Best Paper Nomination)**
 ## Fully-Occluded Target Selection in Virtual Reality
 
 _Difeng Yu, **Qiushi Zhou**, Martin Reinoso, Joshua Newn, Jorge Goncalves, Eduardo Velloso_
@@ -81,7 +81,7 @@ In this work, we evaluate the potential of using wearable non-contact (infrared)
 
 <div class="divider"></div>
 
-**OzCHI 2017**
+**&#127941; OzCHI 2017 (Honourable Mention)**
 ## GazeGrip: Improving Mobile Device Accessibility with Gaze & Grip Interaction
 
 _**Qiushi Zhou**, Eduardo Velloso_
