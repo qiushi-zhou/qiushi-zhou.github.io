@@ -5,7 +5,7 @@ permalink: /publications/
 ---
 
 **CHI 2021**
-## Dance and Choreography in HCI: A Two-Decade Retrospective
+## 	&#127942; Dance and Choreography in HCI: A Two-Decade Retrospective
 
 **_Qiushi Zhou_**_, Chengcheng Chua, Jarrod Knibbe, Jorge Goncalves, Eduardo Velloso_
 
