@@ -13,7 +13,7 @@ I started my Phd program at The University of Melbourne in 2019, advised by <a h
 
 Designing computational support for dance is an emerging area of HCI research, incorporating the cultural, experiential, and embodied characteristics of the third-wave shift. The challenges of recognising the abstract qualities of body movement, and of mediating between the diverse parties involved in the idiosyncratic creative process, present important questions to HCI researchers: how can we effectively integrate computing with dance, to understand and cultivate the felt dimension of creativity, and to aid the dance-making process? In this work, we systematically review the past twenty years of dance literature in HCI. We discuss our findings, propose directions for future HCI works in dance, and distil lessons for related disciplines. 
 
-<a href="https://qiushi-zhou.github.io/PDF/CHI2021-dance.pdf">PDF</a>
+<a href="https://qiushi-zhou.github.io/PDF/CHI-2021-Dance.pdf">PDF</a>
 
 <div class="divider"></div>
 
