@@ -3,10 +3,13 @@ layout: page
 title: Publications
 permalink: /publications/
 ---
-
+<div class="container">
 <img src="/assets/images/qiushi.JPG"
      alt=""
      />
+</div>
+
+<div class="divider"></div>
 
 **&#127941; CHI 2021 (Honourable Mention)**
 ## Dance and Choreography in HCI: A Two-Decade Retrospective
