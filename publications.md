@@ -3,11 +3,10 @@ layout: page
 title: Publications
 permalink: /publications/
 ---
-<div class="container">
 <img src="/assets/images/qiushi.JPG"
      alt=""
      />
-</div>
+
 
 <div class="divider"></div>
 
