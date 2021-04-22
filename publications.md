@@ -4,6 +4,10 @@ title: Publications
 permalink: /publications/
 ---
 
+<img src="/assets/images/qiushi.JPG"
+     alt=""
+     />
+
 **&#127941; CHI 2021 (Honourable Mention)**
 ## Dance and Choreography in HCI: A Two-Decade Retrospective
 
