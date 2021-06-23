@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Showcase video out for the Melbourne InnovatEd Incubation Program"
+title: "Showcase video for the Melbourne InnovatEd Incubation Program"
 comments: false
 description: "Our paper **Dance and Choreography in HCI: A Two-Decade Retrospective** has won an Honourable Mention Award at CHI 2021!"
 keywords: ""
