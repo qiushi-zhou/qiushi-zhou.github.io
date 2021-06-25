@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "I was elected as the president of CIS-GReS!"
+title: "I was elected as the president of CIS-GReS"
 comments: false
 description: ""
 keywords: ""
