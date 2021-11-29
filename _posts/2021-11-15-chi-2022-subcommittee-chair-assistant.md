@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Great learning experience as a Subcommittee Chair Assistant for CHI 2022"
+title: "Great experience as a Subcommittee Chair Assistant for CHI 2022"
 comments: false
 description: ""
 keywords: ""
