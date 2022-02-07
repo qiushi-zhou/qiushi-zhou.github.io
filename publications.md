@@ -35,7 +35,7 @@ Reaching towards out-of-sight objects during walking is a common task in daily l
 **&#127941; IEEE TVCG 2020 (ISMAR Best Paper Nomination)**
 ## Fully-Occluded Target Selection in Virtual Reality
 
-_Difeng Yu, **Qiushi Zhou**, Martin Reinoso, Joshua Newn, Jorge Goncalves, Eduardo Velloso_
+_Difeng Yu, **Qiushi Zhou**, Joshua Newn, Tilman Dingler, Jorge Goncalves, Eduardo Velloso_
 
 The presence of fully-occluded targets is common within virtual environments, ranging from a virtual object located behind a wall to a datapoint of interest hidden in a complex visualization. However, efficient input techniques for locating and selecting these targets are mostly underexplored in virtual reality (VR) systems. In this paper, we developed an initial set of seven techniques techniques for fully-occluded target selection in VR. We then evaluated their performance in a user study and derived a set of design implications for simple and more complex tasks from our results. Based on these insights, we refined the most promising techniques and conducted a second, more comprehensive user study. Our results show how factors, such as occlusion layers, target depths, object densities, and the estimation of target locations, can affect technique performance. Our findings from both studies and distilled recommendations can inform the design of future VR systems that offer selections for fully-occluded targets. 
 
