@@ -3,7 +3,7 @@ layout: page
 title: Recent Publications
 permalink: /publications/
 ---
-<img src="/assets/images/qiushi.JPG"
+<img src="/assets/images/lab.jpg"
      alt=""
      />
 
