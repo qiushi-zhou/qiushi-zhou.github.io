@@ -9,7 +9,7 @@ permalink: /publications/
 
 <div class="divider"></div>
 
-**DIS 2021**
+**DIS 2022**
 ## Movement Guidance using a Mixed Reality Mirror
 
 **_Qiushi Zhou_**_, Andrew Irlitti, Difeng Yu, Jorge Goncalves, Eduardo Velloso_
