@@ -7,6 +7,16 @@ permalink: /publications/
      alt=""
      />
 
+<div class="divider"></div>
+
+**DIS 2021**
+## Movement Guidance using a Mixed Reality Mirror
+
+**_Qiushi Zhou_**_, Andrew Irlitti, Difeng Yu, Jorge Goncalves, Eduardo Velloso_
+
+Mirror reflections offer an intuitive and realistic Mixed Reality (MR) experience comparable to other MR interfaces. Their high visual fidelity, and the sensorimotor contingency from the reflected moving body, make the mirror an ideal instrument for MR movement guidance. The translucent two-way mirror display enables users to follow a virtual humanoid instructor's movement accurately by visually matching it with their reflections. In this work, we conduct the first formal evaluation of movement acquisition performance with simple motor tasks, using visual guidance from an MR mirror and a humanoid virtual instructor. Our results of performance and subjective ratings indicate that, comparing with simulated virtual mirror and with traditional screen-based movement guidance, the real MR mirror yields better acquisition performance and stronger sense of embodiment with the reflection, for upper-body movement. But the benefits diminish with larger-range head movements. We provide design guidelines for future mirror movement guidance interfaces and MR mirror experiences at large.
+
+<a href="https://qiushi-zhou.github.io/PDF/DIS-2022-Movement.pdf">PDF</a>
 
 <div class="divider"></div>
 
