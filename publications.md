@@ -7,8 +7,6 @@ permalink: /publications/
      alt=""
      />
 
-<div class="divider"></div>
-
 **DIS 2022**
 ## Movement Guidance using a Mixed Reality Mirror
 
