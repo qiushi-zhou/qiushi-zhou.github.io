@@ -3,7 +3,7 @@ layout: page
 title: Recent Publications
 permalink: /publications/
 ---
-<img src="/assets/images/movement.jpg"
+<img src="/assets/images/hololens.png"
      alt=""
      />
 
