@@ -11,4 +11,5 @@ I gave a guest lecture for the subject Media Computation at The University of Me
 Here's the video recording:
 <br/>
 <br/>
-<div class="video-container"><iframe width="560" height="315" src="https://www.youtube.com/watch?v=jfOnWsVQsbM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<div class="video-container"><iframe width="560" height="315" src="https://www.youtube.com/embed/jfOnWsVQsbM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+
