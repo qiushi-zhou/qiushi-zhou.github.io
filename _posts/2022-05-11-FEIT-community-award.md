@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Shortlisted for Graduate Research Student of the Year Award by FEIT"
+title: "Shortlisted for Graduate Research Student of the Year Award"
 comments: false
 description: "Shortlisted for Graduate Research Student of the Year Award"
 keywords: ""
