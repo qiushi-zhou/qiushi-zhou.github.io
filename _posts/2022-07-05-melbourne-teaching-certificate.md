@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Completed Semester-long training for Melbourne Teaching Certificate"
+title: "Completed training for Melbourne Teaching Certificate"
 comments: false
 description: "Completed Semester-long training for Melbourne Teaching Certificate"
 keywords: ""
