@@ -6,6 +6,9 @@ title: Home
 {% include intro.html %}
 
 <section class="post-list">
+<div class="container">
+    <img src="/assets/images/qiushi_unimelb.png" alt="">
+  </div>
   <div class="container">
     {% for post in site.posts %}
       {% unless post.next %}
@@ -23,7 +26,5 @@ title: Home
       </article>
     {% endfor %}
   </div>
-  <div class="container">
-    <img src="/assets/images/qiushi_unimelb.png" alt="">
-  </div>
+  
 </section>
