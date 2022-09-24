@@ -1,6 +1,6 @@
 # Site settings
 title_left    : "" # default: ""
-title_right   : "Qiushi (Chiu-shih) Zhou" # default: ""
+title_right   : "Qiushi Zhou" # default: ""
 description   : "HCI Research"
 keywords      : "hci, research, phd, interaction, embodied"
 url           : https://qiushi-zhou.github.io/ # site url
