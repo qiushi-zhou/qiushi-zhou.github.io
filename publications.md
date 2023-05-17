@@ -7,6 +7,15 @@ permalink: /publications/
      alt=""
      />
 
+**INTERACT 2023** <a href="https://qiushi-zhou.github.io/PDF/INTERACT-2023-Weibo.pdf">PDF</a>
+## “Hello, Fellow Villager!”: Perceptions and Impact of Displaying Users’ Locations on Weibo
+
+_Ying Ma, **Qiushi Zhou**, Benjamin Tag, Zhanna Sarsenbayeva, Jarrod Knibbe, Jorge Goncalves_
+
+In April 2022, Sina Weibo began to display users' coarse location for the stated purpose of regulating their online community. However, this raised concerns about location privacy. Through sentiment analysis and Latent Dirichlet Allocation (LDA), we analysed the users' attitudes and opinions on this topic across 20,162 related posts and comments. We labelled 300 users as either supportive, critical, or neutral towards the feature, and captured their posting behaviour two months prior and two months post the launch. Our analysis elicits three major themes in the public discussion: online community atmosphere, privacy issues, and equity in the application of the feature, and shows that most people expressed a negative attitude. We find a drop in activity by objectors during the first month after the launch of the feature before gradually resuming. This work provides a large-scale firsthand account of people's attitudes and opinions towards online location privacy on social media platforms.
+
+<div class="divider"></div>
+
 **CHI 2023** <a href="https://qiushi-zhou.github.io/PDF/CHI-2023-Dance.pdf">PDF</a>
 ## Here and Now: Creating Improvisational Dance Movements with a Mixed Reality Mirror
 
