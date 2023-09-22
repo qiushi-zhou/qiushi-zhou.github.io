@@ -10,5 +10,5 @@ Another ministerial visit! Happy to show our research to the Vietnamese Minister
 
 <br/>
 <div class="container">
-    <img src="/assets/images/viet.jpeg" alt="">
+    <img src="/assets/images/viet.jpg" alt="">
 </div>
