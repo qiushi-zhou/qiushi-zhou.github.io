@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Talking my research to Vietnamese Minister of Science and Technology"
+title: "Meeting Vietnamese Minister of Science and Technology"
 comments: false
 description: "I introduced my research projects to Vietnamese Minister of Science and Technology"
 keywords: ""
