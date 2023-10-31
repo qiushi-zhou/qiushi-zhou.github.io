@@ -7,6 +7,15 @@ permalink: /publications/
      alt=""
      />
 
+**IMWUT 2023** <a href="https://qiushi-zhou.github.io/PDF/IMWUT-2023-RR.pdf">PDF</a>
+## Reflected Reality: Augmented Reality through the Mirror
+
+_**Qiushi Zhou**, Brandon Victor Syiem, Beier Li, Jorge Goncalves, Eduardo Velloso_
+
+We propose Reflected Reality: a new dimension for augmented reality that expands the augmented physical space into mirror reflections. By synchronously tracking the physical space in front of the mirror and the reflection behind it using an AR headset and an optional smart mirror component, reflected reality enables novel AR interactions that allow users to use their physical and reflected bodies to find and interact with virtual objects. We propose a design space for AR interaction with mirror reflections, and instantiate it using a prototype system featuring a HoloLens 2 and a smart mirror. We explore the design space along the following dimensions: the user's perspective of input, the spatial frame of reference, and the direction of the mirror space relative to the physical space. Using our prototype, we visualise a use case scenario that traverses the design space to demonstrate its interaction affordances in a practical context. To understand how users perceive the intuitiveness and ease of reflected reality interaction, we conducted an exploratory and a formal user evaluation studies to characterise user performance of AR interaction tasks in reflected reality. We discuss the unique interaction affordances that reflected reality offers, and outline possibilities of its future applications.
+
+<div class="divider"></div>
+
 **INTERACT 2023** <a href="https://qiushi-zhou.github.io/PDF/INTERACT-2023-Weibo.pdf">PDF</a>
 ## “Hello, Fellow Villager!”: Perceptions and Impact of Displaying Users’ Locations on Weibo
 
@@ -19,7 +28,7 @@ In April 2022, Sina Weibo began to display users' coarse location for the stated
 **CHI 2023** <a href="https://qiushi-zhou.github.io/PDF/CHI-2023-Dance.pdf">PDF</a>
 ## Here and Now: Creating Improvisational Dance Movements with a Mixed Reality Mirror
 
-_**Qiushi Zhou**, Louise Grebel, Andrew Irlitti, Julie Ann Minaai,  Jorge Goncalves, Eduardo Velloso_
+_**Qiushi Zhou**, Louise Grebel, Andrew Irlitti, Julie Ann Minaai, Jorge Goncalves, Eduardo Velloso_
 
 This paper explores using mixed reality (MR) mirrors for supporting improvisational dance making. Motivated by the prevalence of mirrors in dance studios and inspired by Forsythe’s Improvisation Technologies, we conducted workshops with 13 dancers and choreographers to inform the design of future MR visualisation and annotation tools for dance. The workshops involved using a prototype MR mirror as a technology probe that reveals the spatial and temporal relationships between the reflected dancing body and its surroundings during improvisation; speed dating group interviews around future design ideas; follow-up surveys and extended interviews with a digital media dance artist and a dance educator. Our findings highlight how the MR mirror enriches dancers’ temporal and spatial perception, creates multi-layered presence, and affords appropriation by dancers. We also discuss the unique place of MR mirrors in the theoretical context of dance and in the history of movement visualisation, and distil lessons for broader HCI research.
 
