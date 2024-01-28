@@ -7,6 +7,24 @@ permalink: /publications/
      alt=""
      />
 
+**CHI 2024** <a href="#"></a>
+## The Effects of Generative AI on Design Fixation and Divergent Thinking
+
+_Samangi Wadinambiarachchi, Ryan M. Kelly, Saumya Pareek, **Qiushi Zhou**, Eduardo Velloso_
+
+Generative AI systems have been heralded as tools for augmenting human creativity and inspiring divergent thinking, though with little empirical evidence for these claims. This paper explores the effects of exposure to AI-generated images on measures of design fixation and divergent thinking in a visual ideation task. Through a between-participants experiment (N=60), we found that support from an AI image generator during ideation leads to higher fixation on an initial example. Participants who used AI produced fewer ideas, with less variety and lower originality compared to a baseline. Our qualitative analysis suggests that the effectiveness of co-ideation with AI rests on participants' chosen approach to prompt creation and on the strategies used by participants to generate ideas in response to the AI's suggestions. We discuss opportunities for designing generative AI systems for ideation support and incorporating these AI tools into ideation workflows.
+
+<div class="divider"></div>
+
+**CHI 2024** <a href="#"></a>
+## Augmented Reality at Zoo Exhibits: A Design Framework for Enhancing the Zoo Experience
+
+_Brandon Syiem, Sarah Webber, Ryan Kelly, **Qiushi Zhou**, Jorge Goncalves, Eduardo Velloso_
+
+Augmented Reality (AR) offers unique opportunities for contributing to zoos' objectives of public engagement and education about animal and conservation issues. However, the diversity of animal exhibits pose challenges in designing AR applications that are not encountered in more controlled environments, such as museums. To support the design of AR applications that meaningfully engage the public with zoo objectives, we first conducted two scoping reviews to interrogate previous work on AR and broader technology use at zoos. We then conducted a workshop with zoo representatives to understand the challenges and opportunities in using AR to achieve zoo objectives. Additionally, we conducted a field trip to a public zoo to identify exhibit characteristics that impacts AR application design. We synthesise the findings from these studies into a framework that enables the design of diverse AR experiences. We illustrate the utility of the framework by presenting two concepts for feasible AR applications.
+
+<div class="divider"></div>
+
 **IMWUT 2023** <a href="https://qiushi-zhou.github.io/PDF/IMWUT-2023-RR.pdf">PDF</a>
 ## Reflected Reality: Augmented Reality through the Mirror
 
