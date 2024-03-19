@@ -7,7 +7,7 @@ permalink: /publications/
      alt=""
      />
 
-**CHI 2024** <a href="#"></a>
+**CHI 2024** <a href="https://qiushi-zhou.github.io/PDF/CHI-2024-AI.pdf"></a>
 ## The Effects of Generative AI on Design Fixation and Divergent Thinking
 
 _Samangi Wadinambiarachchi, Ryan M. Kelly, Saumya Pareek, **Qiushi Zhou**, Eduardo Velloso_
