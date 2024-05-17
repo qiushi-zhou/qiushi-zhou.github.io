@@ -16,7 +16,7 @@ Generative AI systems have been heralded as tools for augmenting human creativit
 
 <div class="divider"></div>
 
-**CHI 2024** <a href="https://qiushi-zhou.github.io/PDF/CHI-2024-zoo.pdf"></a>
+**CHI 2024** <a href="https://qiushi-zhou.github.io/PDF/CHI-2024-zoo.pdf">PDF</a>
 ## Augmented Reality at Zoo Exhibits: A Design Framework for Enhancing the Zoo Experience
 
 _Brandon Syiem, Sarah Webber, Ryan Kelly, **Qiushi Zhou**, Jorge Goncalves, Eduardo Velloso_
