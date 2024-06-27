@@ -52,7 +52,7 @@ This paper explores using mixed reality (MR) mirrors for supporting improvisatio
 
 <div class="divider"></div>
 
-**CHI 2023** <a href="https://qiushi-zhou.github.io/">PDF</a>
+**CHI 2023** <a href="https://qiushi-zhou.github.io/PDF/CHI-2023-Volumetric.pdf">PDF</a>
 ## Volumetric Mixed Reality Telepresence for Real-time Cross Modality Collaboration
 
 _Andrew Irlitti, Mesut Latifoglu, **Qiushi Zhou**, Martin Reinoso, Eduardo Velloso, Thuong Hoang, Frank Vetere_
