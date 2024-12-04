@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Hosting the Annual XR Collaboratory Meetup of Pioneering Centre."
+title: "Hosting the Annual XR Collaboratory Meetup of Pioneering Centre"
 comments: false
 description: "Hosting the Annual XR Collaboratory Meetup of Pioneering Centre"
 keywords: ""
