@@ -10,5 +10,11 @@ I've attended and presented at the annual Danish HCI Day at one of the new comer
 <div class="container">
     <img src="/assets/images/feng.jpg" alt="">
 </div>
+<div class="container">
+    <img src="/assets/images/DanishHCI2.jpg" alt="">
+</div>
+<div class="container">
+    <img src="/assets/images/DanishHCI3.jpg" alt="">
+</div>
 
 
