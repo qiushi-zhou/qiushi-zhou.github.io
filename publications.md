@@ -7,6 +7,24 @@ permalink: /publications/
      alt=""
      />
 
+**CHI 2025** <a href="https://qiushi-zhou.github.io/PDF/CHI-2025-Pinch.pdf">PDF</a>
+## PinchCatcher: Enabling Multi-selection for Gaze+Pinch
+
+_Jinwook Kim, Sangmin Park, **Qiushi Zhou**, Mar Gonzalez-Franco, Jeongmi Lee, Ken Pfeuffer_
+
+This paper investigates multi-selection in XR interfaces based on eye and hand interaction. We propose enabling multi-selection using different variations of techniques that combine gaze with a semi-pinch gesture, allowing users to select multiple objects, while on the way to a full-pinch. While our exploration is based on the semi-pinch mode for activating a quasi-mode, we explore four methods for confirming subselections in multi-selection mode, varying in effort and complexity: dwell-time (SemiDwell), swipe (SemiSwipe), tilt (SemiTilt), and non-dominant hand input (SemiNDH), and compare them to a baseline technique. In the user study, we evaluate their effectiveness in reducing task completion time, errors, and effort. The results indicate the strengths and weaknesses of each technique, with SemiSwipe and SemiDwell as the most preferred methods by participants. We also demonstrate their utility in file managing and RTS gaming application scenarios. This study provides valuable insights to advance 3D input systems in XR.
+
+<div class="divider"></div>
+
+**HRI 2025** <a href="https://qiushi-zhou.github.io/PDF/HRI-2025-Assisting.pdf">PDF</a>
+## Assisting MoCap-Based Teleoperation of Robot Arm using Augmented Reality Visualisations
+
+_**Qiushi Zhou**, Antony Chacon, Jiahe Pan, Wafa Johal_
+
+Teleoperating a robot arm involves the human operator positioning the robot's end-effector or programming each joint. Whereas humans can control their own arms easily by integrating visual and proprioceptive feedback, it is challenging to control an external robot arm in the same way, due to its inconsistent orientation and appearance. We explore teleoperating a robot arm through motion-capture (MoCap) of the human operator's arm with the assistance of augmented reality (AR) visualisations. We investigate how AR helps teleoperation by visualising a virtual reference of the human arm alongside the robot arm to help users understand the movement mapping. We found that the AR overlay of a humanoid arm on the robot in the same orientation helped users learn the control. We discuss findings and future work on MoCap-based robot teleoperation.
+
+<div class="divider"></div>
+
 **CHI 2024** <a href="https://qiushi-zhou.github.io/PDF/CHI-2024-AI.pdf">PDF</a>
 ## The Effects of Generative AI on Design Fixation and Divergent Thinking
 
