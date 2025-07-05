@@ -7,6 +7,15 @@ permalink: /publications/
      alt=""
      />
 
+**UIST 2025** <a href="#">PDF</a>
+## At A Glance To Your Fingertips: Enabling Direct Manipulation for Distant Objects Through Gaze-based Summoning
+
+_Yang Liu, Thorbjørn Mikkelsen, Zehai Liu, Gengchen Tian, Diako Mardanbegi, **Qiushi Zhou**, Hans Gellersen, Ken Pfeuffer_
+
+In 3D interfaces, people commonly manipulate objects over distance. This work introduces SightWarp an interaction technique that leverages eye-hand coordination to instantiate object proxies directly at the user’s fingertips.  After looking at a remote object, users either shift their gaze to the hand or move their hand into view—triggering the creation of a near-space proxy of the object and its surrounding context. The proxy remains active until the eye–hand pattern is released. The main benefit is that users always have an option to immediately operate on the object through a natural, direct hand gesture. Through a user study of a 3D object docking task, we show that users can easily perform proxy summoning, and that subsequent direct manipulation improves performance over standard Gaze+Pinch interaction. We demonstrate how \name complements Gaze+Pinch, enabling a seamless switch between direct and indirect modes at a distance. Application examples illustrate its utility for tasks like cross-space manipulation, overview and detail, and interacting with world-in-miniatures. Our work contributes to more expressive and flexible object interaction across near and far spaces.
+
+<div class="divider"></div>
+
 **CHI 2025** <a href="https://qiushi-zhou.github.io/PDF/CHI-2025-Pinch.pdf">PDF</a>
 ## PinchCatcher: Enabling Multi-selection for Gaze+Pinch
 
