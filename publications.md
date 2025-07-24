@@ -7,6 +7,25 @@ permalink: /publications/
      alt=""
      />
 
+**ISMAR 2025** <a href="#">PDF</a>
+## Mapping 6DOF Hand Movement to Concurrent 3DOF Controls of Translation and Rotation for Manipulation in Extended Reality
+
+_Thorbjørn Mikkelsen, **Qiushi Zhou**, Mathias Lystbæk, Yang Liu, Hans Gellersen, Ken Pfeuffer_
+
+Popular hand-based 3D input techniques in Extended Reality (XR) typically employ a pinch gesture for acquisition and manipulation through a direct mapping from 6-degree-of-freedom (DOF) hand movement to that of the object. In this work, we investigate the effect of separating this mapping to concurrent 3DOF controls (DOF-Separation) of translation and rotation of the virtual object using the position and orientation of the hand independently. We aim to understand how DOF-Separation could ease manipulation for different techniques with varying requirements for hand position and orientation during acquisition, including Virtual Hand, Hand Ray, and Gaze\&Pinch. Through a user study that features a docking task in VR, we found that DOF Separation significantly improves the manipulation performance of Hand Ray, while improving that of Virtual Hand only in difficult tasks of combined translation and rotation. We suggest future XR systems to adopt DOF separation for input in manipulation-heavy applications, e.g., 3D design.
+
+<div class="divider"></div>
+
+**ISMAR 2025** <a href="#">PDF</a>
+## Multimodal Pen and Gaze Interaction Techniques for Shape Point Manipulation
+
+_Uta Wagner, Jinwook Kim, Zhikun Wu, **Qiushi Zhou**, Mario Romero, Alessandro Iop, Tiare Feuchtner, Ken Pfeuffer_
+
+The pen as an Extended Reality input device supports a variety of spatial design and modelling activities.
+In this paper, we investigate how gaze-based interaction can benefit users' ability to manipulate shape points using a pen. By leveraging gaze, we can support the usual design activities with an option where objects can be selected and repositioned through eye movements, with the pen serving as a confirmation tool. This approach has the potential to reduce manual effort, while enhancing both efficiency and ergonomics in 3D shape editing. To evaluate its effectiveness, we compare four interaction techniques: two pen-based baselines (direct and ray-based) and two gaze-supported methods (gaze for selection and/or object dragging). In a user study, 16 participants carried out a shape point manipulation task, and their performance, effort, and user experience were measured. The results highlight the performance trade-offs of each technique—while the gaze-based dragging method introduced slightly more errors, it significantly reduced task time. Our findings offer valuable insights for integrating eye-tracking into 3D design workflows and contribute to the broader field of spatial interaction research.
+
+<div class="divider"></div>
+
 **UIST 2025** <a href="#">PDF</a>
 ## At A Glance To Your Fingertips: Enabling Direct Manipulation for Distant Objects Through Gaze-based Summoning
 
