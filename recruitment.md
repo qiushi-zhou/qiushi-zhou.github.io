@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Recruiting for Postgraduate Positions @ HKUST(GZ)
+title: Recruiting for Postgraduate Positions @ Thrust of Computational Medita and Arts, HKUST(GZ)
 permalink: /recruitment/
 ---
 I am someone who have been very lucky to have received great mentorship from my PhD and Postdoc supervisors, and I am excited to pass it along to future generations of academics. From October 2025, I have multiple open PhD positions along with Research Assistant and Postdoc opportunities for applicants at varying levels of study. I am also looking to advise MPhil research projects. 
@@ -45,3 +45,4 @@ art proj: "what do you expect?" eye contact for glance interaction?
 
 
 ![alt text](assets/images/recruitment/gemini.jpg)
+*Prof. Hans Gellersen and Prof. Ken Pfeuffer's Aarhus-Lancaster team meetup on gaze-based XR interaction  (June 2025)*
