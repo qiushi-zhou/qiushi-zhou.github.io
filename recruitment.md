@@ -5,6 +5,8 @@ permalink: /recruitment/
 ---
 I am someone who have been very lucky to have received great mentorship from my PhD and Postdoc supervisors, and I am excited to pass it along to future generations of academics. From October 2025, I have multiple open PhD positions along with Research Assistant and Postdoc opportunities for applicants at varying levels of study. I am also looking to advise MPhil research projects. 
 
+# Position Details:
+
 For detailed information on admission timeline, studenship, tuition fee, and else, please refer to official resources <a href="https://www.linkedin.com/posts/hkust-gz-information-hub_ai-cma-dsa-activity-7353801086882779137-kSIA?utm_source=share&utm_medium=member_desktop&rcm=ACoAABVMZ8MBBiVO8-i72U2ARtt03Fr5Sr3w9s0">HERE</a>.
 
 For all positions, I am looking for self-motivated applicants with strong drive for excellence in HCI research. Some combinations of the following traits are desired:
