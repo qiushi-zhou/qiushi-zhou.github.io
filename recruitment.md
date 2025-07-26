@@ -7,7 +7,7 @@ I am someone who have been very lucky to have received great mentorship from my 
 
 # Details
 
-For detailed information on entry requirements, admission timeline, studenship, tuition fee, and else, please refer to official resources <a href="https://www.linkedin.com/posts/hkust-gz-information-hub_ai-cma-dsa-activity-7353801086882779137-kSIA?utm_source=share&utm_medium=member_desktop&rcm=ACoAABVMZ8MBBiVO8-i72U2ARtt03Fr5Sr3w9s0">HERE</a>.
+For detailed information on entry requirements, admission timeline, studenship, tuition fee, and else, please refer to official resources <a href="https://fytgs.hkust-gz.edu.cn/admissions/before-submitting-an-application">HERE</a>.
 
 # Requirements 
 
@@ -26,8 +26,7 @@ For all positions, I am looking for self-motivated applicants with strong drive 
 
 ## historical and theoretical reflections of interactino design concepts and principles
 ![alt text](assets/images/recruitment/history.png)
-<img align="left" src="/assets/images/recruitment/history.png" width="300px">
-In addition to those, I welcome proposals from students interested in designing and studying novel interaction techniques in XR. You are encouraged to propose your own topic, provided it aligns with my broader interests in immersive technologies. My research focuses on interaction and communication in everyday AR/VR applications. I investigate how users perceive and engage with virtual content—such as through gaze, posture, smell, or taste—and how they express themselves via avatars. My work combines technical prototyping (e.g., Unity, Arduino) with empirical evaluation to enhance user performance, experience, and ergonomics. I take an empirical HCI approach, involving the development of interactive systems, the design and execution of user studies, and the analysis of user behaviour using both quantitative and qualitative methods.
+
 
 
 
