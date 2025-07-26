@@ -14,9 +14,9 @@ For detailed information on entry requirements, admission timeline, studenship, 
 For all positions, I am looking for self-motivated applicants with strong drive for excellence. Some combinations of the following traits are desired:
 <ul>
   <li>Any educational background that makes you confident for the position</li>
-  <li>Strong technical skills, including but not limited to XR Prototyping in Unity C#, Motion Capture, Computer Vision, Machine Learning, Arduino, and Digital Fabrication</li>
+  <li>Strong technical skills, including but not limited to XR Prototyping in Unity C#, Motion Capture, Computer Vision, Arduino, and Digital Fabrication</li>
   <li>Basic understanding of the current research/industry landscape of HCI/XR</li>
-  <li>Good command of English for communication and academic writing</li>
+  <li>Good command of English for academic writing and professional communication</li>
   <li>Interest in theoretical and conceptual thinking regarding interaction design and the use and development of computing technology</li>
 </ul>
 
