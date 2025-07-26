@@ -32,8 +32,6 @@ For all positions, I am looking for self-motivated applicants with strong drive 
 ## Novel Interaction Combining XR and IoT Devices
 ![alt text](assets/images/recruitment/xr.png)
 
-## Artistic Exploration of HCI Conepts,
-
 
 ## AI-assisted mirror interaction
 Mirror provides a specific context for interaction, as the goal is typically the same and the image one expected to see "oneself" is typically the same, enabling a much simper context space for recognition of user intention and action. 
