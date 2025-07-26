@@ -5,9 +5,34 @@ permalink: /recruitment/
 ---
 I am someone who have been very lucky to have received great mentorship from my PhD and Postdoc supervisors, and I am excited to pass it along to future generations of students who are driven by their curiosity to understand and make better interactive technologies. From October 2025, I have multiple open PhD positions along with Research Assistant and Postdoc opportunities for applicants at varying stages of study. I am also looking to advise MPhil research projects on topics related to the ones listed below. 
 
-# Details
-
 For detailed information on entry requirements, admission timeline, studenship, tuition fee, and else, please refer to official resources <a href="https://fytgs.hkust-gz.edu.cn/admissions/before-submitting-an-application">HERE</a>.
+
+# Research Environment
+
+The Hong Kong University of Science and Technology (HKUST) was ranked 44th by QS World University Rankings 2026, and 28th in Computer Science by Times Higher Education World University Rankings 2025.
+
+ At Information Hub, you'll be in a vibrant and diverse PhD community, thriving on interdisciplinary collaboration and innovation. Our state-of-the-art facilities and supportive academic network provide an fantastic environment to pursue your research passions and make a meaningful impact in the field of HCI/
+
+As a supervisor, I take a hands-on, collaborative approach and view PhD students as equal partners in the research process. I thrive on open dialogue, mutual respect, and shared problem-solving, and I am committed to fostering an environment where you are empowered to take intellectual ownership of their work.
+
+![alt text](assets/images/recruitment/gemini.jpg)
+*Prof. Hans Gellersen and Prof. Ken Pfeuffer's Aarhus-Lancaster team meetup on gaze-based XR interaction  (June 2025)*
+
+Get in Touch!
+If you are interested, please reach out to me at qiushizhou [at] outlook.com. I look forward to hearing from you. Please include:
+
+- Your CV (long form),
+- your publications or latest thesis,
+- your transcripts / grades from your current or most recent degree, and
+- a short description of how your prior experience matches my area of research (max. 200 words),
+- an idea of your research direction (max. 200 words).
+
+More information
+<a href="https://fytgs.hkust-gz.edu.cn/programs/computational-media-and-arts-5">Postgraduate Programs @ CMA</a>
+<a href="https://fytgs.hkust-gz.edu.cn/programs/internet-of-things-5">Postgraduate Programs @ IoT</a>
+<a href="https://scholar.google.com.au/citations?user=a-FggqcAAAAJ&hl=en">My Googel Scholar Profile</a>
+
+GIST Section
 
 # Requirements 
 
@@ -40,28 +65,3 @@ art proj: "what do you expect?" eye contact for glance interaction?
 ![alt text](assets/images/recruitment/books.png)
 
 
-# Research Environment
-
-The Hong Kong University of Science and Technology (HKUST) was ranked 44th by QS World University Rankings 2026, and 28th in Computer Science by Times Higher Education World University Rankings 2025.
-
- At Information Hub, you'll be in a vibrant and diverse PhD community, thriving on interdisciplinary collaboration and innovation. Our state-of-the-art facilities and supportive academic network provide an fantastic environment to pursue your research passions and make a meaningful impact in the field of AR technology. Our team size allows for a rich diversity of interests while also fostering a close-knit community where everyone knows each other. Glasgow is a fantastic city with lots of activities and a vibrant community.
-
-As a supervisor, I take a hands-on, collaborative approach and view PhD students as equal partners in the research process. I thrive on open dialogue, mutual respect, and shared problem-solving, and I am committed to fostering an environment where you are empowered to take intellectual ownership of their work.
-
-
-![alt text](assets/images/recruitment/gemini.jpg)
-*Prof. Hans Gellersen and Prof. Ken Pfeuffer's Aarhus-Lancaster team meetup on gaze-based XR interaction  (June 2025)*
-
-Get in Touch!
-If you are interested, please reach out to me at florian.weidner [at] glasgow.ac.uk. I look forward to hearing from you. Please include:
-
-- Your CV (long form),
-- your publications or latest thesis,
-- your transcripts / grades from your current or most recent degree, and
-- a short description of how your prior experience matches my area of research (max. 200 words),
-- an idea of your research direction (max. 200 words).
-No cover letter or certificates needed.
-More information
-Postgraduate Research @ SoCS
-My Profile @ Glasgow
-GIST Section
