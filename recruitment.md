@@ -6,7 +6,6 @@ permalink: /recruitment/
 From October 2025, I will join <a href="https://www.hkust-gz.edu.cn/">HKUST(GZ)</a> as a Tenure-Track Assistant Professor affiliated with <a href="https://cma.hkust-gz.edu.cn/"> Thrust of Computational Media and Arts (CMA)</a> and <a href="https://iott.hkust-gz.edu.cn/"> Thrust of Internet of Things (IoT)</a> of the <a href="https://infh.hkust-gz.edu.cn/">Information Hub</a>. I have multiple open PhD positions along with Research Assistant and Postdoc opportunities for applicants at varying stages of study. I am also looking to advise MPhil research projects on topics related to the ones listed below. 
 
 For detailed information on entry requirements, admission timeline, studenship, tuition fee, and else, please refer to official resources <a href="https://fytgs.hkust-gz.edu.cn/admissions/before-submitting-an-application">HERE</a>.
-
 <div class="divider"></div>
 
 # Supervision and Research Environment
@@ -20,7 +19,6 @@ I am someone who have been very lucky to have received great mentorship from my 
 *Campus and facilities of HKUST(GZ)*
 
 Hong Kong University of Science and Technology (HKUST) was ranked 44th by QS World University Rankings 2026, and 28th in Computer Science by Times Higher Education World University Rankings 2025. At Information Hub, you'll be in a vibrant PhD community, thriving on interdisciplinary collaboration and innovation. Our <a href="https://youtu.be/EbzmQCtSNFU?si=6yz_qI4kRpYR1bV5">state-of-the-art facilities</a> and supportive academic network provide an fantastic environment to pursue your research passions and make a meaningful impact in the field of HCI. 
-
 <div class="divider"></div>
 
 # Requirements 
@@ -47,13 +45,11 @@ If you are interested, please reach out at qiushizhou [at] outlook.com with:
 - <a href="https://fytgs.hkust-gz.edu.cn/programs/computational-media-and-arts-5">Postgraduate Programs @ CMA</a>
 - <a href="https://fytgs.hkust-gz.edu.cn/programs/internet-of-things-5">Postgraduate Programs @ IoT</a>
 - <a href="https://scholar.google.com.au/citations?user=a-FggqcAAAAJ&hl=en">My Google Scholar Profile</a>
-
 <div class="divider"></div>
 
 # Research Topics
 
 While the following topics show some of my immediate research interests, they can only work if they become tailored for the right candidate. We will discuss and determine together the detailed directions within a generic frame, according to your skills and experience. I would also love to work with people who are interested in and capable of working on something that touches on multiple topics.
-
 <div class="divider"></div>
 
 ## Interaction Techniques for Next-Gen XR Devices
@@ -71,7 +67,6 @@ Continuing this line of research, I will explore interaction techniques for futu
 - <a href="https://dl.acm.org/doi/pdf/10.1145/174630.174631">Integrality and Separability of Input Devices</a>
 - <a href="https://ieeexplore.ieee.org/abstract/document/10919211">Sensorimotor Regularities for Superpower Interactions in MR</a>
 - <a href="https://qiushi-zhou.github.io/PDF/UIST-2025-SightWarp.pdf">Direct Manipulation for Distant Objects Through Gaze-based Summoning</a>
-
 <div class="divider"></div>
 
 ## Novel Interaction Combining XR and IoT Devices
@@ -90,6 +85,7 @@ In this project, we will explore novel interaction affordances by combining the 
 - <a href="https://book.douban.com/subject/26077095/">论家用电器</a> / <a href="https://www.routledge.com/
 Domestic-Spaces-in-Post-Mao-China-On-Electronic-Household-Appliances/Minan/p/book/9780367886523">On Electronic Household Appliances</a> 
 - <a href="https://qiushi-zhou.github.io/PDF/HRI-2025-Assisting.pdf">Assisting MoCap-Based Teleoperation of Robot Arm using AR Visualisations</a>
+<div class="divider"></div>
 
 ## AI-assisted Interaction with Mirrors
 ![alt text](assets/images/recruitment/mirror.png)
@@ -104,6 +100,7 @@ In this project, we will explore ways of integrating the capability of AI, inclu
 - <a href="https://qiushi-zhou.github.io/PDF/CHI-2023-Dance.pdf">Here and Now: Creating Improvisational Dance Movements with an MR Mirror</a>
 - <a href="https://qiushi-zhou.github.io/PDF/DIS-2022-Movement.pdf">Movement Guidance using a Mixed Reality Mirror</a>
 - <a href="https://www.biometricmirror.com/">Biometric Mirror</a>
+<div class="divider"></div>
 
 ## Theoretical and Historical Reflections on Interaction Design Concepts and Principles
 ![alt text](assets/images/recruitment/history.png)
@@ -121,6 +118,7 @@ Aarhus University, my current institution, holds an important position in the in
 - <a href="https://dl.acm.org/doi/full/10.1145/3468505">Generative Theories of Interaction</a>
 - <a href="https://press.uchicago.edu/ucp/books/book/chicago/M/bo3637992.html">Metaphors We Live By</a>
 - <a href="https://dl.acm.org/doi/pdf/10.1145/1744161.1744163">Natural user interfaces are not natural</a>
+<div class="divider"></div>
 
 ## HCI in the Chinese Context - Cultural Studies, Media Theory, and Artistic Explorations
 ![alt text](assets/images/recruitment/books.png)
