@@ -22,7 +22,7 @@ For all positions, I am looking for self-motivated applicants with strong drive 
 
 # Research Topics
 
-## Interaction Techniques for Next-Gen XR Devices
+## Multimodal Input for Next-Gen XR Devices
 ![alt text](assets/images/recruitment/input.png)
 
 ## Theoretical and Historical Reflections on Interaction Design Concepts and Principles
@@ -40,12 +40,29 @@ Mirror provides a specific context for interaction, as the goal is typically the
 art proj: "what do you expect?" eye contact for glance interaction?
 ![alt text](assets/images/recruitment/mirror.png)
 
-## Cultural studies and HCI in the Chinese context 
+## HCI in the Chinese Context - Cultural Studies, Media Theory, and Art
 ![alt text](assets/images/recruitment/books.png)
 
 
+Research Environment
+The University of Glasgow is ranked among the top 100 universities globally and 6th in the UK for Computer Science (Times Sunday Times Good University Guide 2025). In the UK's 2021 independent research exercise, 100% of our impact was judged as world-leading. As part of GIST, you'll be in a vibrant and diverse PhD community, thriving on collaboration and innovation. Our state-of-the-art facilities and supportive academic network provide an fantastic environment to pursue your research passions and make a meaningful impact in the field of AR technology. Our team size allows for a rich diversity of interests while also fostering a close-knit community where everyone knows each other. Glasgow is a fantastic city with lots of activities and a vibrant community.
 
+As a supervisor, I take a hands-on, collaborative approach and view PhD students as equal partners in the research process. I thrive on open dialogue, mutual respect, and shared problem-solving, and I am committed to fostering an environment where you are empowered to take intellectual ownership of their work.
 
 
 ![alt text](assets/images/recruitment/gemini.jpg)
 *Prof. Hans Gellersen and Prof. Ken Pfeuffer's Aarhus-Lancaster team meetup on gaze-based XR interaction  (June 2025)*
+
+Get in Touch!
+If you are interested, please reach out to me at florian.weidner [at] glasgow.ac.uk. I look forward to hearing from you. Please include:
+
+- Your CV (long form),
+- your publications or latest thesis,
+- your transcripts / grades from your current or most recent degree, and
+- a short description of how your prior experience matches my area of research (max. 200 words),
+- an idea of your research direction (max. 200 words).
+No cover letter or certificates needed.
+More information
+Postgraduate Research @ SoCS
+My Profile @ Glasgow
+GIST Section
