@@ -15,11 +15,11 @@ For detailed information on entry requirements, admission timeline, studenship, 
 I am someone who have been very lucky to have received great mentorship from my PhD and Postdoc supervisors, and I am excited to pass it along to future generations of students who are driven by their curiosity to understand and make better interactive technologies. I had the pleasure of co-supervising many PhD and Master projects with academics in Europe and in Australia. As a supervisor, I take an adaptive approach to cater for each student's diverse backgrounds and skillsets, while fostering an environment that maximises their empowerment and growth. 
 
 ![alt text](assets/images/recruitment/facility.png)
-*Aarhus-Lancaster GEMINI team meetup on gaze-based XR interaction  (June 2025)*
+*Campus and facilities of HKUST(GZ)*
 
 Hong Kong University of Science and Technology (HKUST) was ranked 44th by QS World University Rankings 2026, and 28th in Computer Science by Times Higher Education World University Rankings 2025. At Information Hub, you'll be in a vibrant PhD community, thriving on interdisciplinary collaboration and innovation. Our <a href="https://youtu.be/EbzmQCtSNFU?si=6yz_qI4kRpYR1bV5">state-of-the-art facilities</a> and supportive academic network provide an fantastic environment to pursue your research passions and make a meaningful impact in the field of HCI. 
 
-If you are interested, please reach out to me at qiushizhou [at] outlook.com and include:
+If you are interested, please reach out at qiushizhou [at] outlook.com and include:
 
 - Your CV 
 - your publications or latest thesis
