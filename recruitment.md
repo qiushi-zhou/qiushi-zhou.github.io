@@ -71,7 +71,7 @@ Continuing this line of research, I will explore interaction techniques for futu
 
 I believe that the future of XR lies in its capability of augmenting and modifying the experience with the physical reality through AR/MR, instead of hiding it with immersive VR. However, because the development of XR has been mostly driven by VR, little consistent effort was made to re-design the physical reality to make it work with XR. At the same time, other previous works that are not typically as part of the XR field, such as UbiComp, Dynamicland, and Proxemic Interaction, have accumulated insights in how to embed interactive capabilities with computing in the domestic physical spaces. These insights set the stage for re-thinking the physical reality in the context of XR. 
 
-In this project, we will explore novel interaction affordances by combining the capabilities of the XR interface and opportunities in re-designing the physical reality. Through digital fabrication, XR-mediated human-robot interaction, 
+In this project, we will explore novel interaction affordances by combining the capabilities of the XR interface and the opportunities of re-designing the physical reality in an IoT context. Specifically, we can explore how the position and relative movement of the XR-wearing body and its immediate peripersonal space among the extrapersonal space that is computationally defined by "smart" objects equipped with sensors and actuators. Through physical and robot programming, we can demonstrate novel interaction affordances and concepts of XR x IoT that lead to interaction design principles and frameworks in this direction. 
 
 ### Reading Material
 
