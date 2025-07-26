@@ -19,23 +19,6 @@ I am someone who have been very lucky to have received great mentorship from my 
 
 Hong Kong University of Science and Technology (HKUST) was ranked 44th by QS World University Rankings 2026, and 28th in Computer Science by Times Higher Education World University Rankings 2025. At Information Hub, you'll be in a vibrant PhD community, thriving on interdisciplinary collaboration and innovation. Our <a href="https://youtu.be/EbzmQCtSNFU?si=6yz_qI4kRpYR1bV5">state-of-the-art facilities</a> and supportive academic network provide an fantastic environment to pursue your research passions and make a meaningful impact in the field of HCI. 
 
-If you are interested, please reach out at qiushizhou [at] outlook.com and include:
-
-- Your CV 
-- your publications or latest thesis
-- your transcripts from your current or most recent degree
-- a short description of how your skillset/experience matches my research interests
-- a short description of your proposed research topic 
-
-### More information
-
-<a href="https://fytgs.hkust-gz.edu.cn/programs/computational-media-and-arts-5">Postgraduate Programs @ CMA</a>
-
-<a href="https://fytgs.hkust-gz.edu.cn/programs/internet-of-things-5">Postgraduate Programs @ IoT</a>
-
-<a href="https://scholar.google.com.au/citations?user=a-FggqcAAAAJ&hl=en">My Googel Scholar Profile</a>
-
-
 # Requirements 
 
 For all positions, I am looking for self-motivated applicants with strong drive for excellence. Some combinations of the following traits are desired:
@@ -46,6 +29,22 @@ For all positions, I am looking for self-motivated applicants with strong drive 
   <li>Good command of English for academic writing and communication</li>
   <li>Interest in theoretical and conceptual thinking regarding interaction design and the use and development of computing technology</li>
 </ul>
+
+If you are interested, please reach out at qiushizhou [at] outlook.com and include:
+
+- Your CV 
+- Your publications or latest thesis
+- Your transcripts from your current or most recent degree
+- A short description of how your skillset/experience matches my interests
+- A short description of your proposed research topic(s)
+
+### More information
+
+<a href="https://fytgs.hkust-gz.edu.cn/programs/computational-media-and-arts-5">Postgraduate Programs @ CMA</a>
+
+<a href="https://fytgs.hkust-gz.edu.cn/programs/internet-of-things-5">Postgraduate Programs @ IoT</a>
+
+<a href="https://scholar.google.com.au/citations?user=a-FggqcAAAAJ&hl=en">My Google Scholar Profile</a>
 
 # Research Topics
 
