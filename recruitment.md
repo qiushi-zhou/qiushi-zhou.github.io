@@ -51,9 +51,9 @@ If you are interested, please reach out at qiushizhou [at] outlook.com with:
 ## Input Techniques for Next-Gen XR Devices
 ![alt text](assets/images/recruitment/in.png)
 
-My latest postdoctoral research has been contributing to an <a href="https://medium.com/sigchi/announcing-the-2025-acm-sigchi-awards-17c1feaf865f">award-winning team</a> that pioneers foundational input methods and interaction guidelines for XR operating systems, including the latest Apple Vision Pro and Android XR. Our research output has been mostly on eye+hand interaction with a prototyping-based interaction design and engineering process. These works rely on our knowledge around the nature of gaze fixations and saccades, patterns of eye-hand coordination, and the metaphors of input that users are familiar with from using previous technologies, such as mouse and touchscreen. 
+My latest postdoctoral research has contributed to <a href="https://medium.com/sigchi/announcing-the-2025-acm-sigchi-awards-17c1feaf865f">an award-winning team</a> that pioneers foundational input methods and interaction guidelines for XR operating systems, including the latest Apple Vision Pro and Android XR. Our research output has been mostly on eye+hand interaction with a prototyping-based interaction design and engineering process. These works rely on our knowledge around the nature of gaze fixations and saccades, patterns of eye-hand coordination, and the metaphors of input that users are familiar with from using previous technologies, such as mouse and touchscreen. 
 
-Learning from this experience, I am interested in designing the interaction techniques for future generations of XR devices. While we have seen the development in the capabilities of many novel input modalities inculding gaze, gestures, and even brain-computer interface, I believe that the "winning" technique that will be adopted in the future can only be discovered with the consideration of the past and current uses of interactive technologies. In this project, we will collaboratively brainstorm, design, and develop novel input techniques for future XR devices by incorporating empirical knowledge on human cognition and behaviour with past experiences in the design and engineering of input devices and techniques. I would love to work with student who enjoy reading the following papers and articles and are able to apply these thinking in their practice. Together, our research will yield immediate real-world impact and would inform the industry to benefit current and future users.  
+Continuing this line of research, I will explore interaction techniques for future XR devices. While we have seen the development in the capabilities of many novel input modalities inculding gaze, gestures, and even brain-computer interface, I believe that the "winner" technique that will be adopted in the future can only be discovered with the consideration of the past and current uses of interactive technologies. In this project, we will collaboratively brainstorm, design, and develop novel input techniques for future XR devices by incorporating empirical knowledge on human cognition and behaviour with past experiences in the design and engineering of input devices and techniques. I would love to work with people who enjoy reading the following papers and articles and are eager to apply these thinking in their practice. Together, our research will yield immediate real-world impact and would inform the industry to benefit current and future users.  
 
 ### Reading Material
 
@@ -62,6 +62,7 @@ Learning from this experience, I am interested in designing the interaction tech
 - <a href="https://www.dgp.toronto.edu/OTP/papers/bill.buxton/3state.html">A Three-State Model of Graphical Input</a>
 - <a href="https://dl.acm.org/doi/pdf/10.1145/174630.174631">Integrality and Separability of Input Devices</a>
 - <a href="https://qiushi-zhou.github.io/PDF/UIST-2025-SightWarp.pdf">Direct Manipulation for Distant Objects Through Gaze-based Summoning</a>
+- <a href="https://ieeexplore.ieee.org/abstract/document/10919211">On the Benefits of Sensorimotor Regularities as Design Constraints for Superpower Interactions in Mixed Reality</a>
 
 
 ## Novel Interaction Combining XR and IoT Devices
@@ -74,7 +75,7 @@ digital fabrication for tangible interface (Melbourne School of Health Sciences)
 - <a href="https://dynamicland.org/">Dynamicland</a>
 - <a href="https://www.lri.fr/~mbl/Stanford/CS477/papers/Weiser-SciAm.pdf">The Computer for the 21st Century</a>
 - <a href="https://dl.acm.org/doi/pdf/10.1145/1897239.1897250">Proxemic Interactions: The New Ubicomp?</a>
-- <a href="https://qiushi-zhou.github.io/PDF/HRI-2025-Assisting.pdf">Assisting MoCap-Based Teleoperation of Robot Arm using Augmented Reality Visualisations</a>
+- <a href="https://qiushi-zhou.github.io/PDF/HRI-2025-Assisting.pdf">Assisting MoCap-Based Teleoperation of Robot Arm using AR Visualisations</a>
 
 ## AI-assisted Interaction with XR Mirrors
 Mirror provides a specific context for interaction, as the goal is typically the same and the image one expected to see "oneself" is typically the same, enabling a much simper context space for recognition of user intention and action. 
@@ -87,7 +88,7 @@ I have further explored this space with novel XR interfaces, including a motor t
 ### Reading Material
 
 - <a href="https://qiushi-zhou.github.io/PDF/IMWUT-2023-RR.pdf">Reflected Reality: Augmented Reality through the Mirror</a>
-- <a href="https://qiushi-zhou.github.io/PDF/CHI-2023-Dance.pdf">Here and Now: Creating Improvisational Dance Movements with a Mixed Reality Mirror</a>
+- <a href="https://qiushi-zhou.github.io/PDF/CHI-2023-Dance.pdf">Here and Now: Creating Improvisational Dance Movements with an MR Mirror</a>
 - <a href="https://qiushi-zhou.github.io/PDF/DIS-2022-Movement.pdf">Movement Guidance using a Mixed Reality Mirror</a>
 
 ## Theoretical and Historical Reflections on Interaction Design Concepts and Principles
@@ -100,7 +101,7 @@ Aarhus University, my current institution, holds an important position in the in
 - <a href="https://tidsskrift.dk/daimipb/article/download/6666/5796/">Beyond the interface: Encountering artifacts in use</a>
 - <a href="https://qiushi-zhou.github.io/PDF/CHI-2021-dance.pdf">Dance and Choreography in HCI: A Two-Decade Retrospective</a>
 - <a href="https://dl.acm.org/doi/10.1145/3025453.3025765">What Is Interaction?</a>
-- <a href="https://dl.acm.org/doi/10.1145/332040.332473">Instrumental interaction: an interaction model for designing post-WIMP user interfaces</a>
+- <a href="https://dl.acm.org/doi/10.1145/332040.332473">Instrumental interaction: an interaction model for post-WIMP interfaces</a>
 - <a href="https://www.lri.fr/~mbl/Stanford/CS477/papers/Weiser-SciAm.pdf">The Computer for the 21st Century</a>
 - <a href="https://direct.mit.edu/books/monograph/3875/Where-the-Action-IsThe-Foundations-of-Embodied">Where the Action Is: The Foundations of Embodied Interaction</a>
 - <a href="https://dl.acm.org/doi/full/10.1145/3468505">Generative Theories of Interaction</a>
@@ -119,5 +120,5 @@ interdisciplinary research with dancers on using XR mirrors (Victorian College o
 - <a href="https://mitpress.mit.edu/9780262513319/acting-with-technology/">Acting with Technology: Activity Theory and Interaction Design</a>
 - <a href="https://www.upress.umn.edu/9780816675777/summa-technologiae/">Summa Technologiae</a> / <a href="https://book.douban.com/subject/35660021/">技术大全</a>
 - <a href="https://mitpress.mit.edu/9780262693264/shaping-things/">Shaping Things</a>
-- <a href="https://qiushi-zhou.github.io/PDF/CHI-2023-Dance.pdf">Here and Now: Creating Improvisational Dance Movements with a Mixed Reality Mirror</a>
+- <a href="https://qiushi-zhou.github.io/PDF/CHI-2023-Dance.pdf">Here and Now: Creating Improvisational Dance Movements with an MR Mirror</a>
 - <a href="https://qiushi-zhou.github.io/PDF/CHI-2021-dance.pdf">Dance and Choreography in HCI: A Two-Decade Retrospective</a>
