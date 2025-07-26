@@ -33,7 +33,7 @@ For all positions, I am looking for self-motivated applicants with strong drive 
 ![alt text](assets/images/recruitment/xr.png)
 
 
-## AI-assisted mirror interaction
+## AI-assisted Interaction with Mirrors
 Mirror provides a specific context for interaction, as the goal is typically the same and the image one expected to see "oneself" is typically the same, enabling a much simper context space for recognition of user intention and action. 
 art proj: "what do you expect?" eye contact for glance interaction?
 ![alt text](assets/images/recruitment/mirror.png)
