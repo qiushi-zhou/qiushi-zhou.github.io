@@ -11,7 +11,7 @@ For detailed information on entry requirements, admission timeline, studenship, 
 
 The Hong Kong University of Science and Technology (HKUST) was ranked 44th by QS World University Rankings 2026, and 28th in Computer Science by Times Higher Education World University Rankings 2025.
 
- At Information Hub, you'll be in a vibrant and diverse PhD community, thriving on interdisciplinary collaboration and innovation. Our state-of-the-art facilities and supportive academic network provide an fantastic environment to pursue your research passions and make a meaningful impact in the field of HCI/
+ At Information Hub, you'll be in a vibrant and diverse PhD community, thriving on interdisciplinary collaboration and innovation. Our state-of-the-art facilities and supportive academic network provide an fantastic environment to pursue your research passions and make a meaningful impact in the field of HCI
 
 As a supervisor, I take a hands-on, collaborative approach and view PhD students as equal partners in the research process. I thrive on open dialogue, mutual respect, and shared problem-solving, and I am committed to fostering an environment where you are empowered to take intellectual ownership of their work.
 
@@ -32,9 +32,12 @@ If you are interested, please reach out to me at qiushizhou [at] outlook.com. I 
 - a short description of how your prior experience matches my area of research (max. 200 words),
 - an idea of your research direction (max. 200 words).
 
-More information
+### More information
+
 <a href="https://fytgs.hkust-gz.edu.cn/programs/computational-media-and-arts-5">Postgraduate Programs @ CMA</a>
+
 <a href="https://fytgs.hkust-gz.edu.cn/programs/internet-of-things-5">Postgraduate Programs @ IoT</a>
+
 <a href="https://scholar.google.com.au/citations?user=a-FggqcAAAAJ&hl=en">My Googel Scholar Profile</a>
 
 
@@ -45,7 +48,7 @@ For all positions, I am looking for self-motivated applicants with strong drive 
   <li>Any educational background that makes you confident for the position</li>
   <li>Strong technical skills, including but not limited to XR Prototyping in Unity C#, Motion Capture, Computer Vision, Arduino, and Digital Fabrication</li>
   <li>Basic understanding of the current research/industry landscape of HCI/XR</li>
-  <li>Good command of English for academic writing and professional communication</li>
+  <li>Good command of English for academic writing and communication</li>
   <li>Interest in theoretical and conceptual thinking regarding interaction design and the use and development of computing technology</li>
 </ul>
 
