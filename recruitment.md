@@ -26,7 +26,9 @@ For all positions, I am looking for self-motivated applicants with strong drive 
 
 ## historical and theoretical reflections of interactino design concepts and principles
 ![alt text](assets/images/recruitment/history.png)
-<img align="right" src="assets/images/recruitment/history.png" width="200px">
+<img align="left" src="assets/images/recruitment/history.png" width="300px">
+In addition to those, I welcome proposals from students interested in designing and studying novel interaction techniques in XR. You are encouraged to propose your own topic, provided it aligns with my broader interests in immersive technologies. My research focuses on interaction and communication in everyday AR/VR applications. I investigate how users perceive and engage with virtual content—such as through gaze, posture, smell, or taste—and how they express themselves via avatars. My work combines technical prototyping (e.g., Unity, Arduino) with empirical evaluation to enhance user performance, experience, and ergonomics. I take an empirical HCI approach, involving the development of interactive systems, the design and execution of user studies, and the analysis of user behaviour using both quantitative and qualitative methods.
+
 
 
 ## XR and physical devices for novel intraction
