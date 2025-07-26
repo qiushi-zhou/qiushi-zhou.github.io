@@ -38,7 +38,7 @@ Mirror provides a specific context for interaction, as the goal is typically the
 art proj: "what do you expect?" eye contact for glance interaction?
 ![alt text](assets/images/recruitment/mirror.png)
 
-## HCI in the Chinese Context - Cultural Studies, Media Theory, and Art
+## HCI in the Chinese Context - Cultural Studies, Media Theory, and Artistic Explorations
 ![alt text](assets/images/recruitment/books.png)
 
 
