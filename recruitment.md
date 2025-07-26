@@ -61,11 +61,20 @@ Learning from this experience, I am interested in designing the interaction tech
 - <a href="https://kenhinckley.wordpress.com/wp-content/uploads/2024/07/input-technologies-and-techniques-hci-handbook-3rd-edition.pdf">Input Technologies and Techniques</a>
 - <a href="https://www.dgp.toronto.edu/OTP/papers/bill.buxton/3state.html">A Three-State Model of Graphical Input</a>
 - <a href="https://dl.acm.org/doi/pdf/10.1145/174630.174631">Integrality and Separability of Input Devices</a>
+- <a href="https://qiushi-zhou.github.io/PDF/UIST-2025-SightWarp.pdf">Direct Manipulation for Distant Objects Through Gaze-based Summoning</a>
+
 
 ## Novel Interaction Combining XR and IoT Devices
 ![alt text](assets/images/recruitment/out.png)
 digital fabrication for tangible interface (Melbourne School of Health Sciences),  I have also been conducting research on XR-mediated human-robot interaction with Wafa Johal and colleagues from the HCI group at University of Melbourne, with an OzCHI publication [11] and a paper submitted to IEEE RAL [12].
 
+### Reading Material
+
+- <a href="https://book.douban.com/subject/26077095/">论家用电器</a> / <a href="https://www.routledge.com/Domestic-Spaces-in-Post-Mao-China-On-Electronic-Household-Appliances/Minan/p/book/9780367886523">On Electronic Household Appliances</a> 
+- <a href="https://dynamicland.org/">Dynamicland</a>
+- <a href="https://www.lri.fr/~mbl/Stanford/CS477/papers/Weiser-SciAm.pdf">The Computer for the 21st Century</a>
+- <a href="https://dl.acm.org/doi/pdf/10.1145/1897239.1897250">Proxemic Interactions: The New Ubicomp?</a>
+- <a href="https://qiushi-zhou.github.io/PDF/HRI-2025-Assisting.pdf">Assisting MoCap-Based Teleoperation of Robot Arm using Augmented Reality Visualisations</a>
 
 ## AI-assisted Interaction with XR Mirrors
 Mirror provides a specific context for interaction, as the goal is typically the same and the image one expected to see "oneself" is typically the same, enabling a much simper context space for recognition of user intention and action. 
@@ -75,13 +84,40 @@ During my PhD, I have established my expertise in the international HCI communit
 
 I have further explored this space with novel XR interfaces, including a motor training interface that enables learners to effectively acquire physical movements demonstrated by a virtual instructor aligned with their mirror reflections [2], and a series of visualisations in mirrors to help dancers reinterpret their movements for dance improvisation [3].
 
+### Reading Material
 
+- <a href="https://qiushi-zhou.github.io/PDF/IMWUT-2023-RR.pdf">Reflected Reality: Augmented Reality through the Mirror</a>
+- <a href="https://qiushi-zhou.github.io/PDF/CHI-2023-Dance.pdf">Here and Now: Creating Improvisational Dance Movements with a Mixed Reality Mirror</a>
+- <a href="https://qiushi-zhou.github.io/PDF/DIS-2022-Movement.pdf">Movement Guidance using a Mixed Reality Mirror</a>
 
 ## Theoretical and Historical Reflections on Interaction Design Concepts and Principles
 ![alt text](assets/images/recruitment/history.png)
 Aarhus University, my current institution, holds an important position in the international HCI community with its rich history in activity theory (AT) research that contributes to one of the cornerstone theoretical foundations of HCI research. In recent decades, this research effort has been led by Prof. Susanne Bødker [9] who had published influential papers that shaped contemporary HCI research. Since my appointment as a postdoc, I have been working with Prof. Bødker on analysing the use of XR through the lens of AT. 
 
+### Reading Material
+
+- <a href="https://mitpress.mit.edu/9780262513319/acting-with-technology/">Acting with Technology: Activity Theory and Interaction Design</a>
+- <a href="https://tidsskrift.dk/daimipb/article/download/6666/5796/">Beyond the interface: Encountering artifacts in use</a>
+- <a href="https://qiushi-zhou.github.io/PDF/CHI-2021-dance.pdf">Dance and Choreography in HCI: A Two-Decade Retrospective</a>
+- <a href="https://dl.acm.org/doi/10.1145/3025453.3025765">What Is Interaction?</a>
+- <a href="https://dl.acm.org/doi/10.1145/332040.332473">Instrumental interaction: an interaction model for designing post-WIMP user interfaces</a>
+- <a href="https://www.lri.fr/~mbl/Stanford/CS477/papers/Weiser-SciAm.pdf">The Computer for the 21st Century</a>
+- <a href="https://direct.mit.edu/books/monograph/3875/Where-the-Action-IsThe-Foundations-of-Embodied">Where the Action Is: The Foundations of Embodied Interaction</a>
+- <a href="https://dl.acm.org/doi/full/10.1145/3468505">Generative Theories of Interaction</a>
+- <a href="https://press.uchicago.edu/ucp/books/book/chicago/M/bo3637992.html">Metaphors We Live By</a>
+- <a href="https://dl.acm.org/doi/pdf/10.1145/1744161.1744163">Natural user interfaces are not natural</a>
+
 ## HCI in the Chinese Context - Cultural Studies, Media Theory, and Artistic Explorations
 ![alt text](assets/images/recruitment/books.png)
 interdisciplinary research with dancers on using XR mirrors (Victorian College of the Arts), and to high-profile art projects (Science Gallery Melbourne and Melbourne Fringe Festival).
 
+- <a href="https://book.douban.com/subject/26077095/">论家用电器</a> / <a href="https://www.routledge.com/Domestic-Spaces-in-Post-Mao-China-On-Electronic-Household-Appliances/Minan/p/book/9780367886523">On Electronic Household Appliances</a> 
+- <a href="https://www.upress.umn.edu/9781517904876/on-the-mode-of-existence-of-technical-objects/">On the Mode of Existence of Technical Objects</a>
+- <a href="https://www.upress.umn.edu/9781517914455/imagination-and-invention/">Imagination and Invention</a>
+- <a href="https://mitpress.mit.edu/9780995455009/the-question-concerning-technology-in-china/">The Question Concerning Technology in China</a> / <a href="https://book.douban.com/subject/34954806/">论中国的技术问题
+</a>
+- <a href="https://mitpress.mit.edu/9780262513319/acting-with-technology/">Acting with Technology: Activity Theory and Interaction Design</a>
+- <a href="https://www.upress.umn.edu/9780816675777/summa-technologiae/">Summa Technologiae</a> / <a href="https://book.douban.com/subject/35660021/">技术大全</a>
+- <a href="https://mitpress.mit.edu/9780262693264/shaping-things/">Shaping Things</a>
+- <a href="https://qiushi-zhou.github.io/PDF/CHI-2023-Dance.pdf">Here and Now: Creating Improvisational Dance Movements with a Mixed Reality Mirror</a>
+- <a href="https://qiushi-zhou.github.io/PDF/CHI-2021-dance.pdf">Dance and Choreography in HCI: A Two-Decade Retrospective</a>

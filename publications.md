@@ -26,7 +26,7 @@ In this paper, we investigate how gaze-based interaction can benefit users' abil
 
 <div class="divider"></div>
 
-**UIST 2025** <a href="#">PDF</a>
+**UIST 2025** <a href="https://qiushi-zhou.github.io/PDF/UIST-2025-SightWarp.pdf">PDF</a>
 ## At A Glance To Your Fingertips: Enabling Direct Manipulation for Distant Objects Through Gaze-based Summoning
 
 _Yang Liu, Thorbjørn Mikkelsen, Zehai Liu, Gengchen Tian, Diako Mardanbegi, **Qiushi Zhou**, Hans Gellersen, Ken Pfeuffer_
