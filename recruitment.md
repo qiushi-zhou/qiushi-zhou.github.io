@@ -23,27 +23,28 @@ For all positions, I am looking for self-motivated applicants with strong drive 
 # Research Topics
 
 ## Multimodal Input for Next-Gen XR Devices
-![alt text](assets/images/recruitment/input.png)
-
-## Theoretical and Historical Reflections on Interaction Design Concepts and Principles
-![alt text](assets/images/recruitment/history.png)
-
+![alt text](assets/images/recruitment/in.png)
 
 ## Novel Interaction Combining XR and IoT Devices
-![alt text](assets/images/recruitment/xr.png)
-
+![alt text](assets/images/recruitment/out.png)
 
 ## AI-assisted Interaction with Mirrors
 Mirror provides a specific context for interaction, as the goal is typically the same and the image one expected to see "oneself" is typically the same, enabling a much simper context space for recognition of user intention and action. 
 art proj: "what do you expect?" eye contact for glance interaction?
 ![alt text](assets/images/recruitment/mirror.png)
 
+## Theoretical and Historical Reflections on Interaction Design Concepts and Principles
+![alt text](assets/images/recruitment/history.png)
+
 ## HCI in the Chinese Context - Cultural Studies, Media Theory, and Artistic Explorations
 ![alt text](assets/images/recruitment/books.png)
 
 
-Research Environment
-The University of Glasgow is ranked among the top 100 universities globally and 6th in the UK for Computer Science (Times Sunday Times Good University Guide 2025). In the UK's 2021 independent research exercise, 100% of our impact was judged as world-leading. As part of GIST, you'll be in a vibrant and diverse PhD community, thriving on collaboration and innovation. Our state-of-the-art facilities and supportive academic network provide an fantastic environment to pursue your research passions and make a meaningful impact in the field of AR technology. Our team size allows for a rich diversity of interests while also fostering a close-knit community where everyone knows each other. Glasgow is a fantastic city with lots of activities and a vibrant community.
+# Research Environment
+
+The Hong Kong University of Science and Technology (HKUST) was ranked 44th by QS World University Rankings 2026, and 28th in Computer Science by Times Higher Education World University Rankings 2025.
+
+ At Information Hub, you'll be in a vibrant and diverse PhD community, thriving on interdisciplinary collaboration and innovation. Our state-of-the-art facilities and supportive academic network provide an fantastic environment to pursue your research passions and make a meaningful impact in the field of AR technology. Our team size allows for a rich diversity of interests while also fostering a close-knit community where everyone knows each other. Glasgow is a fantastic city with lots of activities and a vibrant community.
 
 As a supervisor, I take a hands-on, collaborative approach and view PhD students as equal partners in the research process. I thrive on open dialogue, mutual respect, and shared problem-solving, and I am committed to fostering an environment where you are empowered to take intellectual ownership of their work.
 
