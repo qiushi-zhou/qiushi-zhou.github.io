@@ -7,6 +7,8 @@ From October 2025, I will join <a href="https://www.hkust-gz.edu.cn/">HKUST(GZ)<
 
 For detailed information on entry requirements, admission timeline, studenship, tuition fee, and else, please refer to official resources <a href="https://fytgs.hkust-gz.edu.cn/admissions/before-submitting-an-application">HERE</a>.
 
+<div class="divider"></div>
+
 # Supervision and Research Environment
 
 ![alt text](assets/images/recruitment/gemini.jpg)
@@ -18,6 +20,8 @@ I am someone who have been very lucky to have received great mentorship from my 
 *Campus and facilities of HKUST(GZ)*
 
 Hong Kong University of Science and Technology (HKUST) was ranked 44th by QS World University Rankings 2026, and 28th in Computer Science by Times Higher Education World University Rankings 2025. At Information Hub, you'll be in a vibrant PhD community, thriving on interdisciplinary collaboration and innovation. Our <a href="https://youtu.be/EbzmQCtSNFU?si=6yz_qI4kRpYR1bV5">state-of-the-art facilities</a> and supportive academic network provide an fantastic environment to pursue your research passions and make a meaningful impact in the field of HCI. 
+
+<div class="divider"></div>
 
 # Requirements 
 
@@ -44,9 +48,13 @@ If you are interested, please reach out at qiushizhou [at] outlook.com with:
 - <a href="https://fytgs.hkust-gz.edu.cn/programs/internet-of-things-5">Postgraduate Programs @ IoT</a>
 - <a href="https://scholar.google.com.au/citations?user=a-FggqcAAAAJ&hl=en">My Google Scholar Profile</a>
 
+<div class="divider"></div>
+
 # Research Topics
 
 While the following topics show some of my immediate research interests, they can only work if they become tailored for the right candidate. We will discuss and determine together the detailed directions within a generic frame, according to your skills and experience. I would also love to work with people who are interested in and capable of working on something that touches on multiple topics.
+
+<div class="divider"></div>
 
 ## Interaction Techniques for Next-Gen XR Devices
 ![alt text](assets/images/recruitment/in.png)
@@ -64,12 +72,14 @@ Continuing this line of research, I will explore interaction techniques for futu
 - <a href="https://ieeexplore.ieee.org/abstract/document/10919211">Sensorimotor Regularities for Superpower Interactions in MR</a>
 - <a href="https://qiushi-zhou.github.io/PDF/UIST-2025-SightWarp.pdf">Direct Manipulation for Distant Objects Through Gaze-based Summoning</a>
 
+<div class="divider"></div>
+
 ## Novel Interaction Combining XR and IoT Devices
 ![alt text](assets/images/recruitment/out.png)
 
 I believe that the future of XR lies in its capability of augmenting and modifying the experience with the physical reality instead of hiding it. However, because the development of XR has been mostly driven by VR, little consistent effort was made to re-design the physical reality to make it work with XR. At the same time, other previous works that are not typically as part of the XR field, such as UbiComp, Dynamicland, and Proxemic Interaction, have accumulated insights in how to embed interactive capabilities with computing in the domestic physical spaces. These insights set the stage for re-thinking the physical reality in the context of XR. 
 
-In this project, we will explore novel interaction affordances by combining the capabilities of the XR interface and the opportunities of re-designing the physical reality in an IoT context. Specifically, we can explore how the position and relative movement of the XR-wearing body and its immediate peripersonal space among the extrapersonal space that is computationally defined by "smart" objects equipped with sensors and actuators. Through physical and robot programming, we can demonstrate novel interaction affordances and concepts of XR x IoT that contribute interaction design principles and frameworks in this direction. 
+In this project, we will explore novel interaction affordances by combining the capabilities of the XR interface and the opportunities of re-designing the physical reality in an IoT context. Specifically, we can explore how the position and relative movement of the XR-wearing body and its immediate peripersonal space among the extrapersonal space that is computationally defined by "smart" objects equipped with sensors and actuators, together in the domestic space that is full of apparent and hidden significations, rules, functions, and habits. Through physical and robot programming, we can demonstrate novel interaction affordances and concepts of XR x IoT that contribute interaction design principles and frameworks in this direction. 
 
 ### Reading Material
 
@@ -81,19 +91,19 @@ In this project, we will explore novel interaction affordances by combining the 
 Domestic-Spaces-in-Post-Mao-China-On-Electronic-Household-Appliances/Minan/p/book/9780367886523">On Electronic Household Appliances</a> 
 - <a href="https://qiushi-zhou.github.io/PDF/HRI-2025-Assisting.pdf">Assisting MoCap-Based Teleoperation of Robot Arm using AR Visualisations</a>
 
-## AI-assisted Interaction with XR Mirrors
-Mirror provides a specific context for interaction, as the goal is typically the same and the image one expected to see "oneself" is typically the same, enabling a much simper context space for recognition of user intention and action. 
-art proj: "what do you expect?" eye contact for glance interaction?
+## AI-assisted Interaction with Mirrors
 ![alt text](assets/images/recruitment/mirror.png)
-During my PhD, I have established my expertise in the international HCI community on using mirrors for novel XR interaction. I have pioneered this topic with a design space that covers the use of the two bodies/perspectives across the mirror, the egocentric and allocentric frames of reference for anchoring objects, and the use of the space behind the mirror as reflection or extension of the physical space [1]. 
 
-I have further explored this space with novel XR interfaces, including a motor training interface that enables learners to effectively acquire physical movements demonstrated by a virtual instructor aligned with their mirror reflections [2], and a series of visualisations in mirrors to help dancers reinterpret their movements for dance improvisation [3].
+Easily found in most domestic and public spaces, mirrors are strange objects that afford a specific type of interaction, as the goal is typically seeing oneself. This specificity in the context of its use simplifies the task of recognsing user intention and action, and allows us to design richer interaction capabilities with mirrors. While the main theme of my PhD research was designing novel interaction with mirrors in XR, I am now interested in exploring opportunities of enriching the interaction with mirrors with AI. 
+
+In this project, we will explore ways of integrating the capability of AI, including LLM and generative models, into the interactive experience with mirrors that are beyond the typical conversational-agent or heads-up-display ideas. Starting from a more substantial understanding of the relationship between the user and their reflected image in the mirror, we will identify opportunities to augment/modify this experience through visual medium, with XR headsets and/or smart mirrors. Together, we will design and build flashy prototypes that can be used in research projects and art installations. 
 
 ### Reading Material
 
 - <a href="https://qiushi-zhou.github.io/PDF/IMWUT-2023-RR.pdf">Reflected Reality: Augmented Reality through the Mirror</a>
 - <a href="https://qiushi-zhou.github.io/PDF/CHI-2023-Dance.pdf">Here and Now: Creating Improvisational Dance Movements with an MR Mirror</a>
 - <a href="https://qiushi-zhou.github.io/PDF/DIS-2022-Movement.pdf">Movement Guidance using a Mixed Reality Mirror</a>
+- <a href="https://www.biometricmirror.com/">Biometric Mirror</a>
 
 ## Theoretical and Historical Reflections on Interaction Design Concepts and Principles
 ![alt text](assets/images/recruitment/history.png)
