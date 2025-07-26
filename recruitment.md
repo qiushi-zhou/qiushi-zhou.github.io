@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Recruiting for Postgraduate Positions @ Thrust of Computational Media and Arts, HKUST(GZ)
+title: Recruiting for Postgraduate Positions @ Thrust of Computational Media and Arts, HKUST(GZ) 
 permalink: /recruitment/
 ---
 I am someone who have been very lucky to have received great mentorship from my PhD and Postdoc supervisors, and I am excited to pass it along to future generations of academics. From October 2025, I have multiple open PhD positions along with Research Assistant and Postdoc opportunities for applicants at varying stages of study. I am also looking to advise MPhil research projects on topics related to the ones listed below. 
@@ -12,7 +12,7 @@ For detailed information on entry requirements, admission timeline, studenship, 
 
 # Requirements 
 
-For all positions, I am looking for self-motivated applicants with strong drive for excellence in HCI. Some combinations of the following traits are desired:
+For all positions, I am looking for self-motivated applicants with strong drive for excellence. Some combinations of the following traits are desired:
 <ul>
   <li>Strong technical skills, including but not limited to Unity C#, XR Prototyping, Motion Capture, Computer Vision, Machine Learning, Arduino, and Digital Fabrication</li>
   <li>Basic understanding of the current research/industry landscape of HCI/XR</li>
