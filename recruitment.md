@@ -22,18 +22,18 @@ For all positions, I am looking for self-motivated applicants with strong drive 
 
 # Research Topics
 
-## Ken eye+hand next0gen XR input methods prototyping-evaluation
+## Interaction Techniques for Next-Gen XR Devices
+![alt text](assets/images/recruitment/input.png)
 
-## historical and theoretical reflections of interactino design concepts and principles
+## Theoretical and Historical Reflections on Interaction Design Concepts and Principles
 ![alt text](assets/images/recruitment/history.png)
 
 
-
-
-## XR and physical devices for novel intraction
+## Novel Interaction Combining XR and Physical Devices
 ![alt text](assets/images/recruitment/xr.png)
 
-## Artistic exploration of HCI conepts, such as dance and embodied perception
+## Artistic Exploration of HCI Conepts,
+
 
 ## AI-assisted mirror interaction
 Mirror provides a specific context for interaction, as the goal is typically the same and the image one expected to see "oneself" is typically the same, enabling a much simper context space for recognition of user intention and action. 
