@@ -53,7 +53,7 @@ If you are interested, please reach out at qiushizhou [at] outlook.com with:
 
 My latest postdoctoral research has been contributing to an <a href="https://medium.com/sigchi/announcing-the-2025-acm-sigchi-awards-17c1feaf865f">award-winning team</a> that pioneers foundational input methods and interaction guidelines for XR operating systems, including the latest Apple Vision Pro and Android XR. Our research output has been mostly on eye+hand interaction with a prototyping-based interaction design and engineering process. These works rely on our knowledge around the nature of gaze fixations and saccades, patterns of eye-hand coordination, and the metaphors of input techniques that users are familiar with from using previous technologies, such as mouse and touchscreen. 
 
-Learning from this experience, I am interested in designing the interaction techniques for future generations of XR devices. While we have seen the development in the capabilities of many novel input modalities inculding gaze, gestures, and even brain-computer interface, I believe that the "winning" technique that will be adopted in the future can only be discovered with the consideration of the past and current uses of interactive technologies. In this project, we will collaboratively brainstorm, design, and develop novel input techniques for future XR devices by incorporating empirical knowledge on human cognition and behaviour with past experiences in the design and engineering of input devices and techniques. I would love to work with student who enjoy reading the following papers and articles and are able to apply these thinking in their practice. 
+Learning from this experience, I am interested in designing the interaction techniques for future generations of XR devices. While we have seen the development in the capabilities of many novel input modalities inculding gaze, gestures, and even brain-computer interface, I believe that the "winning" technique that will be adopted in the future can only be discovered with the consideration of the past and current uses of interactive technologies. In this project, we will collaboratively brainstorm, design, and develop novel input techniques for future XR devices by incorporating empirical knowledge on human cognition and behaviour with past experiences in the design and engineering of input devices and techniques. I would love to work with student who enjoy reading the following papers and articles and are able to apply these thinking in their practice. Together, our research will yield immediate real-world impact and would inform the industry to benefit current and future users.  
 
 ### Reading Material
 
@@ -61,10 +61,6 @@ Learning from this experience, I am interested in designing the interaction tech
 - <a href="https://kenhinckley.wordpress.com/wp-content/uploads/2024/07/input-technologies-and-techniques-hci-handbook-3rd-edition.pdf">Input Technologies and Techniques</a>
 - <a href="https://www.dgp.toronto.edu/OTP/papers/bill.buxton/3state.html">A Three-State Model of Graphical Input</a>
 - <a href="https://dl.acm.org/doi/pdf/10.1145/174630.174631">Integrality and Separability of Input Devices</a>
-
-
-By mastering the prototyping-based innovation process under the mentorship of Prof. Pfeuffer while furthering my knowledge of scientific evaluation of eye-based interaction techniques with Prof. Gellersen, I have developed solid skills that will help me discover and define intuitive XR interaction techniques that can yield immediate real-world impact and would inform the industry to benefit current and future users.  
-
 
 ## Novel Interaction Combining XR and IoT Devices
 ![alt text](assets/images/recruitment/out.png)
