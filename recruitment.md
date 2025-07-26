@@ -48,7 +48,7 @@ If you are interested, please reach out at qiushizhou [at] outlook.com with:
 
 # Research Topics
 
-## Input Techniques for Next-Gen XR Devices
+## Interaction Techniques for Next-Gen XR Devices
 ![alt text](assets/images/recruitment/in.png)
 
 My latest postdoctoral research has contributed to <a href="https://medium.com/sigchi/announcing-the-2025-acm-sigchi-awards-17c1feaf865f">an award-winning team</a> that pioneers foundational input methods and interaction guidelines for XR operating systems, including the latest Apple Vision Pro and Android XR. Our research output has been mostly on eye+hand interaction with a prototyping-based interaction design and engineering process. These works rely on our knowledge around the nature of gaze fixations and saccades, patterns of eye-hand coordination, and the metaphors of input that users are familiar with from using previous technologies, such as mouse and touchscreen. 
