@@ -48,6 +48,8 @@ If you are interested, please reach out at qiushizhou [at] outlook.com with:
 
 # Research Topics
 
+While the following topics show some of my immediate research interests, they can only work if they become tailored for the right candidate. We will discuss and determine together the detailed directions within a generic frame, according to your skills and experience. I would also love to work with people who are interested in and capable of working on something that touches on multiple topics.
+
 ## Interaction Techniques for Next-Gen XR Devices
 ![alt text](assets/images/recruitment/in.png)
 
@@ -62,16 +64,21 @@ Continuing this line of research, I will explore interaction techniques for futu
 - <a href="https://www.dgp.toronto.edu/OTP/papers/bill.buxton/3state.html">A Three-State Model of Graphical Input</a>
 - <a href="https://dl.acm.org/doi/pdf/10.1145/174630.174631">Integrality and Separability of Input Devices</a>
 - <a href="https://qiushi-zhou.github.io/PDF/UIST-2025-SightWarp.pdf">Direct Manipulation for Distant Objects Through Gaze-based Summoning</a>
-- <a href="https://ieeexplore.ieee.org/abstract/document/10919211">On the Benefits of Sensorimotor Regularities as Design Constraints for Superpower Interactions in Mixed Reality</a>
+- <a href="https://ieeexplore.ieee.org/abstract/document/10919211">Sensorimotor Regularities as Design Constraints for Superpower Interactions in MR</a>
 
 
 ## Novel Interaction Combining XR and IoT Devices
 ![alt text](assets/images/recruitment/out.png)
+
+I believe that the future of XR lies in its capability of augmenting and modifying the experience with the physical reality through AR/MR, instead of hiding it with immersive VR. However, because the development of XR has been mostly driven by VR, little effort was made to re-design the physical reality to make it work with XR. At the same time, previous work in HCI, including ubiquitous/pervasive computing, has provided great insights that set the stage for such a 
+
 digital fabrication for tangible interface (Melbourne School of Health Sciences),  I have also been conducting research on XR-mediated human-robot interaction with Wafa Johal and colleagues from the HCI group at University of Melbourne, with an OzCHI publication [11] and a paper submitted to IEEE RAL [12].
 
 ### Reading Material
 
-- <a href="https://book.douban.com/subject/26077095/">论家用电器</a> / <a href="https://www.routledge.com/Domestic-Spaces-in-Post-Mao-China-On-Electronic-Household-Appliances/Minan/p/book/9780367886523">On Electronic Household Appliances</a> 
+- <a href="https://book.douban.com/subject/26077095/">论家用电器</a> / <a href="https://www.routledge.com/
+Domestic-Spaces-in-Post-Mao-China-On-Electronic-Household-Appliances/Minan/p/book/9780367886523">On Electronic Household Appliances</a> 
+- <a href="https://www.sciencedirect.com/science/article/pii/000437029400017U">The intelligent use of space</a>
 - <a href="https://dynamicland.org/">Dynamicland</a>
 - <a href="https://www.lri.fr/~mbl/Stanford/CS477/papers/Weiser-SciAm.pdf">The Computer for the 21st Century</a>
 - <a href="https://dl.acm.org/doi/pdf/10.1145/1897239.1897250">Proxemic Interactions: The New Ubicomp?</a>
