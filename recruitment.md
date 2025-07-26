@@ -3,20 +3,19 @@ layout: page
 title: Recruiting for Postgraduate Positions @ Information Hub, HKUST(GZ) 
 permalink: /recruitment/
 ---
-I am someone who have been very lucky to have received great mentorship from my PhD and Postdoc supervisors, and I am excited to pass it along to future generations of students who are driven by their curiosity to understand and make better interactive technologies. From October 2025, I will join <a href="https://infh.hkust-gz.edu.cn/">Information Hub</a>, <a href="https://www.hkust-gz.edu.cn/">HKUST(GZ)</a> with affiliations @ <a href="https://cma.hkust-gz.edu.cn/"> Thrust of Computational Media and Arts (CMA)</a> and <a href="https://iott.hkust-gz.edu.cn/"> Thrust of Internet of Things (IoT)</a>. I have multiple open PhD positions along with Research Assistant and Postdoc opportunities for applicants at varying stages of study. I am also looking to advise MPhil research projects on topics related to the ones listed below. 
+I am someone who have been very lucky to have received great mentorship from my PhD and Postdoc supervisors, and I am excited to pass it along to future generations of students who are driven by their curiosity to understand and make better interactive technologies. From October 2025, I will join <a href="https://www.hkust-gz.edu.cn/">HKUST(GZ)</a> with affiliations @ <a href="https://cma.hkust-gz.edu.cn/"> Thrust of Computational Media and Arts (CMA)</a> and <a href="https://iott.hkust-gz.edu.cn/"> Thrust of Internet of Things (IoT)</a> of the <a href="https://infh.hkust-gz.edu.cn/">Information Hub</a>. I have multiple open PhD positions along with Research Assistant and Postdoc opportunities for applicants at varying stages of study. I am also looking to advise MPhil research projects on topics related to the ones listed below. 
 
 For detailed information on entry requirements, admission timeline, studenship, tuition fee, and else, please refer to official resources <a href="https://fytgs.hkust-gz.edu.cn/admissions/before-submitting-an-application">HERE</a>.
 
 # Research Environment
 
-Hong Kong University of Science and Technology (HKUST) was ranked 44th by QS World University Rankings 2026, and 28th in Computer Science by Times Higher Education World University Rankings 2025.
-
- At Information Hub, you'll be in a vibrant and diverse PhD community, thriving on interdisciplinary collaboration and innovation. Our state-of-the-art facilities and supportive academic network provide an fantastic environment to pursue your research passions and make a meaningful impact in the field of HCI
+Hong Kong University of Science and Technology (HKUST) was ranked 44th by QS World University Rankings 2026, and 28th in Computer Science by Times Higher Education World University Rankings 2025. At Information Hub, you'll be in a vibrant PhD community, thriving on interdisciplinary collaboration and innovation. Our <a href="https://youtu.be/EbzmQCtSNFU?si=6yz_qI4kRpYR1bV5">state-of-the-art facilities</a> and supportive academic network provide an fantastic environment to pursue your research passions and make a meaningful impact in the field of HCI. 
 
 As a supervisor, I take a hands-on, collaborative approach and view PhD students as equal partners in the research process. I thrive on open dialogue, mutual respect, and shared problem-solving, and I am committed to fostering an environment where you are empowered to take intellectual ownership of their work.
 
 Through my experience as a PhD student and as a postdoc, I had the pleasure to closely learn from great academics their distinct supervision approach, including Prof. Eduardo Velloso, Associate Prof. Jorge Goncalves, Prof. Hans Gellersen, and Assistant Prof. Ken Pfeuffer. I prioritise the wellbeing of students with genuine care, and I prioritise real personal development over quantity in research output. 
-I am always passionate about supervising research students, as primary and as secondary supervisors. I will benefit from my academic experience in Europe and in Australia to give coursework and research students in China a world-class learning experience. I want to help grow the Chinese HCI research community, and to provide students like me with opportunities to thrive through their academic curiosity.
+
+my academic experience in Europe and in Australia
 
 
 
