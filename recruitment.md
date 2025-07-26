@@ -29,7 +29,7 @@ For all positions, I am looking for self-motivated applicants with strong drive 
 ![alt text](assets/images/recruitment/history.png)
 
 
-## Novel Interaction Combining XR and Physical Devices
+## Novel Interaction Combining XR and IoT Devices
 ![alt text](assets/images/recruitment/xr.png)
 
 ## Artistic Exploration of HCI Conepts,
