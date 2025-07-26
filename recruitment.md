@@ -23,7 +23,6 @@ I am always passionate about supervising research students, as primary and as se
 ![alt text](assets/images/recruitment/gemini.jpg)
 *Prof. Hans Gellersen and Prof. Ken Pfeuffer's Aarhus-Lancaster team meetup on gaze-based XR interaction  (June 2025)*
 
-Get in Touch!
 If you are interested, please reach out to me at qiushizhou [at] outlook.com. I look forward to hearing from you. Please include:
 
 - Your CV (long form),
@@ -46,7 +45,7 @@ If you are interested, please reach out to me at qiushizhou [at] outlook.com. I 
 For all positions, I am looking for self-motivated applicants with strong drive for excellence. Some combinations of the following traits are desired:
 <ul>
   <li>Any educational background that makes you confident for the position</li>
-  <li>Strong technical skills, including but not limited to XR Prototyping in Unity C#, Motion Capture, Computer Vision, Arduino, and Digital Fabrication</li>
+  <li>Strong technical skills, including but not limited to XR Development in Unity, Motion Capture, Computer Vision, Arduino, and Digital Fabrication</li>
   <li>Basic understanding of the current research/industry landscape of HCI/XR</li>
   <li>Good command of English for academic writing and communication</li>
   <li>Interest in theoretical and conceptual thinking regarding interaction design and the use and development of computing technology</li>
