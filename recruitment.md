@@ -38,7 +38,7 @@ If you are interested, please reach out at qiushizhou [at] outlook.com with:
 - A short description of how your skillset/experience matches my interests
 - A short description of your proposed research topic(s)
 
-### More information
+### Additional Information
 
 <a href="https://fytgs.hkust-gz.edu.cn/programs/computational-media-and-arts-5">Postgraduate Programs @ CMA</a>
 
@@ -63,25 +63,24 @@ Continuing this line of research, I will explore interaction techniques for futu
 - <a href="https://kenhinckley.wordpress.com/wp-content/uploads/2024/07/input-technologies-and-techniques-hci-handbook-3rd-edition.pdf">Input Technologies and Techniques</a>
 - <a href="https://www.dgp.toronto.edu/OTP/papers/bill.buxton/3state.html">A Three-State Model of Graphical Input</a>
 - <a href="https://dl.acm.org/doi/pdf/10.1145/174630.174631">Integrality and Separability of Input Devices</a>
+- <a href="https://ieeexplore.ieee.org/abstract/document/10919211">Sensorimotor Regularities for Superpower Interactions in MR</a>
 - <a href="https://qiushi-zhou.github.io/PDF/UIST-2025-SightWarp.pdf">Direct Manipulation for Distant Objects Through Gaze-based Summoning</a>
-- <a href="https://ieeexplore.ieee.org/abstract/document/10919211">Sensorimotor Regularities as Design Constraints for Superpower Interactions in MR</a>
-
 
 ## Novel Interaction Combining XR and IoT Devices
 ![alt text](assets/images/recruitment/out.png)
 
-I believe that the future of XR lies in its capability of augmenting and modifying the experience with the physical reality through AR/MR, instead of hiding it with immersive VR. However, because the development of XR has been mostly driven by VR, little effort was made to re-design the physical reality to make it work with XR. At the same time, previous work in HCI, including ubiquitous/pervasive computing, has provided great insights that set the stage for such a 
+I believe that the future of XR lies in its capability of augmenting and modifying the experience with the physical reality through AR/MR, instead of hiding it with immersive VR. However, because the development of XR has been mostly driven by VR, little consistent effort was made to re-design the physical reality to make it work with XR. At the same time, other previous works that are not typically as part of the XR field, such as UbiComp, Dynamicland, and Proxemic Interaction, have accumulated insights in how to embed interactive capabilities with computing in the domestic physical spaces. These insights set the stage for re-thinking the physical reality in the context of XR. 
 
-digital fabrication for tangible interface (Melbourne School of Health Sciences),  I have also been conducting research on XR-mediated human-robot interaction with Wafa Johal and colleagues from the HCI group at University of Melbourne, with an OzCHI publication [11] and a paper submitted to IEEE RAL [12].
+In this project, we will explore novel interaction affordances by combining the capabilities of the XR interface and opportunities in re-designing the physical reality. Through digital fabrication, XR-mediated human-robot interaction, 
 
 ### Reading Material
 
-- <a href="https://book.douban.com/subject/26077095/">论家用电器</a> / <a href="https://www.routledge.com/
-Domestic-Spaces-in-Post-Mao-China-On-Electronic-Household-Appliances/Minan/p/book/9780367886523">On Electronic Household Appliances</a> 
-- <a href="https://www.sciencedirect.com/science/article/pii/000437029400017U">The intelligent use of space</a>
 - <a href="https://dynamicland.org/">Dynamicland</a>
+- <a href="https://www.sciencedirect.com/science/article/pii/000437029400017U">The intelligent use of space</a>
 - <a href="https://www.lri.fr/~mbl/Stanford/CS477/papers/Weiser-SciAm.pdf">The Computer for the 21st Century</a>
 - <a href="https://dl.acm.org/doi/pdf/10.1145/1897239.1897250">Proxemic Interactions: The New Ubicomp?</a>
+- <a href="https://book.douban.com/subject/26077095/">论家用电器</a> / <a href="https://www.routledge.com/
+Domestic-Spaces-in-Post-Mao-China-On-Electronic-Household-Appliances/Minan/p/book/9780367886523">On Electronic Household Appliances</a> 
 - <a href="https://qiushi-zhou.github.io/PDF/HRI-2025-Assisting.pdf">Assisting MoCap-Based Teleoperation of Robot Arm using AR Visualisations</a>
 
 ## AI-assisted Interaction with XR Mirrors
