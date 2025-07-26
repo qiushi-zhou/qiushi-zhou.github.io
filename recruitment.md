@@ -30,7 +30,7 @@ For all positions, I am looking for self-motivated applicants with strong drive 
   <li>Interest in theoretical and conceptual thinking regarding interaction design and the use and development of computing technology</li>
 </ul>
 
-If you are interested, please reach out at qiushizhou [at] outlook.com and include:
+If you are interested, please reach out at qiushizhou [at] outlook.com with:
 
 - Your CV 
 - Your publications or latest thesis
@@ -50,11 +50,18 @@ If you are interested, please reach out at qiushizhou [at] outlook.com and inclu
 
 ## Input Techniques for Next-Gen XR Devices
 ![alt text](assets/images/recruitment/in.png)
-My current mentors, Assistant Professor Ken Pfeuffer and Professor Hans Gellersen, lead a world-leading research team on eye+hand interaction that had pioneered the Gaze+Pinch technique in 2017 [4] that was later adopted as the default technique for system navigation by Apple in their Vision Pro. The successful impact of their research was a result of prototyping-based innovation process led by Prof. Pfeuffer that has been passed down from his mentors who have made key contributions to the field, such as Ken Hinckley and Bill Buxton at Microsoft. I have been learning this approach by working closely with them through co-supervising PhD research projects on extensions and variations of the Gaze+Pinch technique. 
 
-Our prototyping-based innovation process relies on extensive knowledge around the topic, such as the nature of gaze fixations and saccades, patterns of eye-hand coordination, and the metaphors of input techniques that users are familiar with from using previous technologies, such as mouse and touchscreen. These processes usually start from collaborative brainstorming around a whiteboard, where we sketch the crucial components of the novel interaction techniques, such as the dynamic adjustment of the selection cursor that adapts to the parallax effect in placing the finger between the eyes and the remote target, the different stages of a tapping gesture that indicate progressive intention behind an aim-and-press process, and the specific thresholds in the distances and angles of the finger movement during tapping recognition.
+My latest postdoctoral research has been contributing to an <a href="https://medium.com/sigchi/announcing-the-2025-acm-sigchi-awards-17c1feaf865f">award-winning team</a> that pioneers foundational input methods and interaction guidelines for XR operating systems, including the latest Apple Vision Pro and Android XR. Our research output has been mostly on eye+hand interaction with on a prototyping-based interaction design and engineering process. These works rely on our knowledge around the nature of gaze fixations and saccades, patterns of eye-hand coordination, and the metaphors of input techniques that users are familiar with from using previous technologies, such as mouse and touchscreen. 
 
-We have also collaborated with Dr. Mar Gonzalez-Franco (research lead at Google on XR interaction) and researchers from KASIT on using Gaze+Pinch to select multiple objects in XR. We analysed existing multi-select metaphors in desktop and in multitouch interaction techniques, and derived novel techniques through iterative brainstorming, testing, and parameter-defining. Our work contributes towards enabling future XR operating systems based on Gaze+Pinch interaction techniques (under revision at CHI) [8]. 
+Learning from this experience, I am interested in designing the interaction techniques for future generations of XR devices. While we have seen the development in the capabilities of many novel input modalities inculding gaze, gestures, and even brain-computer interface, I believe that the "winning" technique that will be adopted in the future can only be discovered with the consideration of the past and current uses of input technology. In this project, we will collaboratively brainstorm, design, and develop novel input techniques for future XR devices 
+
+### Reading Material
+
+- <a href="https://kenhinckley.wordpress.com/wp-content/uploads/2024/07/input-technologies-and-techniques-hci-handbook-3rd-edition.pdf">Input Technologies and Techniques</a>
+- <a href="https://kenpfeuffer.com/eye-hand-symbiosis-what-guide/">Eye-Hand Symbiosis</a>
+- <a href="https://www.dgp.toronto.edu/OTP/papers/bill.buxton/3state.html">A Three-State Model of Graphical Input</a>
+- <a href="https://dl.acm.org/doi/pdf/10.1145/174630.174631">Integrality and Separability of Input Devices</a>
+
 
 By mastering the prototyping-based innovation process under the mentorship of Prof. Pfeuffer while furthering my knowledge of scientific evaluation of eye-based interaction techniques with Prof. Gellersen, I have developed solid skills that will help me discover and define intuitive XR interaction techniques that can yield immediate real-world impact and would inform the industry to benefit current and future users.  
 
