@@ -7,7 +7,16 @@ permalink: /publications/
      alt=""
      />
 
-**ISMAR 2025** <a href="#">PDF</a>
+**UIST 2025** <a href="https://qiushi-zhou.github.io/PDF/UIST-2025-SightWarp.pdf">PDF</a>
+## At A Glance To Your Fingertips: Enabling Direct Manipulation for Distant Objects Through Gaze-based Summoning
+
+_Yang Liu, Thorbjørn Mikkelsen, Zehai Liu, Gengchen Tian, Diako Mardanbegi, **Qiushi Zhou**, Hans Gellersen, Ken Pfeuffer_
+
+In 3D interfaces, people commonly manipulate objects over distance. This work introduces SightWarp an interaction technique that leverages eye-hand coordination to instantiate object proxies directly at the user’s fingertips.  After looking at a remote object, users either shift their gaze to the hand or move their hand into view—triggering the creation of a near-space proxy of the object and its surrounding context. The proxy remains active until the eye–hand pattern is released. The main benefit is that users always have an option to immediately operate on the object through a natural, direct hand gesture. Through a user study of a 3D object docking task, we show that users can easily perform proxy summoning, and that subsequent direct manipulation improves performance over standard Gaze+Pinch interaction. We demonstrate how \name complements Gaze+Pinch, enabling a seamless switch between direct and indirect modes at a distance. Application examples illustrate its utility for tasks like cross-space manipulation, overview and detail, and interacting with world-in-miniatures. Our work contributes to more expressive and flexible object interaction across near and far spaces.
+
+<div class="divider"></div>
+
+**ISMAR 2025** <a href="https://qiushi-zhou.github.io/PDF/ISMAR-2025-Manipulation.pdf">PDF</a>
 ## Mapping 6DOF Hand Movement to Concurrent 3DOF Controls of Translation and Rotation for Manipulation in Extended Reality
 
 _Thorbjørn Mikkelsen, **Qiushi Zhou**, Mathias Lystbæk, Yang Liu, Hans Gellersen, Ken Pfeuffer_
@@ -23,15 +32,6 @@ _Uta Wagner, Jinwook Kim, Zhikun Wu, **Qiushi Zhou**, Mario Romero, Alessandro I
 
 The pen as an Extended Reality input device supports a variety of spatial design and modelling activities.
 In this paper, we investigate how gaze-based interaction can benefit users' ability to manipulate shape points using a pen. By leveraging gaze, we can support the usual design activities with an option where objects can be selected and repositioned through eye movements, with the pen serving as a confirmation tool. This approach has the potential to reduce manual effort, while enhancing both efficiency and ergonomics in 3D shape editing. To evaluate its effectiveness, we compare four interaction techniques: two pen-based baselines (direct and ray-based) and two gaze-supported methods (gaze for selection and/or object dragging). In a user study, 16 participants carried out a shape point manipulation task, and their performance, effort, and user experience were measured. The results highlight the performance trade-offs of each technique—while the gaze-based dragging method introduced slightly more errors, it significantly reduced task time. Our findings offer valuable insights for integrating eye-tracking into 3D design workflows and contribute to the broader field of spatial interaction research.
-
-<div class="divider"></div>
-
-**UIST 2025** <a href="https://qiushi-zhou.github.io/PDF/UIST-2025-SightWarp.pdf">PDF</a>
-## At A Glance To Your Fingertips: Enabling Direct Manipulation for Distant Objects Through Gaze-based Summoning
-
-_Yang Liu, Thorbjørn Mikkelsen, Zehai Liu, Gengchen Tian, Diako Mardanbegi, **Qiushi Zhou**, Hans Gellersen, Ken Pfeuffer_
-
-In 3D interfaces, people commonly manipulate objects over distance. This work introduces SightWarp an interaction technique that leverages eye-hand coordination to instantiate object proxies directly at the user’s fingertips.  After looking at a remote object, users either shift their gaze to the hand or move their hand into view—triggering the creation of a near-space proxy of the object and its surrounding context. The proxy remains active until the eye–hand pattern is released. The main benefit is that users always have an option to immediately operate on the object through a natural, direct hand gesture. Through a user study of a 3D object docking task, we show that users can easily perform proxy summoning, and that subsequent direct manipulation improves performance over standard Gaze+Pinch interaction. We demonstrate how \name complements Gaze+Pinch, enabling a seamless switch between direct and indirect modes at a distance. Application examples illustrate its utility for tasks like cross-space manipulation, overview and detail, and interacting with world-in-miniatures. Our work contributes to more expressive and flexible object interaction across near and far spaces.
 
 <div class="divider"></div>
 
