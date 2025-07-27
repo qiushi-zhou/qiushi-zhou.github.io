@@ -32,6 +32,8 @@ If you are interested, please reach out at qiushizhou [at] outlook.com with:
 
 While the following topics show some of my immediate research interests, they can only work if they become tailored for the right candidate. We will discuss and determine together the detailed directions within a generic frame, according to your skills and experience. The topics are not mutually-exclusive, on the contrary, you are encouraged to demonstrate your interest and capability in working across these domains. Note that the reading material for each topic is not mandatory by any means, they are only indications of the types of work and sources of inspirations.
 
+![alt text](assets/images/recruitment/books.png)
+
 ## Interaction Techniques for Next-Gen XR Devices
 ![alt text](assets/images/recruitment/in.png)
 
@@ -41,6 +43,7 @@ Continuing this line of research, you will explore interaction techniques for fu
 
 ### Reading Material
 
+- <a href="https://www.oreilly.com/library/view/3d-user-interfaces/9780134034478/">3D User Interfaces</a>
 - <a href="https://kenpfeuffer.com/eye-hand-symbiosis-what-guide/">Eye-Hand Symbiosis</a>
 - <a href="https://kenhinckley.wordpress.com/wp-content/uploads/2024/07/input-technologies-and-techniques-hci-handbook-3rd-edition.pdf">Input Technologies and Techniques</a>
 - <a href="https://www.dgp.toronto.edu/OTP/papers/bill.buxton/3state.html">A Three-State Model of Graphical Input</a>
@@ -106,8 +109,7 @@ An example from my ongoing work in this direction is combining theoretical lense
 - <a href="https://mitpress.mit.edu/9780995455009/the-question-concerning-technology-in-china/">The Question Concerning Technology in China</a> / <a href="https://book.douban.com/subject/34954806/">论中国的技术问题
 </a>
 - <a href="https://book.douban.com/subject/26077095/">论家用电器</a> / <a href="https://www.routledge.com/Domestic-Spaces-in-Post-Mao-China-On-Electronic-Household-Appliances/Minan/p/book/9780367886523">On Electronic Household Appliances</a> 
-
-![alt text](assets/images/recruitment/books.png)
+<div class="divider"></div>
 
 # Supervision and Research Environment
 
