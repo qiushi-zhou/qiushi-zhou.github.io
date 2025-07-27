@@ -94,21 +94,17 @@ An example from my ongoing work in this direction is combining theoretical lense
 ### Reading Material
 
 - <a href="https://mitpress.mit.edu/9780262513319/acting-with-technology/">Acting with Technology: Activity Theory and Interaction Design</a>
-- <a href="https://tidsskrift.dk/daimipb/article/download/6666/5796/">Beyond the interface: Encountering artifacts in use</a>
 - <a href="https://www.upress.umn.edu/9781517904876/on-the-mode-of-existence-of-technical-objects/">On the Mode of Existence of Technical Objects</a>
 - <a href="https://www.upress.umn.edu/9781517914455/imagination-and-invention/">Imagination and Invention</a>
 - <a href="https://qiushi-zhou.github.io/PDF/CHI-2021-dance.pdf">Dance and Choreography in HCI: A Two-Decade Retrospective</a>
-- <a href="https://qiushi-zhou.github.io/PDF/CHI-2023-Dance.pdf">Here and Now: Creating Improvisational Dance Movements with an MR Mirror</a>
 - <a href="https://dl.acm.org/doi/10.1145/332040.332473">Instrumental interaction: an interaction model for post-WIMP interfaces</a>
 - <a href="https://direct.mit.edu/books/monograph/3875/Where-the-Action-IsThe-Foundations-of-Embodied">Where the Action Is: The Foundations of Embodied Interaction</a>
 - <a href="https://dl.acm.org/doi/full/10.1145/3468505">Generative Theories of Interaction</a>
 - <a href="https://press.uchicago.edu/ucp/books/book/chicago/M/bo3637992.html">Metaphors We Live By</a>
-- <a href="https://dl.acm.org/doi/pdf/10.1145/1744161.1744163">Natural user interfaces are not natural</a>
 - <a href="https://www.upress.umn.edu/9780816675777/summa-technologiae/">Summa Technologiae</a> / <a href="https://book.douban.com/subject/35660021/">技术大全</a>
 - <a href="https://mitpress.mit.edu/9780262693264/shaping-things/">Shaping Things</a>
 - <a href="https://mitpress.mit.edu/9780995455009/the-question-concerning-technology-in-china/">The Question Concerning Technology in China</a> / <a href="https://book.douban.com/subject/34954806/">论中国的技术问题
 </a>
-- <a href="https://book.douban.com/subject/26077095/">论家用电器</a> / <a href="https://www.routledge.com/Domestic-Spaces-in-Post-Mao-China-On-Electronic-Household-Appliances/Minan/p/book/9780367886523">On Electronic Household Appliances</a> 
 <div class="divider"></div>
 
 # Supervision and Research Environment
