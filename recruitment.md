@@ -3,11 +3,11 @@ layout: page
 title: Recruiting for PhD, MPhil, RA/Postdoc Positions in HCI & XR @ Information Hub, HKUST(GZ) 
 permalink: /recruitment/
 ---
-From October 2025, I will join <a href="https://www.hkust-gz.edu.cn/">HKUST(GZ)</a> as a Tenure-Track Assistant Professor affiliated with <a href="https://cma.hkust-gz.edu.cn/"> Thrust of Computational Media and Arts (CMA)</a> and <a href="https://iott.hkust-gz.edu.cn/"> Thrust of Internet of Things (IoT)</a> of the <a href="https://infh.hkust-gz.edu.cn/">Information Hub</a>. I have multiple open PhD positions along with Research Assistant and Postdoc opportunities for applicants at varying stages of study. I am also looking to advise MPhil research projects. Potential topics include:
+From October 2025, I will join <a href="https://www.hkust-gz.edu.cn/">HKUST(GZ)</a> as a Tenure-Track Assistant Professor affiliated with <a href="https://cma.hkust-gz.edu.cn/"> Thrust of Computational Media and Arts (CMA)</a> and <a href="https://iott.hkust-gz.edu.cn/"> Thrust of Internet of Things (IoT)</a> of the <a href="https://infh.hkust-gz.edu.cn/">Information Hub</a>. I have multiple open PhD positions along with Research Assistant and Postdoc opportunities for applicants at varying stages of study. I am also looking to advise group and individual MPhil research projects. Potential topics include:
 - Interaction Techniques for Next-Gen XR Devices
 - Novel Interaction Combining XR and IoT Devices
 - AI-assisted Interaction with XR Mirrors
-- Theoretical and Historical Reflections on Interaction Design Concepts and Principles
+- Theoretical and Historical Reflections on Interaction Design Concepts 
 
 # Requirements 
 
@@ -82,7 +82,7 @@ In this project, we will explore ways of integrating the AI capabilities, includ
 - <a href="https://www.biometricmirror.com/">Biometric Mirror</a>
 <div class="divider"></div>
 
-## Theoretical and Historical Reflections on Interaction Design Concepts and Principles
+## Theoretical and Historical Reflections on Interaction Design Concepts
 ![alt text](assets/images/recruitment/history.png)
 I believe that HCI research can benefit from theoretical thinking, including cultural, media, cognitive, and social theories, as well as philosophy of technology. One such example is the introduction of the cultural-historical activity theory into HCI that provided a new perspective of understanding and designing interactions that mediate human activities with computers. Embodied interaction (built on phenomenology) and instrumental interaction (built on cognitive theories of tool use) are also great examples where new theoretical perspectives were brought into HCI and had profound impact on the field afterwards. Whereas we can find this type of work more regularly in the past, they have become scarce in recent years due to the waves of craze over new technical hypes every two months, which I think is precisely the reason why we need more theoretical thinking that grounds our understandings of HCI phenomena in the broader context of its history of technology.
 
