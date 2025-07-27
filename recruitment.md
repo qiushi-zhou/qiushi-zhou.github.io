@@ -89,9 +89,9 @@ Domestic-Spaces-in-Post-Mao-China-On-Electronic-Household-Appliances/Minan/p/boo
 ## AI-assisted Interaction with Mirrors
 ![alt text](assets/images/recruitment/mirror.png)
 
-Easily found in most domestic and public spaces, mirrors are strange objects that afford a specific type of interaction, as the goal is typically seeing oneself. This specificity in the context of its use simplifies the task of recognsing user intention and action, and allows us to design richer interaction capabilities with mirrors. While the theme of my PhD research was designing novel interaction with mirrors in XR, I am interested in exploring opportunities of enriching the interaction with (XR) mirrors using AI. 
+Easily found in most domestic and public spaces, mirrors are strange objects that afford a specific type of interaction, as the goal is typically seeing oneself. This specificity in the context of its use simplifies the task of recognsing user intention and action, and allows us to design richer interaction capabilities with mirrors. While the theme of my PhD research was designing novel interaction with mirrors in XR, I am interested in exploring opportunities of enriching the interaction with mirrors using AI. 
 
-In this project, we will explore ways of integrating the capability of AI, including LLM and generative models, into the interactive experience with mirrors beyond the typical conversational-agent or heads-up-display approaches. Starting from a more substantial understanding of the relationship between the user and their reflected image in the mirror, we will identify opportunities to augment/modify this experience through visual medium, with XR headsets and/or smart mirrors. Together, we will design and build cool prototypes that can be used in research projects and art installations. 
+In this project, we will explore ways of integrating the AI capabilities, including LLM and generative models, into the interactive experience with mirrors beyond the typical conversational-agent or heads-up-display approaches. Starting from a more substantial understanding of the relationship between the user and their reflected image in the mirror, we will identify opportunities to augment/modify this experience through visual medium, with XR headsets and/or smart mirrors. Together, we will design and build cool prototypes that can be used in research and art projects. 
 
 ### Reading Material
 
@@ -103,35 +103,30 @@ In this project, we will explore ways of integrating the capability of AI, inclu
 
 ## Theoretical and Historical Reflections on Interaction Design Concepts and Principles
 ![alt text](assets/images/recruitment/history.png)
-I believe that HCI research can benefit from theoretical thinking of many types, including cultural, media, cognitive, and social theories, as well as philosophy of technology. One such example is the introduction of the cultural-historical activity theory into HCI that provided a new perspective of understanding and designing interactions that mediate human activities with computers. Embodied interaction (built on phenomenology) and instrumental interaction (built on cognitive theories on tool use) are also great examples where new theoretical perspectives were brought into HCI and had profound impact on the field afterwards. Whereas we can find this type of work more regularly in the past, they have become scarce in recent years due to the waves of new craze over technical hypes every two months, which I think is precisely the reason why we need more theoretical thinking that develops our understandings of HCI phenomena in the broader context of the history of technology.
+I believe that HCI research can benefit from theoretical thinking, including cultural, media, cognitive, and social theories, as well as philosophy of technology. One such example is the introduction of the cultural-historical activity theory into HCI that provided a new perspective of understanding and designing interactions that mediate human activities with computers. Embodied interaction (built on phenomenology) and instrumental interaction (built on cognitive theories on tool use) are also great examples where new theoretical perspectives were brought into HCI and had profound impact on the field afterwards. Whereas we can find this type of work more regularly in the past, they have become scarce in recent years due to the waves of new craze over technical hypes every two months, which I think is precisely the reason why we need more theoretical thinking that develops our understandings of HCI phenomena in the broader context of the history of technology.
 
-An example from my ongoing work in this direction is combining theoretical lenses of activity theory and Simondon's technical object to provide a new perspective to understand the nature of XR interaction by revisiting its history with a focus on its dialectical development as a mediator of human use of computing carried out through artifacts of different kinds. I would love to explore similar opportunities on related topics with people who are able to connect their interests in theoretical reading and thinking with HCI concepts and problems in profound ways.
+An example from my ongoing work in this direction is combining theoretical lenses of activity theory and Simondon's philosophy of technology to provide a new perspective to understand the nature of XR interaction by revisiting its history with a focus on its dialectical development as a mediator of human use of computing carried out through artifacts of different kinds. I would love to explore similar opportunities on related topics with people who are able to connect their interests in theoretical reading and thinking with HCI concepts and problems in profound ways. The form of work that instantiates these thinking can vary, including HCI research papers, prototype interactive experiences, and art projects.
 
 ### Reading Material
 
 - <a href="https://mitpress.mit.edu/9780262513319/acting-with-technology/">Acting with Technology: Activity Theory and Interaction Design</a>
 - <a href="https://tidsskrift.dk/daimipb/article/download/6666/5796/">Beyond the interface: Encountering artifacts in use</a>
+- <a href="https://www.upress.umn.edu/9781517904876/on-the-mode-of-existence-of-technical-objects/">On the Mode of Existence of Technical Objects</a>
+- <a href="https://www.upress.umn.edu/9781517914455/imagination-and-invention/">Imagination and Invention</a>
 - <a href="https://qiushi-zhou.github.io/PDF/CHI-2021-dance.pdf">Dance and Choreography in HCI: A Two-Decade Retrospective</a>
-- <a href="https://dl.acm.org/doi/10.1145/3025453.3025765">What Is Interaction?</a>
+- <a href="https://qiushi-zhou.github.io/PDF/CHI-2023-Dance.pdf">Here and Now: Creating Improvisational Dance Movements with an MR Mirror</a>
 - <a href="https://dl.acm.org/doi/10.1145/332040.332473">Instrumental interaction: an interaction model for post-WIMP interfaces</a>
-- <a href="https://www.lri.fr/~mbl/Stanford/CS477/papers/Weiser-SciAm.pdf">The Computer for the 21st Century</a>
 - <a href="https://direct.mit.edu/books/monograph/3875/Where-the-Action-IsThe-Foundations-of-Embodied">Where the Action Is: The Foundations of Embodied Interaction</a>
 - <a href="https://dl.acm.org/doi/full/10.1145/3468505">Generative Theories of Interaction</a>
 - <a href="https://press.uchicago.edu/ucp/books/book/chicago/M/bo3637992.html">Metaphors We Live By</a>
 - <a href="https://dl.acm.org/doi/pdf/10.1145/1744161.1744163">Natural user interfaces are not natural</a>
-<div class="divider"></div>
-
-## HCI in the Chinese Context - Cultural Studies, Media Theory, and Artistic Explorations
-![alt text](assets/images/recruitment/books.png)
-interdisciplinary research with dancers on using XR mirrors (Victorian College of the Arts), and to high-profile art projects (Science Gallery Melbourne and Melbourne Fringe Festival).
-
-- <a href="https://book.douban.com/subject/26077095/">论家用电器</a> / <a href="https://www.routledge.com/Domestic-Spaces-in-Post-Mao-China-On-Electronic-Household-Appliances/Minan/p/book/9780367886523">On Electronic Household Appliances</a> 
-- <a href="https://www.upress.umn.edu/9781517904876/on-the-mode-of-existence-of-technical-objects/">On the Mode of Existence of Technical Objects</a>
-- <a href="https://www.upress.umn.edu/9781517914455/imagination-and-invention/">Imagination and Invention</a>
-- <a href="https://mitpress.mit.edu/9780995455009/the-question-concerning-technology-in-china/">The Question Concerning Technology in China</a> / <a href="https://book.douban.com/subject/34954806/">论中国的技术问题
-</a>
-- <a href="https://mitpress.mit.edu/9780262513319/acting-with-technology/">Acting with Technology: Activity Theory and Interaction Design</a>
 - <a href="https://www.upress.umn.edu/9780816675777/summa-technologiae/">Summa Technologiae</a> / <a href="https://book.douban.com/subject/35660021/">技术大全</a>
 - <a href="https://mitpress.mit.edu/9780262693264/shaping-things/">Shaping Things</a>
-- <a href="https://qiushi-zhou.github.io/PDF/CHI-2023-Dance.pdf">Here and Now: Creating Improvisational Dance Movements with an MR Mirror</a>
-- <a href="https://qiushi-zhou.github.io/PDF/CHI-2021-dance.pdf">Dance and Choreography in HCI: A Two-Decade Retrospective</a>
+- <a href="https://mitpress.mit.edu/9780995455009/the-question-concerning-technology-in-china/">The Question Concerning Technology in China</a> / <a href="https://book.douban.com/subject/34954806/">论中国的技术问题
+</a>
+- <a href="https://book.douban.com/subject/26077095/">论家用电器</a> / <a href="https://www.routledge.com/Domestic-Spaces-in-Post-Mao-China-On-Electronic-Household-Appliances/Minan/p/book/9780367886523">On Electronic Household Appliances</a> 
+<div class="divider"></div>
+
+![alt text](assets/images/recruitment/books.png)
+
+
