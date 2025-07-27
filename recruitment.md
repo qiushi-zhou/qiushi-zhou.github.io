@@ -48,7 +48,7 @@ If you are interested, please reach out at qiushizhou [at] outlook.com with:
 
 # Research Topics
 
-While the following topics show some of my immediate research interests, they can only work if they become tailored for the right candidate. We will discuss and determine together the detailed directions within a generic frame, according to your skills and experience. The topics are not mutually-exclusive, on the contrary, I would love to work with people who are interested in and capable of working on something that touches on multiple. Please note that the reading material for each topic is not mandatory by any means, they are only indications of the types of work and sources of inspirations.
+While the following topics show some of my immediate research interests, they can only work if they become tailored for the right candidate. We will discuss and determine together the detailed directions within a generic frame, according to your skills and experience. The topics are not mutually-exclusive, on the contrary, I would love to work with people who are interested in and capable of working on something that touches on multiple. Note that the reading material for each topic is not mandatory by any means, they are only indications of the types of work and sources of inspirations.
 
 ## Interaction Techniques for Next-Gen XR Devices
 ![alt text](assets/images/recruitment/in.png)
