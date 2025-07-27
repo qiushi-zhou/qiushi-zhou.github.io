@@ -6,7 +6,6 @@ permalink: /recruitment/
 From October 2025, I will join <a href="https://www.hkust-gz.edu.cn/">HKUST(GZ)</a> as a Tenure-Track Assistant Professor affiliated with <a href="https://cma.hkust-gz.edu.cn/"> Thrust of Computational Media and Arts (CMA)</a> and <a href="https://iott.hkust-gz.edu.cn/"> Thrust of Internet of Things (IoT)</a> of the <a href="https://infh.hkust-gz.edu.cn/">Information Hub</a>. I have multiple open PhD positions along with Research Assistant and Postdoc opportunities for applicants at varying stages of study. I am also looking to advise MPhil research projects on topics related to the ones listed below. 
 
 For detailed information on entry requirements, admission timeline, studenship, tuition fee, and else, please refer to official resources <a href="https://fytgs.hkust-gz.edu.cn/admissions/before-submitting-an-application">HERE</a>.
-<div class="divider"></div>
 
 # Supervision and Research Environment
 
@@ -49,7 +48,7 @@ If you are interested, please reach out at qiushizhou [at] outlook.com with:
 
 # Research Topics
 
-While the following topics show some of my immediate research interests, they can only work if they become tailored for the right candidate. We will discuss and determine together the detailed directions within a generic frame, according to your skills and experience. I would also love to work with people who are interested in and capable of working on something that touches on multiple topics.
+While the following topics show some of my immediate research interests, they can only work if they become tailored for the right candidate. We will discuss and determine together the detailed directions within a generic frame, according to your skills and experience. The topics are not mutually-exclusive, on the contrary, I would love to work with people who are interested in and capable of working on something that touches on multiple topics.
 <div class="divider"></div>
 
 ## Interaction Techniques for Next-Gen XR Devices
@@ -90,9 +89,9 @@ Domestic-Spaces-in-Post-Mao-China-On-Electronic-Household-Appliances/Minan/p/boo
 ## AI-assisted Interaction with Mirrors
 ![alt text](assets/images/recruitment/mirror.png)
 
-Easily found in most domestic and public spaces, mirrors are strange objects that afford a specific type of interaction, as the goal is typically seeing oneself. This specificity in the context of its use simplifies the task of recognsing user intention and action, and allows us to design richer interaction capabilities with mirrors. While the theme of my PhD research was designing novel interaction with mirrors in XR, I am now interested in exploring opportunities of enriching the interaction with mirrors using AI. 
+Easily found in most domestic and public spaces, mirrors are strange objects that afford a specific type of interaction, as the goal is typically seeing oneself. This specificity in the context of its use simplifies the task of recognsing user intention and action, and allows us to design richer interaction capabilities with mirrors. While the theme of my PhD research was designing novel interaction with mirrors in XR, I am interested in exploring opportunities of enriching the interaction with (XR) mirrors using AI. 
 
-In this project, we will explore ways of integrating the capability of AI, including LLM and generative models, into the interactive experience with mirrors that are beyond the typical conversational-agent or heads-up-display ideas. Starting from a more substantial understanding of the relationship between the user and their reflected image in the mirror, we will identify opportunities to augment/modify this experience through visual medium, with XR headsets and/or smart mirrors. Together, we will design and build flashy prototypes that can be used in research projects and art installations. 
+In this project, we will explore ways of integrating the capability of AI, including LLM and generative models, into the interactive experience with mirrors beyond the typical conversational-agent or heads-up-display approaches. Starting from a more substantial understanding of the relationship between the user and their reflected image in the mirror, we will identify opportunities to augment/modify this experience through visual medium, with XR headsets and/or smart mirrors. Together, we will design and build cool prototypes that can be used in research projects and art installations. 
 
 ### Reading Material
 
@@ -104,7 +103,9 @@ In this project, we will explore ways of integrating the capability of AI, inclu
 
 ## Theoretical and Historical Reflections on Interaction Design Concepts and Principles
 ![alt text](assets/images/recruitment/history.png)
-Aarhus University, my current institution, holds an important position in the international HCI community with its rich history in activity theory (AT) research that contributes to one of the cornerstone theoretical foundations of HCI research. In recent decades, this research effort has been led by Prof. Susanne Bødker [9] who had published influential papers that shaped contemporary HCI research. Since my appointment as a postdoc, I have been working with Prof. Bødker on analysing the use of XR through the lens of AT. 
+I believe that HCI research can benefit from theoretical thinking of many types, including cultural, media, cognitive, and social theories, as well as philosophy of technology. One such example is the introduction of the cultural-historical activity theory into HCI that provided a new perspective of understanding and designing interactions that mediate human activities with computers. Embodied interaction (built on phenomenology) and instrumental interaction (built on cognitive theories on tool use) are also great examples where new theoretical perspectives were brought into HCI and had profound impact on the field afterwards. Whereas we can find this type of work more regularly in the past, they have become scarce in recent years due to the waves of new craze over technical hypes every two months, which I think is precisely the reason why we need more theoretical thinking that develops our understandings of HCI phenomena in the broader context of the history of technology.
+
+An example from my ongoing work in this direction is combining theoretical lenses of activity theory and Simondon's technical object to provide a new perspective to understand the nature of XR interaction by revisiting its history with a focus on its dialectical development as a mediator of human use of computing carried out through artifacts of different kinds. I would love to explore similar opportunities on related topics with people who are able to connect their interests in theoretical reading and thinking with HCI concepts and problems in profound ways.
 
 ### Reading Material
 
