@@ -12,12 +12,12 @@ For detailed information on entry requirements, admission timeline, studenship, 
 ![alt text](assets/images/recruitment/gemini.jpg)
 *Aarhus-Lancaster GEMINI team meetup on gaze-based XR interaction  (June 2025)*
 
-I am someone who have been very lucky to have received great mentorship from my PhD and Postdoc supervisors, and I am excited to pass it along to future generations of students who are driven by their curiosity to understand and make better interactive technologies. I had the pleasure of co-supervising many PhD and Master projects with academics in Europe and in Australia. As a supervisor, I take an adaptive approach to cater for each student's diverse backgrounds and skillsets, while fostering an environment that maximises their empowerment and growth. 
+I am very lucky to have received great mentorship from my PhD and Postdoc supervisors, and I am excited to pass it along to future generations of students who are driven by curiosity to understand and make better interactive technologies. I had the pleasure of co-supervising many PhD and Master projects with academics in Europe and in Australia. As a supervisor, I take an adaptive approach to cater for each student's diverse backgrounds and skillsets, while fostering an environment that maximises their empowerment and growth. 
 
 ![alt text](assets/images/recruitment/facility.png)
 *Campus and facilities of HKUST(GZ)*
 
-Hong Kong University of Science and Technology (HKUST) was ranked 44th by QS World University Rankings 2026, and 28th in Computer Science by Times Higher Education World University Rankings 2025. At Information Hub, you'll be in a vibrant PhD community, thriving on interdisciplinary collaboration and innovation. Our <a href="https://youtu.be/EbzmQCtSNFU?si=6yz_qI4kRpYR1bV5">state-of-the-art facilities</a> and supportive academic network provide an fantastic environment to pursue your research passions and make a meaningful impact in the field of HCI. 
+Hong Kong University of Science and Technology (HKUST) was ranked 44th by QS World University Rankings 2026, and 28th in Computer Science by Times Higher Education World University Rankings 2025. At Information Hub, you will be in a vibrant PhD community, thriving on interdisciplinary collaboration and innovation. Our <a href="https://youtu.be/EbzmQCtSNFU?si=6yz_qI4kRpYR1bV5">state-of-the-art facilities</a> and supportive academic network provide an fantastic environment to start your research career. 
 <div class="divider"></div>
 
 # Requirements 
@@ -48,8 +48,7 @@ If you are interested, please reach out at qiushizhou [at] outlook.com with:
 
 # Research Topics
 
-While the following topics show some of my immediate research interests, they can only work if they become tailored for the right candidate. We will discuss and determine together the detailed directions within a generic frame, according to your skills and experience. The topics are not mutually-exclusive, on the contrary, I would love to work with people who are interested in and capable of working on something that touches on multiple topics.
-<div class="divider"></div>
+While the following topics show some of my immediate research interests, they can only work if they become tailored for the right candidate. We will discuss and determine together the detailed directions within a generic frame, according to your skills and experience. The topics are not mutually-exclusive, on the contrary, I would love to work with people who are interested in and capable of working on something that touches on multiple.
 
 ## Interaction Techniques for Next-Gen XR Devices
 ![alt text](assets/images/recruitment/in.png)
@@ -71,9 +70,9 @@ Continuing this line of research, I will explore interaction techniques for futu
 ## Novel Interaction Combining XR and IoT Devices
 ![alt text](assets/images/recruitment/out.png)
 
-I believe that the future of XR lies in its capability of augmenting and modifying the experience with the physical reality instead of hiding it. However, because the development of XR has been mostly driven by VR, little consistent effort was made to re-design the physical reality to make it work with XR. At the same time, other previous works that are not typically as part of the XR field, such as UbiComp, Dynamicland, and Proxemic Interaction, have accumulated insights in how to embed interactive capabilities with computing in the domestic physical spaces. These insights set the stage for re-thinking the physical reality in the context of XR. 
+I believe that the future of XR lies in its capability of augmenting and modifying the experience with the physical reality instead of hiding it. However, because the development of XR has been mostly driven by VR, little consistent effort was made to re-design the physical reality to make it work with XR. At the same time, other previous works that are not typically considered as part of the XR field, such as UbiComp, Dynamicland, and Proxemic Interaction, have accumulated insights in how to embed interactive capabilities with computing in the domestic physical spaces. These insights set the stage for re-thinking the physical reality in the context of XR. 
 
-In this project, we will explore novel interaction affordances by combining the capabilities of the XR interface and the opportunities of re-designing the physical reality in an IoT context. Specifically, we can explore how the position and relative movement of the XR-wearing body and its immediate peripersonal space among the extrapersonal space that is computationally defined by "smart" objects equipped with sensors and actuators, together in the domestic space that is full of apparent and hidden significations, rules, functions, and habits. Through physical and robot programming, we can demonstrate novel interaction affordances and concepts of XR x IoT that contribute interaction design principles and frameworks in this direction. 
+In this project, we will explore novel interaction affordances by combining the capabilities of the XR interface and the opportunities of re-designing the physical reality in an IoT context. Specifically, we can explore novel uses of the position and movement of the XR-wearing body and its immediate peripersonal space among the extrapersonal space that is computationally defined by "smart" objects equipped with sensors and actuators, together in the domestic space that is full of apparent and hidden significations, rules, functions, and habits. Through physical and robot programming, we can demonstrate novel interaction affordances and concepts of XR x IoT that contribute interaction design principles and frameworks in this direction. 
 
 ### Reading Material
 
