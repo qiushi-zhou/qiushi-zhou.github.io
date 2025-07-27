@@ -124,7 +124,6 @@ An example from my ongoing work in this direction is combining theoretical lense
 - <a href="https://mitpress.mit.edu/9780995455009/the-question-concerning-technology-in-china/">The Question Concerning Technology in China</a> / <a href="https://book.douban.com/subject/34954806/">论中国的技术问题
 </a>
 - <a href="https://book.douban.com/subject/26077095/">论家用电器</a> / <a href="https://www.routledge.com/Domestic-Spaces-in-Post-Mao-China-On-Electronic-Household-Appliances/Minan/p/book/9780367886523">On Electronic Household Appliances</a> 
-<div class="divider"></div>
 
 ![alt text](assets/images/recruitment/books.png)
 
