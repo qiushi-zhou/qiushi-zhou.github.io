@@ -114,7 +114,7 @@ An example from my ongoing work in this direction is combining theoretical lense
 ![alt text](assets/images/recruitment/gemini.jpg)
 *Aarhus-Lancaster GEMINI team meetup on gaze-based XR interaction  (June 2025)*
 
-I am very lucky to have received great mentorship from my PhD and Postdoc supervisors, and I am excited to pass it along to future generations of students who are driven by curiosity to understand and make better interactive technologies. I had the pleasure of co-supervising many PhD and Master projects with academics in Europe and in Australia. As a supervisor, I take an adaptive approach to cater for each student's diverse backgrounds and skillsets, while fostering an environment that maximises their empowerment and growth. 
+I am very lucky to have received great mentorship from my PhD and Postdoc supervisors, and I am excited to pass it along to future generations of students who are driven by curiosity to understand and make better interactive technologies. I had the pleasure of co-supervising many PhD and Master projects with academics in Europe and in Australia. As a supervisor, I take an adaptive approach to cater for students' diverse backgrounds and skillsets, while fostering an environment that maximises empowerment and growth. 
 
 ![alt text](assets/images/recruitment/facility.png)
 *Campus and facilities of HKUST(GZ)*
