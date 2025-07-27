@@ -1,30 +1,19 @@
 ---
 layout: page
-title: Recruiting for Postgraduate Positions @ Information Hub, HKUST(GZ) 
+title: Recruiting for PhD, MPhil, RA/Postdoc Positions in HCI & XR @ Information Hub, HKUST(GZ) 
 permalink: /recruitment/
 ---
-From October 2025, I will join <a href="https://www.hkust-gz.edu.cn/">HKUST(GZ)</a> as a Tenure-Track Assistant Professor affiliated with <a href="https://cma.hkust-gz.edu.cn/"> Thrust of Computational Media and Arts (CMA)</a> and <a href="https://iott.hkust-gz.edu.cn/"> Thrust of Internet of Things (IoT)</a> of the <a href="https://infh.hkust-gz.edu.cn/">Information Hub</a>. I have multiple open PhD positions along with Research Assistant and Postdoc opportunities for applicants at varying stages of study. I am also looking to advise MPhil research projects on topics related to the ones listed below. 
-
-For detailed information on entry requirements, admission timeline, studenship, tuition fee, and else, please refer to official resources <a href="https://fytgs.hkust-gz.edu.cn/admissions/before-submitting-an-application">HERE</a>.
-
-# Supervision and Research Environment
-
-![alt text](assets/images/recruitment/gemini.jpg)
-*Aarhus-Lancaster GEMINI team meetup on gaze-based XR interaction  (June 2025)*
-
-I am very lucky to have received great mentorship from my PhD and Postdoc supervisors, and I am excited to pass it along to future generations of students who are driven by curiosity to understand and make better interactive technologies. I had the pleasure of co-supervising many PhD and Master projects with academics in Europe and in Australia. As a supervisor, I take an adaptive approach to cater for each student's diverse backgrounds and skillsets, while fostering an environment that maximises their empowerment and growth. 
-
-![alt text](assets/images/recruitment/facility.png)
-*Campus and facilities of HKUST(GZ)*
-
-Hong Kong University of Science and Technology (HKUST) was ranked 44th by QS World University Rankings 2026, and 28th in Computer Science by Times Higher Education World University Rankings 2025. At Information Hub, you will be in a vibrant PhD community, thriving on interdisciplinary collaboration and innovation. Our <a href="https://youtu.be/EbzmQCtSNFU?si=6yz_qI4kRpYR1bV5">state-of-the-art facilities</a> and supportive academic network provide an fantastic environment to start your research career. 
-<div class="divider"></div>
+From October 2025, I will join <a href="https://www.hkust-gz.edu.cn/">HKUST(GZ)</a> as a Tenure-Track Assistant Professor affiliated with <a href="https://cma.hkust-gz.edu.cn/"> Thrust of Computational Media and Arts (CMA)</a> and <a href="https://iott.hkust-gz.edu.cn/"> Thrust of Internet of Things (IoT)</a> of the <a href="https://infh.hkust-gz.edu.cn/">Information Hub</a>. I have multiple open PhD positions along with Research Assistant and Postdoc opportunities for applicants at varying stages of study. I am also looking to advise MPhil research projects. Potential topics include:
+- Interaction Techniques for Next-Gen XR Devices
+- Novel Interaction Combining XR and IoT Devices
+- AI-assisted Interaction with XR Mirrors
+- Theoretical and Historical Reflections on Interaction Design Concepts and Principles
 
 # Requirements 
 
 For all positions, I am looking for self-motivated applicants with strong drive for excellence. Some combinations of the following traits are desired:
 <ul>
-  <li>Any educational background that makes you confident for the position</li>
+  <li>An educational background that makes you confident for the position</li>
   <li>Strong technical skills, including but not limited to XR Development in Unity, Motion Capture, Computer Vision, Arduino, and Digital Fabrication</li>
   <li>Basic understanding of the current research/industry landscape of HCI/XR</li>
   <li>Good command of English for academic writing and communication</li>
@@ -39,18 +28,11 @@ If you are interested, please reach out at qiushizhou [at] outlook.com with:
 - A short description of how your skillset/experience matches my interests
 - A short description of your proposed research topic(s)
 
-### Additional Information
-
-- <a href="https://fytgs.hkust-gz.edu.cn/programs/computational-media-and-arts-5">Postgraduate Programs @ CMA</a>
-- <a href="https://fytgs.hkust-gz.edu.cn/programs/internet-of-things-5">Postgraduate Programs @ IoT</a>
-- <a href="https://scholar.google.com.au/citations?user=a-FggqcAAAAJ&hl=en">My Google Scholar Profile</a>
-<div class="divider"></div>
-
 # Research Topics
 
 While the following topics show some of my immediate research interests, they can only work if they become tailored for the right candidate. We will discuss and determine together the detailed directions within a generic frame, according to your skills and experience. The topics are not mutually-exclusive, on the contrary, I would love to work with people who are interested in and capable of working on something that touches on multiple. Note that the reading material for each topic is not mandatory by any means, they are only indications of the types of work and sources of inspirations.
 
-## Interaction Techniques for Next-Gen XR Devices
+## c
 ![alt text](assets/images/recruitment/in.png)
 
 My latest postdoctoral research has contributed to <a href="https://medium.com/sigchi/announcing-the-2025-acm-sigchi-awards-17c1feaf865f">an award-winning team</a> that pioneers foundational input methods and interaction guidelines for XR operating systems, including the latest Apple Vision Pro and Android XR. Our research output has been mostly on eye+hand interaction with a prototyping-based interaction design and engineering process. These works rely on our knowledge around the nature of gaze fixations and saccades, patterns of eye-hand coordination, and the metaphors of input that users are familiar with from using previous technologies, such as mouse and touchscreen. 
@@ -127,4 +109,22 @@ An example from my ongoing work in this direction is combining theoretical lense
 
 ![alt text](assets/images/recruitment/books.png)
 
+# Supervision and Research Environment
 
+![alt text](assets/images/recruitment/gemini.jpg)
+*Aarhus-Lancaster GEMINI team meetup on gaze-based XR interaction  (June 2025)*
+
+I am very lucky to have received great mentorship from my PhD and Postdoc supervisors, and I am excited to pass it along to future generations of students who are driven by curiosity to understand and make better interactive technologies. I had the pleasure of co-supervising many PhD and Master projects with academics in Europe and in Australia. As a supervisor, I take an adaptive approach to cater for each student's diverse backgrounds and skillsets, while fostering an environment that maximises their empowerment and growth. 
+
+![alt text](assets/images/recruitment/facility.png)
+*Campus and facilities of HKUST(GZ)*
+
+Hong Kong University of Science and Technology (HKUST) was ranked 44th by QS World University Rankings 2026, and 28th in Computer Science by Times Higher Education World University Rankings 2025. At Information Hub, you will be in a vibrant PhD community, thriving on interdisciplinary collaboration and innovation. Our <a href="https://youtu.be/EbzmQCtSNFU?si=6yz_qI4kRpYR1bV5">state-of-the-art facilities</a> and supportive academic network provide an fantastic environment to start your research career. 
+
+### Additional Information
+
+- <a href="https://fytgs.hkust-gz.edu.cn/programs/computational-media-and-arts-5">Postgraduate Programs @ CMA</a>
+- <a href="https://fytgs.hkust-gz.edu.cn/programs/internet-of-things-5">Postgraduate Programs @ IoT</a>
+
+For detailed information on entry requirements, admission timeline, studenship, tuition fee, and else, please refer to official resources <a href="https://fytgs.hkust-gz.edu.cn/admissions/before-submitting-an-application">HERE</a>.
+<div class="divider"></div>
