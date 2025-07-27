@@ -85,7 +85,7 @@ Domestic-Spaces-in-Post-Mao-China-On-Electronic-Household-Appliances/Minan/p/boo
 - <a href="https://qiushi-zhou.github.io/PDF/HRI-2025-Assisting.pdf">Assisting MoCap-Based Teleoperation of Robot Arm using AR Visualisations</a>
 <div class="divider"></div>
 
-## AI-assisted Interaction with Mirrors
+## AI-assisted Interaction with XR Mirrors
 ![alt text](assets/images/recruitment/mirror.png)
 
 Easily found in most domestic and public spaces, mirrors are strange objects that afford a specific type of interaction, as the goal is typically seeing oneself. This specificity in the context of its use simplifies the task of recognsing user intention and action, and allows us to design richer interaction capabilities with mirrors. While the theme of my PhD research was designing novel interaction with mirrors in XR, I am interested in exploring opportunities of enriching the interaction with mirrors using AI. 
