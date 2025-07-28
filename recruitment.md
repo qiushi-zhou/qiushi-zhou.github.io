@@ -117,7 +117,7 @@ I am very lucky to have received great mentorship from my PhD and Postdoc superv
 ![alt text](assets/images/recruitment/facility.png)
 *Campus and facilities of HKUST(GZ)*
 
-Hong Kong University of Science and Technology (HKUST) was ranked 44th by QS World University Rankings 2026, and 28th in Computer Science by Times Higher Education World University Rankings 2025. At Information Hub, you will be in a vibrant PhD community, thriving on interdisciplinary collaboration and innovation. Our <a href="https://youtu.be/EbzmQCtSNFU?si=6yz_qI4kRpYR1bV5">state-of-the-art facilities</a> and supportive academic network provide an fantastic environment to start your research career. 
+Hong Kong University of Science and Technology (HKUST) was ranked 44th by QS World University Rankings 2026, and 28th in Computer Science by Times Higher Education World University Rankings 2025. At Information Hub, you will be in a vibrant PhD community, thriving on interdisciplinary collaboration and innovation. Our <a href="https://youtu.be/EbzmQCtSNFU?si=6yz_qI4kRpYR1bV5">state-of-the-art facilities</a> and supportive academic network provide a fantastic environment to start your research career. 
 
 ### Additional Information
 
