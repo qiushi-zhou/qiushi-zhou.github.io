@@ -20,7 +20,7 @@ For all positions, I am looking for self-motivated applicants with strong drive 
   <li>Interest in theoretical and conceptual thinking regarding interaction design and the use and development of computing technology</li>
 </ul>
 
-If you are interested, please reach out at qiushizhou [at] outlook.com with:
+If you are interested, please reach out at <mark> qiushizhou [at] outlook.com </mark> with:
 
 - Your CV 
 - Your publications or latest thesis
