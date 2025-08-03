@@ -17,7 +17,7 @@ In 3D interfaces, people commonly manipulate objects over distance. This work in
 <div class="divider"></div>
 
 **ISMAR 2025** <a href="https://qiushi-zhou.github.io/PDF/ISMAR-2025-Manipulation.pdf">PDF</a>
-## Mapping 6DOF Hand Movement to Concurrent 3DOF Controls of Translation and Rotation for Manipulation in Extended Reality
+## DOF-Separation for 3D Manipulation in XR: Understanding Finger-Wrist Separation to Simultaneously Translate and Rotate Objects
 
 _Thorbjørn Mikkelsen, **Qiushi Zhou**, Mathias Lystbæk, Yang Liu, Hans Gellersen, Ken Pfeuffer_
 
