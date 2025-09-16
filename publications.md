@@ -25,7 +25,7 @@ Popular hand-based 3D input techniques in Extended Reality (XR) typically employ
 
 <div class="divider"></div>
 
-**ISMAR 2025** <a href="#">PDF</a>
+**ISMAR 2025** <a href="https://qiushi-zhou.github.io/PDF/ISMAR-2025-Pen,pdf">PDF</a>
 ## Multimodal Pen and Gaze Interaction Techniques for Shape Point Manipulation
 
 _Uta Wagner, Jinwook Kim, Zhikun Wu, **Qiushi Zhou**, Mario Romero, Alessandro Iop, Tiare Feuchtner, Ken Pfeuffer_
