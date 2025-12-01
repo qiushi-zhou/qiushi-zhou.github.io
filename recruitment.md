@@ -3,7 +3,7 @@ layout: page
 title: Recruiting for PhD, MPhil, RA/Postdoc Positions in HCI & XR @ Information Hub, HKUST(GZ) 
 permalink: /recruitment/
 ---
-From October 2025, I will join <a href="https://www.hkust-gz.edu.cn/">HKUST(GZ)</a> as a Tenure-Track Assistant Professor affiliated with <a href="https://cma.hkust-gz.edu.cn/"> Thrust of Computational Media and Arts (CMA)</a> and <a href="https://iott.hkust-gz.edu.cn/"> Thrust of Internet of Things (IoT)</a> of the <a href="https://infh.hkust-gz.edu.cn/">Information Hub</a>. I have multiple open PhD positions along with Research Assistant and Postdoc opportunities for applicants at varying stages of study. I am also looking to advise group and individual MPhil research projects. Potential topics include:
+Since November 2025, I have joined <a href="https://www.hkust-gz.edu.cn/">HKUST(GZ)</a> as a Tenure-Track Assistant Professor affiliated with <a href="https://cma.hkust-gz.edu.cn/"> Thrust of Computational Media and Arts (CMA)</a> and <a href="https://iott.hkust-gz.edu.cn/"> Thrust of Internet of Things (IoT)</a> of the <a href="https://infh.hkust-gz.edu.cn/">Information Hub</a>. I have multiple open PhD positions along with Research Assistant and Postdoc opportunities for applicants at varying stages of study. I am also looking to advise group and individual MPhil research projects. Potential topics include:
 - Interaction Techniques for Next-Gen XR Devices
 - Novel Interaction Combining XR and IoT Devices
 - AI-assisted Interaction with XR Mirrors
