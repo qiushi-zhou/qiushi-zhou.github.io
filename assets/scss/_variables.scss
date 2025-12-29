@@ -1,6 +1,6 @@
-// Typography - Retro Minimal Style
-@import url('https://fonts.googleapis.com/css?family=JetBrains+Mono:400,600,700');
-$base-font-family: 'JetBrains Mono', 'Courier New', monospace;
+// Typography - Retro CRT Terminal Style
+@import url('https://fonts.googleapis.com/css?family=Courier+Prime:400,700');
+$base-font-family: 'Courier Prime', 'Courier New', monospace;
 $heading-font-family: $base-font-family;
 
 // Font Sizes
@@ -11,20 +11,20 @@ $base-line-height: 1.8;
 $heading-line-height: 1.2;
 
 // Other Sizes
-$base-border-radius: 2px;
+$base-border-radius: 0;
 $base-spacing: $base-line-height * 1.5em;
 $small-spacing: $base-spacing / 2;
 $base-z-index: 0;
 
-// Colors - Tech Palette
-$primary-color: #00d9ff;
-$action-color: #ff006e;
-$white-color: #0f0f1a;
-$black-color: #ffffff;
-$blue-color: #00d9ff;
-$dark-gray-color: #1a1a2e;
-$medium-gray-color: #16213e;
-$light-gray-color: #0d1b2a;
+// Colors - Retro CRT Green Palette
+$primary-color: #00ff00;
+$action-color: #00cc00;
+$white-color: #001100;
+$black-color: #00ff00;
+$blue-color: #00ff00;
+$dark-gray-color: #003300;
+$medium-gray-color: #005500;
+$light-gray-color: #007700;
 
 // Font Colors
 $base-font-color: $black-color;
