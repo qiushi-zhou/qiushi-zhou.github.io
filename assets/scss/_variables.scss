@@ -1,41 +1,41 @@
-// Typography
-@import url('https://fonts.googleapis.com/css?family=Overpass+Mono:400,700');
-$base-font-family: 'Overpass Mono', monospace;
+// Typography - 8-bit Retro Style
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
+$base-font-family: 'Press Start 2P', 'Courier New', monospace;
 $heading-font-family: $base-font-family;
 
 // Font Sizes
-$base-font-size: 1em;
+$base-font-size: 0.75em;
 
 // Line height
-$base-line-height: 1.5;
-$heading-line-height: 1.2;
+$base-line-height: 2;
+$heading-line-height: 1.4;
 
 // Other Sizes
-$base-border-radius: .52em;
+$base-border-radius: 0;
 $base-spacing: $base-line-height * 1em;
 $small-spacing: $base-spacing / 2;
 $base-z-index: 0;
 
-// Colors
-$primary-color: #000;
-$action-color: $primary-color;
-$white-color: #fff;
-$black-color: #000;
-$blue-color: #0086B3;
-$dark-gray-color: #333;
-$medium-gray-color: #999;
-$light-gray-color: #ccc;
+// Colors - 8-bit Retro Palette
+$primary-color: #FF006E;
+$action-color: #00D9FF;
+$white-color: #F0F0F0;
+$black-color: #0a0e27;
+$blue-color: #00D9FF;
+$dark-gray-color: #1f1f1f;
+$medium-gray-color: #FFB703;
+$light-gray-color: #FB5607;
 
 // Font Colors
-$base-font-color: rgba($dark-gray-color, .8);
+$base-font-color: $black-color;
 
 // Border
-$base-border-color: $light-gray-color;
-$base-border: 1px solid $base-border-color;
+$base-border-color: $black-color;
+$base-border: 4px solid $base-border-color;
 
 // Background Colors
-$base-background-color: $white-color;
-$secondary-background-color: tint($base-border-color, 80%);
+$base-background-color: #FFE66D;
+$secondary-background-color: #8338EC;
 
 // Forms
 $form-box-shadow: inset 0 1px 3px rgba($black-color, 0.06);

@@ -1,8 +1,9 @@
 fieldset {
-  background-color: $secondary-background-color;
-  border: $base-border;
+  background-color: lighten($secondary-background-color, 20%);
+  border: 3px solid $black-color;
   margin: 0 0 $small-spacing;
   padding: $base-spacing;
+  box-shadow: 4px 4px 0 $black-color;
 }
 
 input,
@@ -14,8 +15,9 @@ select {
 }
 
 label {
-  font-weight: 600;
+  font-weight: 700;
   margin-bottom: $small-spacing / 2;
+  color: $black-color;
 
   &.required::after {
     content: "*";
@@ -27,34 +29,37 @@ label {
 }
 
 #{$all-text-inputs},
-select[multiple=multiple] {
-  background-color: $base-background-color;
-  border: $base-border;
+select[multiple=multiwhite-color;
+  border: 3px solid $black-color;
   border-radius: $base-border-radius;
-  box-shadow: $form-box-shadow;
+  box-shadow: 4px 4px 0 rgba($black-color, 0.2);
   box-sizing: border-box;
   font-family: $base-font-family;
-  font-size: $base-font-size;
+  font-size: 12px;
   margin-bottom: $small-spacing;
-  padding: $base-spacing / 3;
-  transition: border-color $base-duration $base-timing;
+  padding: $base-spacing / 2;
+  transition: all 100ms linear;
   width: 100%;
+  font-weight: 700;
 
   &:hover {
-    border-color: shade($base-border-color, 20%);
+    border-color: $action-color;
+    box-shadow: 4px 4px 0 $action-color;
   }
 
   &:focus {
-    border-color: $action-color;
-    box-shadow: $form-box-shadow-focus;
+    border-color: $primary-color;
+    box-shadow: 4px 4px 0 $primary-color;
     outline: none;
   }
 
   &:disabled {
-    background-color: shade($base-background-color, 5%);
+    background-color: #ccc;
     cursor: not-allowed;
 
     &:hover {
+      border: 3px solid $black-color;
+      box-shadow: 4px 4px 0 rgba($black-color, 0.2)
       border: $base-border;
     }
   }

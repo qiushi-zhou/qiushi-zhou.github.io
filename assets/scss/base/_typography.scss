@@ -17,6 +17,8 @@ h6 {
   line-height: $heading-line-height;
   margin: $small-spacing 0 $small-spacing 0;
   font-weight: 700;
+  color: $primary-color;
+  text-shadow: 3px 3px 0 $black-color;
 }
 
 h1 {
@@ -76,23 +78,28 @@ picture {
 }
 
 blockquote {
-  padding: $base-spacing 0 $base-spacing $base-spacing;
+  padding: $base-spacing;
   margin: $base-spacing 0;
-  color: $dark-gray-color;
+  color: $black-color;
   line-height: 1.8;
-  border-left: $small-spacing solid $light-gray-color;
-  background-color: lighten($light-gray-color, 15%);
+  border-left: 6px solid $primary-color;
+  background-color: lighten($secondary-background-color, 20%);
+  border: 3px solid $black-color;
+  box-shadow: 4px 4px 0 $black-color;
+  font-weight: 700;
   p {
     margin: 0;
   }
 }
 
-code {
-  background: none;
-  border-radius: 0;
-  border: none;
-  font-family: "SFMono-Regular",Menlo,Consolas,"Inconsolata",monospace;
+code {2px solid $black-color;
+  font-family: "SFMono-Regular",Menlo,Consolas,"Courier New",monospace;
   font-size: 1em;
+  margin: 0;
+  padding: 2px 5px;
+  background-color: $light-gray-color;
+  color: $black-color;
+  font-weight: 700
   margin: 0;
   padding: 0 5px;
   background-color: lighten($light-gray-color, 13%);

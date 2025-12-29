@@ -29,9 +29,11 @@ body {
 
 body {
   background-color: $base-background-color;
+  border: 8px solid $black-color;
+  box-shadow: inset 0 0 0 4px #FFE66D, inset 0 0 0 8px $black-color;
 }
 
-hr {
+hr {4px dashed $primary-color
   border-top: none;
   border-bottom: 2px solid lighten($light-gray-color, 7%);
   width: 100%;
@@ -43,7 +45,11 @@ hr {
   margin-left: auto;
   margin-right: auto;
   max-width: 800px;
-  font-weight: normal;
+  font-weight: bold;
+  border: 4px solid $black-color;
+  background-color: $white-color;
+  margin-bottom: 1em;
+  box-shadow: 8px 8px 0 rgba($black-color, 0.3);
 }
 
 .pull-left {
@@ -51,20 +57,25 @@ hr {
 }
 
 .pull-right {
-  float: right;
-}
-
-.link {
-  color: $blue-color;
+  float: raction-color;
   padding-bottom: .05em;
-  border-bottom: 2px solid transparent;
+  border-bottom: 3px solid transparent;
+  text-decoration: none;
+  font-weight: bold;
 
-  @include transition(border 300ms linear);
+  @include transition(all 100ms linear);
 
   &:hover,
   &:focus,
   &:active {
-    border-bottom: 2px solid $blue-color;
+    border-bottom: 3px solid $action-color;
+    text-shadow: 3px 3px 0 $primary
+  &:hover,
+  &:focus,6px solid $black-color;
+  margin-bottom: $small-spacing;
+  min-height: 80px;
+  background-color: $primary-color;
+  box-shadow: 0 6px 0 $black-color 2px solid $blue-color;
   }
 }
 
@@ -77,8 +88,11 @@ hr {
 .intro {
   .author-name {
     display: inline-block;
-    padding: 0 .2em;
-    background: lighten($light-gray-color, 15%)
+    padding: 0.3em 0.5em;
+    background: $action-color;
+    color: $black-color;
+    border: 2px solid $black-color;
+    font-weight: 700;
   }
 
   a {
@@ -86,18 +100,23 @@ hr {
   }
 
   .container {
-    padding-bottom: 0;
+    padding-bottom: 1em;
   }
 }
 
 .logo {
-  float: left;
-  margin: 0 0 1em 0;
-  cursor: pointer;
-  letter-spacing: 0.8px;
-  font-size: 20px;
+  float: left;2px;
+  font-size: 14px;
   line-height: 28px;
-  font-weight: 300;
+  font-weight: 700;
+  color: $white-color;
+  text-shadow: 3px 3px 0 $black-color;
+
+  span {
+    font-weight: 700;
+    background-color: $action-color;
+    color: $black-color;
+    padding: 0 0.5em
 
   span {
     font-weight: 700;
@@ -113,31 +132,62 @@ hr {
   margin: 0;
   position: relative;
   padding: 0;
-  pointer-events: all;
-  cursor: pointer;
-
-  li {
-    display: inline-block;
-    padding: 0 .6em;
+  pointer-even.3em 0.5em;
+    border: 2px solid $white-color;
+    background-color: $action-color;
+    margin: 0 4px;
+    box-shadow: 4px 4px 0 rgba($black-color, 0.5);
+    font-weight: 700;
   }
 
   a {
-    @extend .link;
-  }
-}
-
-.category-title {
-  margin: 1em 0 0.5em 0;
-
-  &:first-child {
-    margin-top: 0;
-  }
-}
-
-.post-item {
-  margin-bottom: 0.2em;
+    color: $black-color;
+  background-color: $primary-color;
+  color: $white-color;
+  padding: 0.5em;
+  border: 4px solid $black-color;
+  text-transform: uppercase;
+  font-size: 12px;
+  text-shadow: 3px 3px 0 rgba($black-color, 0.5);
+  font-weight: 701em;
   display: block;
+  border: 3px solid $black-color;
+  padding: 0.5em;
+  background-color: lighten($secondary-background-color, 20%);
+  box-shadow: 4px 4px 0 $black-color;
 
+  a {
+    color: $action-color;
+    font-weight: 700;
+  }
+
+  .article-title {
+    display: inline-block;
+    width: 75%;
+  }
+
+  .date-label {
+    padding: 0.2em 0.5em;
+    margin-left: 1em;
+    margin-top: 2px;
+    background-color: $medium-gray-color;
+    color: $black-color;
+    font-weight: 700;
+    borderblack-color;
+  text-transform: uppercase;
+  display: inline-block;
+  letter-spacing: 2px;
+  font-size: 10px;
+  margin-bottom: 1px;
+  background-color: $medium-gray-color;
+  padding: 0.3em 0.5em;
+  border: 2px solid $black-color;
+  font-weight: 700em;
+  display: block;
+primary-color;
+  font-size: 18px;
+  text-shadow: 3px 3px 0 $black-color;
+  font-weight: 700
   a {
     color: $action-color;
   }
@@ -189,42 +239,64 @@ hr {
   }
 
   a, span {
-    font-size: rem(12);
-    padding: .5em;
+    font-size: 10px;
+    padding: 0.3em 0.5em;
+    margin: 2px;
+    border: 2px solid $black-color;
+    background-color: $action-color;
+    font-weight: 700;
   }
 
   .prev, .next {
-    @extend .link;
-  }
-}
-
-.share {
-  border-top: 0.2em dashed lighten($light-gray-color, 13%);
-  padding-top: $base-spacing;
+    color: $black-color;
+  }4px dashed $primary-color;
+  padding: $base-spacing;
   margin-top: $base-spacing * 2;
+  background-color: lighten($secondary-background-color, 15%);
+  border: 3px solid $black-color;
+  box-shadow: 4px 4px 0 $black-color;
 
+  p {
+    margin: 0;
+    font-size: 10px;
+    color: $black-color;
+    font-weight: 700
   p {
     margin: 0 5em;
     font-size: rem(14);
     color: $medium-gray-color;
-  }
-}
+  }secondary-background-color, 20%);
+  padding: $base-spacing;
+  border: 3px solid $black-color;
+  box-shadow: 4px 4px 0 $black-color;
+  margin: 1em
 
 .disqus {
   background-color: lighten($light-gray-color, 16%);
   padding: $base-spacing 0;
 
   hr {
-    margin: $base-spacing 0;
-  }
-}
-
-.site-footer {
-  @extend .clearfix;
-
-  padding: $base-spacing 0;
+    margin: $base-spacin;
+  background-color: $black-color;
+  border-top: 6px solid $primary-color;
+  color: $white-color;
 
   a {
+    color: $action-color;
+    font-weight: 700;
+
+    &:hover,
+    &:focus,
+    &:active {
+      text-shadow: 2px 2px 0 $primary-color;
+    }
+  }
+
+  small {
+    display: block;
+    font-size: 10px;
+    color: $medium-gray-color;
+    margin-top: 0.5em
     @extend .link;
   }
 
@@ -240,7 +312,7 @@ hr {
 }
 
 .video-container {
-	position:relative;
+	position:rela4px dashed $primary-color
 	padding-bottom:56.25%;
 	padding-top:30px;
 	height:0;
@@ -249,28 +321,29 @@ hr {
   iframe,
   object,
   embed {
-    position:absolute;
-  	top:0;
-  	left:0;
-  	width:100%;
-  	height:100%;
-  }
-}
-
-.divider {
-  border-top: 0.2em solid lighten($light-gray-color, 13%);
-  margin-bottom: $base-spacing * 2;
-  margin-top: $base-spacing * 2;
-}
-
-// This applies from 0px to 600px
-@media (max-width: 600px) {
-  .date-label {
-    float: left !important;
-    border: 0 !important;
-    margin-left: -2px !important;
+    position2px solid $black-color !important;
+    margin-left: 0 !important;
     margin-top: 2px;
     margin-right: 1em;
+  }
+
+  .post-item {
+    border: 3px solid $black-color;
+    padding: 0.5em;
+    background: lighten($secondary-background-color, 20%);
+    box-shadow: 4px 4px 0 $black-color;
+  }
+
+  .article-title {
+    border-bottom: none !important;
+  }
+
+  .post-link {
+    &:hover,
+    &:focus,
+    &:active {
+      border-bottom: 3px solid $action-color;
+      color: $action1em;
   }
 
   .post-item {
