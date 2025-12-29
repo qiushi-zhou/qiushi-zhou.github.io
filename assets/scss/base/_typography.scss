@@ -92,17 +92,15 @@ blockquote {
   }
 }
 
-code {2px solid $black-color;
+code {
+  border: 2px solid $black-color;
   font-family: "SFMono-Regular",Menlo,Consolas,"Courier New",monospace;
   font-size: 1em;
   margin: 0;
   padding: 2px 5px;
   background-color: $light-gray-color;
   color: $black-color;
-  font-weight: 700
-  margin: 0;
-  padding: 0 5px;
-  background-color: lighten($light-gray-color, 13%);
+  font-weight: 700;
 }
 
 pre {
