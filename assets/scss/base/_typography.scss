@@ -17,8 +17,8 @@ h6 {
   line-height: $heading-line-height;
   margin: $small-spacing 0 $small-spacing 0;
   font-weight: 700;
-  color: $primary-color;
-  text-shadow: none;
+  color: #00d9ff;
+  text-shadow: 0 0 10px rgba(#00d9ff, 0.3);
 }
 
 h1 {
@@ -52,14 +52,15 @@ p {
 }
 
 a {
-  color: $action-color;
+  color: #00d9ff;
   text-decoration: none;
-  transition: color $base-duration $base-timing;
+  transition: all 200ms ease;
 
   &:active,
   &:focus,
   &:hover {
-    color: shade($action-color, 25%);
+    color: #ff006e;
+    text-shadow: 0 0 8px rgba(#ff006e, 0.4);
   }
 }
 

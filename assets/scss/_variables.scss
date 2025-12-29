@@ -11,20 +11,20 @@ $base-line-height: 1.8;
 $heading-line-height: 1.2;
 
 // Other Sizes
-$base-border-radius: 0;
+$base-border-radius: 2px;
 $base-spacing: $base-line-height * 1.5em;
 $small-spacing: $base-spacing / 2;
 $base-z-index: 0;
 
-// Colors - Retro Minimal Palette
-$primary-color: #1a1a1a;
-$action-color: #4a7c7e;
-$white-color: #fafafa;
-$black-color: #0a0a0a;
-$blue-color: #4a7c7e;
-$dark-gray-color: #333333;
-$medium-gray-color: #666666;
-$light-gray-color: #e0e0e0;
+// Colors - Tech Palette
+$primary-color: #00d9ff;
+$action-color: #ff006e;
+$white-color: #0f0f1a;
+$black-color: #ffffff;
+$blue-color: #00d9ff;
+$dark-gray-color: #1a1a2e;
+$medium-gray-color: #16213e;
+$light-gray-color: #0d1b2a;
 
 // Font Colors
 $base-font-color: $black-color;

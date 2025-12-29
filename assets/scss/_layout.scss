@@ -29,8 +29,8 @@ body {
 
 body {
   background-color: $white-color;
-  border: 2px solid $black-color;
-  box-shadow: none;
+  border: 2px solid $primary-color;
+  box-shadow: 0 0 20px rgba($primary-color, 0.2);
   margin: 2em;
 }
 
@@ -47,10 +47,11 @@ hr {
   margin-right: auto;
   max-width: 720px;
   font-weight: normal;
-  border: 1px solid $black-color;
+  border: 1px solid $primary-color;
   background-color: $white-color;
   margin-bottom: 2em;
-  box-shadow: none;
+  box-shadow: 0 0 10px rgba($primary-color, 0.1), inset 0 0 10px rgba($primary-color, 0.05);
+  transition: all 300ms ease;
 }
 
 .pull-left {
@@ -78,11 +79,11 @@ hr {
   }
 }
 
-.site-header {
-  border-bottom: 2px solid $black-color;
+.site-header {primary-color;
   margin-bottom: 2em;
   min-height: 70px;
-  background-color: $white-color;
+  background: linear-gradient(135deg, $white-color, $dark-gray-color);
+  box-shadow: 0 0 15px rgba($primary-color, 0.15): $white-color;
   box-shadow: none;
   padding: 1em 2em;
 }
@@ -111,18 +112,19 @@ hr {
   float: left;
   margin: 0;
   cursor: pointer;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
   font-size: 16px;
   line-height: 28px;
   font-weight: 700;
-  color: $black-color;
-  text-shadow: none;
+  color: $primary-color;
+  text-shadow: 0 0 10px rgba($primary-color, 0.4);
 
   span {
     font-weight: 700;
     background-color: transparent;
     color: $action-color;
     padding: 0;
+    text-shadow: 0 0 10px rgba($action-color, 0.4);
   }
 }
 
@@ -140,12 +142,17 @@ hr {
 
   li {
     display: inline-block;
-    padding: 0.5em 1em;
-    border: 1px solid $black-color;
+    padding: 0.5em 1em;primary-color;
     background-color: $white-color;
     margin: 0 8px;
-    box-shadow: none;
+    box-shadow: 0 0 5px rgba($primary-color, 0.2), inset 0 0 5px rgba($primary-color, 0.05);
     font-weight: 700;
+    transition: all 200ms ease;
+
+    &:hover {
+      box-shadow: 0 0 15px rgba($primary-color, 0.5), inset 0 0 10px rgba($primary-color, 0.1);
+      border-color: $action-color;
+    }
   }
 
   a {
@@ -153,6 +160,12 @@ hr {
     font-weight: 700;
     text-decoration: none;
     font-size: 13px;
+    letter-spacing: 1px;
+
+    &:hover {
+      color: $action-color;
+      text-shadow: 0 0 8px rgba($action-color, 0.4);
+    }
     letter-spacing: 1px;
   }
 }
@@ -163,11 +176,11 @@ hr {
   color: $primary-color;
   padding: 0.8em 0;
   border: none;
-  border-top: 2px solid $black-color;
-  border-bottom: 2px solid $black-color;
+  border-top: 2px solid $primary-color;
+  border-bottom: 2px solid $primary-color;
   text-transform: uppercase;
   font-size: 12px;
-  text-shadow: none;
+  text-shadow: 0 0 10px rgba($primary-color, 0.3);
   font-weight: 700;
   letter-spacing: 2px;
 
@@ -179,14 +192,26 @@ hr {
 .post-item {
   margin-bottom: 1.5em;
   display: block;
-  border: 1px solid $black-color;
+  border: 1px solid $primary-color;
   padding: 1.2em;
-  background-color: $white-color;
-  box-shadow: none;
+  background: linear-gradient(135deg, $white-color, $medium-gray-color);
+  box-shadow: 0 0 10px rgba($primary-color, 0.15), inset 0 0 10px rgba($primary-color, 0.05);
+  transition: all 300ms ease;
+
+  &:hover {
+    border-color: $action-color;
+    box-shadow: 0 0 20px rgba($primary-color, 0.3), inset 0 0 10px rgba($primary-color, 0.08);
+    transform: translateY(-2px);
+  }
 
   a {
-    color: $action-color;
+    color: $primary-color;
     font-weight: 700;
+
+    &:hover {
+      color: $action-color;
+      text-shadow: 0 0 8px rgba($action-color, 0.4);
+    }
   }
 
   .article-title {
@@ -198,12 +223,13 @@ hr {
     padding: 0.3em 0.6em;
     margin-left: 1em;
     margin-top: 2px;
-    background-color: $white-color;
-    color: $medium-gray-color;
+    background-color: $medium-gray-color;
+    color: $primary-color;
     font-weight: 700;
-    border: 1px solid $black-color;
+    border: 1px solid $primary-color;
     font-size: 11px;
     letter-spacing: 1px;
+    box-shadow: 0 0 5px rgba($primary-color, 0.2);
     @extend .pull-right;
   }
 }
@@ -291,26 +317,28 @@ hr {
   @extend .clearfix;
 
   padding: $base-spacing;
-  background-color: #f5f5f5;
-  border-top: 1px solid #e0e0e0;
-  color: $black-color;
+  background: linear-gradient(135deg, $dark-gray-color, $medium-gray-color);
+  border-top: 2px solid $primary-color;
+  color: $primary-color;
+  box-shadow: 0 0 10px rgba($primary-color, 0.1);
 
   a {
-    color: $action-color;
-    font-weight: 600;
+    color: $primary-color;
+    font-weight: 700;
+    transition: all 200ms ease;
 
     &:hover,
     &:focus,
     &:active {
-      text-shadow: none;
-      color: darken($action-color, 10%);
+      color: $action-color;
+      text-shadow: 0 0 10px rgba($action-color, 0.4);
     }
   }
 
   small {
     display: block;
     font-size: 12px;
-    color: #999;
+    color: $light-gray-color;
     margin-top: 0.5em;
   }
 
