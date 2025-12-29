@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "My paper "Reflected Reality" accepted by IMWUT"
+title: "My paper 'Reflected Reality' accepted by IMWUT"
 comments: false
-description: "My paper "Reflected Reality" accepted by IMWUT"
+description: "My paper 'Reflected Reality' accepted by IMWUT"
 keywords: ""
 ---
 
