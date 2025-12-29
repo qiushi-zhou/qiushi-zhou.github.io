@@ -39,6 +39,8 @@ plugins:
 navbar:
   - slug : about
     title: About
+  - slug : updates
+    title: Updates
   - slug : blog
     title: Blog
 

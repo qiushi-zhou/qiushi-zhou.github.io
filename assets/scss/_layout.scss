@@ -29,8 +29,9 @@ body {
 
 body {
   background-color: $white-color;
-  border: none;
+  border: 2px solid $black-color;
   box-shadow: none;
+  margin: 2em;
 }
 
 hr {
@@ -40,15 +41,15 @@ hr {
   margin: $small-spacing 0;
 }
 
-.container {
-  padding: $base-spacing;
+.container 2em;
   margin-left: auto;
   margin-right: auto;
-  max-width: 800px;
+  max-width: 720px;
   font-weight: normal;
-  border: 1px solid #e0e0e0;
+  border: 1px solid $black-color;
   background-color: $white-color;
-  margin-bottom: 1em;
+  margin-bottom: 2em;
+  box-shadow: none
   box-shadow: 0 2px 4px rgba($black-color, 0.05);
 }
 
@@ -78,21 +79,23 @@ hr {
 }
 
 .site-header {
-  border-bottom: 1px solid #e0e0e0;
-  margin-bottom: $small-spacing;
-  min-height: 60px;
+  border-bottom: 2px solid $black-color;
+  margin-bottom: 2em;
+  min-height: 70px;
   background-color: $white-color;
-  box-shadow: 0 2px 4px rgba($black-color, 0.05);
+  box-shadow: none;
+  padding: 1em 2em;
 }
 
 .intro {
   .author-name {
     display: inline-block;
-    padding: 0.3em 0.5em;
+    padding: 0.4em 0.8em;
     background: transparent;
     color: $primary-color;
-    border: 1px solid #e0e0e0;
-    font-weight: 600;
+    border: 2px solid $black-color;
+    font-weight: 700;
+    letter-spacing: 1px;
   }
 
   a {
@@ -100,25 +103,25 @@ hr {
   }
 
   .container {
-    padding-bottom: 1em;
+    padding-bottom: 2em;
   }
 }
 
 .logo {
   float: left;
-  margin: 0 0 1em 0;
+  margin: 0;
   cursor: pointer;
-  letter-spacing: 0;
-  font-size: 18px;
+  letter-spacing: 1px;
+  font-size: 16px;
   line-height: 28px;
-  font-weight: 600;
+  font-weight: 700;
   color: $black-color;
   text-shadow: none;
 
   span {
-    font-weight: 600;
+    font-weight: 700;
     background-color: transparent;
-    color: $primary-color;
+    color: $action-color;
     padding: 0;
   }
 }
@@ -137,32 +140,35 @@ hr {
 
   li {
     display: inline-block;
-    padding: 0.4em 0.8em;
-    border: 1px solid #e0e0e0;
-    background-color: transparent;
+    padding: 0.5em 1em;
+    border: 1px solid $black-color;
+    background-color: $white-color;
     margin: 0 8px;
     box-shadow: none;
-    font-weight: 600;
+    font-weight: 700;
   }
 
   a {
     color: $primary-color;
-    font-weight: 600;
+    font-weight: 700;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 13px;
+    letter-spacing: 1px;
   }
 }
 
-.category-title {
-  margin: 1em 0 0.5em 0;
+.category-t.5em 0 1em 0;
   background-color: transparent;
   color: $primary-color;
-  padding: 0.5em 0;
+  padding: 0.8em 0;
   border: none;
-  border-bottom: 2px solid #e0e0e0;
+  border-top: 2px solid $black-color;
+  border-bottom: 2px solid $black-color;
   text-transform: uppercase;
   font-size: 12px;
   text-shadow: none;
+  font-weight: 700;
+  letter-spacing: 2pxe;
   font-weight: 600;
 
   &:first-child {
@@ -171,15 +177,16 @@ hr {
 }
 
 .post-item {
-  margin-bottom: 1em;
-  display:1px solid #e0e0e0;
-  padding: 0.8em;
-  background-color: #fafafa;
-  box-shadow: 0 2px 4px rgba($black-color, 0.05);
+  margin-bottom: 1.5em;
+  display: block;
+  border: 1px solid $black-color;
+  padding: 1.2em;
+  background-color: $white-color;
+  box-shadow: none;
 
   a {
     color: $action-color;
-    font-weight: 600;
+    font-weight: 700;
   }
 
   .article-title {
@@ -188,15 +195,15 @@ hr {
   }
 
   .date-label {
-    padding: 0.2em 0.5em;
+    padding: 0.3em 0.6em;
     margin-left: 1em;
     margin-top: 2px;
-    background-color: #f0f0f0;
-    color: #666;
-    font-weight: 500;
-    border: 1px solid #e0e0e0;
-    font-size: 12olid $black-color;
-    font-size: 10px;
+    background-color: $white-color;
+    color: $medium-gray-color;
+    font-weight: 700;
+    border: 1px solid $black-color;
+    font-size: 11px;
+    letter-spacing: 1px;
     @extend .pull-right;
   }
 }
