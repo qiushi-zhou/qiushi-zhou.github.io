@@ -63,9 +63,9 @@ hr {
 }
 
 .link {
-  color: $action-color;
+  color: #00ff00;
   padding-bottom: .05em;
-  border-bottom: 3px solid transparent;
+  border-bottom: 3px solid #00cc00;
   text-decoration: none;
   font-weight: bold;
 
@@ -74,8 +74,10 @@ hr {
   &:hover,
   &:focus,
   &:active {
-    border-bottom: 3px solid $action-color;
-    text-shadow: 3px 3px 0 $primary-color;
+    background-color: #00ff00;
+    color: #001100;
+    border-bottom: 3px solid #001100;
+    padding: 2px 4px;
   }
 }
 
@@ -205,10 +207,15 @@ hr {
   }
 
   a {
-    color: $primary-color;
-    font-weight: 700;
+    text-decoration: underline;
+    text-decoration-color: $action-color;
 
     &:hover {
+      color: $white-color;
+      background-color: $primary-color;
+      padding: 2px 4px;
+      text-decoration: underline;
+      text-decoration-color: $white-color
       color: $action-color;
       text-shadow: 0 0 10px rgba($action-color, 0.6);
     }
@@ -326,12 +333,17 @@ hr {
     color: $primary-color;
     font-weight: 700;
     transition: all 200ms ease;
+    text-decoration: underline;
+    text-decoration-color: $action-color;
 
     &:hover,
     &:focus,
     &:active {
-      color: $action-color;
-      text-shadow: 0 0 12px rgba($action-color, 0.6);
+      color: $white-color;
+      background-color: $primary-color;
+      padding: 2px 4px;
+      text-decoration: underline;
+      text-decoration-color: $white-color;
     }
   }
 
