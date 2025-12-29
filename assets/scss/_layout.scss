@@ -394,7 +394,7 @@ hr {
   .post-item {
     border: 3px solid $black-color;
     padding: 0.5em;
-    background: lighten($secondary-background-color, 20%);
+    background: $white-color;
     box-shadow: 4px 4px 0 $black-color;
   }
 
