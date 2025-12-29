@@ -142,7 +142,8 @@ hr {
 
   li {
     display: inline-block;
-    padding: 0.5em 1em;primary-color;
+    padding: 0.5em 1em;
+    border: 1px solid $primary-color;
     background-color: $white-color;
     margin: 0 8px;
     box-shadow: 0 0 5px rgba($primary-color, 0.2), inset 0 0 5px rgba($primary-color, 0.05);
