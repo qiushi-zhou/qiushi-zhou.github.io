@@ -1,31 +1,31 @@
 .button {
   appearance: none;
   background-color: $action-color;
-  border: 3px solid $black-color;
+  border: 1px solid #ccc;
   border-radius: $base-border-radius;
-  color: $black-color;
+  color: white;
   cursor: pointer;
   display: inline-block;
   font-family: $base-font-family;
-  font-size: 12px;
+  font-size: 14px;
   -webkit-font-smoothing: antialiased;
-  font-weight: 700;
+  font-weight: 600;
   line-height: 1.2;
   padding: $small-spacing $base-spacing;
   text-decoration: none;
-  transition: all 100ms linear;
+  transition: all 200ms ease;
   user-select: none;
   vertical-align: middle;
   white-space: nowrap;
-  box-shadow: 4px 4px 0 $black-color;
-  text-transform: uppercase;
+  box-shadow: none;
+  text-transform: none;
 
   &:hover,
   &:focus {
-    background-color: $primary-color;
-    color: $white-color;
-    transform: translate(-2px, -2px);
-    box-shadow: 6px 6px 0 $black-color;
+    background-color: darken($action-color, 10%);
+    color: white;
+    transform: none;
+    box-shadow: 0 2px 4px rgba($black-color, 0.1);
   }
 
   &:disabled {
@@ -34,7 +34,7 @@
 
     &:hover {
       background-color: $action-color;
-      color: $black-color;
+      color: white;
     }
   }
 }

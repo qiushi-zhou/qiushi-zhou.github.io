@@ -18,7 +18,7 @@ h6 {
   margin: $small-spacing 0 $small-spacing 0;
   font-weight: 700;
   color: $primary-color;
-  text-shadow: 3px 3px 0 $black-color;
+  text-shadow: none;
 }
 
 h1 {
@@ -80,13 +80,13 @@ picture {
 blockquote {
   padding: $base-spacing;
   margin: $base-spacing 0;
-  color: $black-color;
+  color: #555;
   line-height: 1.8;
-  border-left: 6px solid $primary-color;
-  background-color: lighten($secondary-background-color, 20%);
-  border: 3px solid $black-color;
-  box-shadow: 4px 4px 0 $black-color;
-  font-weight: 700;
+  border-left: 4px solid $action-color;
+  background-color: #f9f9f9;
+  border: 1px solid #e0e0e0;
+  box-shadow: none;
+  font-weight: 500;
   p {
     margin: 0;
   }
