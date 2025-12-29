@@ -29,7 +29,7 @@ label {
 }
 
 #{$all-text-inputs},
-select[multiple=multiwhite-color;
+select[multiple] {
   border: 3px solid $black-color;
   border-radius: $base-border-radius;
   box-shadow: 4px 4px 0 rgba($black-color, 0.2);
