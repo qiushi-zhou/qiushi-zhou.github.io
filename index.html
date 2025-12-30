@@ -3,23 +3,217 @@ layout: default
 title: Home
 ---
 
-{% include intro.html %}
-
-<section class="post-list">
-<div class="container">
-  <img src="/assets/images/side.jpg" alt="">
-  </div>
-  <div class="container">
-    <h2 class="category-title">Recent Updates</h2>
-    {% for post in site.posts limit:2 %}
-      <article class="post-item">
-        <span class="post-meta date-label">{{ post.date | date: "%b %d, %Y" }}</span>
-        <div class="article-title"><a class="post-link" href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">{{ post.title }}</a></div>
-      </article>
-    {% endfor %}
-    <div style="margin-top: 2em; padding-top: 2em; border-top: 1px solid #2ecc71;">
-      <a href="/updates/" style="font-weight: 700; letter-spacing: 1px;">→ View all updates</a>
+<div class="minimalist-home">
+  <div class="hero-section">
+    <div class="container">
+      <h1 class="hero-title">Qiushi Zhou</h1>
+      <p class="hero-subtitle">Tenure-Track Assistant Professor at HKUST(GZ)</p>
     </div>
   </div>
+
+  <section class="intro-section">
+    <div class="container">
+      <p class="bio-text">
+        I am a Tenure-Track Assistant Professor at <a href="https://www.hkust-gz.edu.cn/">Hong Kong University of Science and Technology (Guangzhou)</a> affiliated with <a href="https://cma.hkust-gz.edu.cn/">Computational Media and Arts</a> and <a href="https://iott.hkust-gz.edu.cn/">Internet of Things</a> at <a href="https://infh.hkust-gz.edu.cn/">Information Hub</a>. I am recruiting for multiple PhD, MPhil, and Research Assistant positions starting from 2026 Spring. If you are interested, please read <a href="https://qiushi-zhou.github.io/recruitment/">HERE</a>.
+      </p>
+      
+      <div class="social-links">
+        <a href="https://scholar.google.com.au/citations?user=a-FggqcAAAAJ&hl=en">Scholar</a>
+        <span class="divider">•</span>
+        <a href="https://www.linkedin.com/in/qiushi-zhou-62b8039b/">LinkedIn</a>
+        <span class="divider">•</span>
+        <a href="https://twitter.com/qiushi__zhou">Twitter</a>
+        <span class="divider">•</span>
+        <a href="https://bsky.app/profile/qiushiz.bsky.social">BlueSky</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="updates-section">
+    <div class="container">
+      <h2 class="section-title">Recent Updates</h2>
+      <div class="updates-list">
+        {% for post in site.posts limit:5 %}
+          <article class="update-item">
+            <time class="update-date">{{ post.date | date: "%b %d, %Y" }}</time>
+            <h3 class="update-title">
+              <a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">{{ post.title }}</a>
+            </h3>
+          </article>
+        {% endfor %}
+      </div>
+      <div class="view-all">
+        <a href="/updates/">View all updates →</a>
+      </div>
+    </div>
+  </section>
+</div>
+
+<style>
+.minimalist-home {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+.hero-section {
+  padding: 60px 20px 40px;
+  text-align: center;
+  border-bottom: 1px solid #eee;
+}
+
+.hero-title {
+  margin: 0 0 10px 0;
+  font-size: 2.5em;
+  font-weight: 600;
+  letter-spacing: -0.5px;
+}
+
+.hero-subtitle {
+  margin: 0;
+  font-size: 1.1em;
+  color: #666;
+  font-weight: 400;
+}
+
+.intro-section {
+  padding: 50px 20px;
+  background-color: #fafafa;
+}
+
+.bio-text {
+  max-width: 650px;
+  margin: 0 auto 30px;
+  font-size: 1em;
+  line-height: 1.8;
+  color: #555;
+}
+
+.bio-text a {
+  color: #0066cc;
+  text-decoration: none;
+  border-bottom: 1px solid #0066cc;
+}
+
+.bio-text a:hover {
+  color: #0052a3;
+}
+
+.social-links {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.social-links a {
+  color: #0066cc;
+  text-decoration: none;
+  font-size: 0.95em;
+  margin: 0 8px;
+}
+
+.social-links a:hover {
+  text-decoration: underline;
+}
+
+.divider {
+  color: #ddd;
+  margin: 0 4px;
+}
+
+.updates-section {
+  padding: 50px 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.section-title {
+  margin: 0 0 30px 0;
+  font-size: 1.4em;
+  font-weight: 600;
+  color: #333;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #0066cc;
+  display: inline-block;
+}
+
+.updates-list {
+  margin-bottom: 40px;
+}
+
+.update-item {
+  margin-bottom: 25px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eee;
+}
+
+.update-item:last-child {
+  border-bottom: none;
+}
+
+.update-date {
+  display: block;
+  font-size: 0.85em;
+  color: #999;
+  margin-bottom: 5px;
+  font-variant-numeric: tabular-nums;
+}
+
+.update-title {
+  margin: 0;
+  font-size: 1.05em;
+  font-weight: 500;
+}
+
+.update-title a {
+  color: #333;
+  text-decoration: none;
+}
+
+.update-title a:hover {
+  color: #0066cc;
+}
+
+.view-all {
+  text-align: center;
+  padding-top: 20px;
+  border-top: 1px solid #eee;
+}
+
+.view-all a {
+  color: #0066cc;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.view-all a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+@media (max-width: 600px) {
+  .hero-title {
+    font-size: 2em;
+  }
   
-</section>
+  .hero-subtitle {
+    font-size: 1em;
+  }
+  
+  .bio-text {
+    font-size: 0.95em;
+  }
+  
+  .section-title {
+    font-size: 1.2em;
+  }
+  
+  .update-title {
+    font-size: 1em;
+  }
+}
+</style>
