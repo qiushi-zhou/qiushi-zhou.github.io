@@ -54,7 +54,7 @@ p {
 a {
   color: $link-color;
   text-decoration: underline;
-  text-decoration-color: $accent-color;
+  text-decoration-color: $link-color;
   text-decoration-thickness: 2px;
   text-underline-offset: 3px;
   transition: all 200ms ease;
@@ -63,10 +63,10 @@ a {
   &:focus,
   &:hover {
     color: $surface-color;
-    background-color: rgba($accent-color, 0.08);
+    background-color: rgba($retro-accent, 0.06);
     padding: 2px 4px;
     text-decoration: underline;
-    text-decoration-color: darken($accent-color, 12%);
+    text-decoration-color: darken($retro-accent, 12%);
   }
 } 
 
@@ -101,7 +101,7 @@ blockquote {
 
 code {
   border: 1px solid $base-border-color;
-  font-family: $monospace;
+  font-family: $mono-font-family;
   font-size: 1em;
   margin: 0;
   padding: 2px 5px;
@@ -112,7 +112,7 @@ code {
 
 pre {
   -webkit-overflow-scrolling: touch;
-  font-family: $monospace;
+  font-family: $mono-font-family;
   font-size: 1em;
   margin: 0;
   padding: 5px 10px !important;

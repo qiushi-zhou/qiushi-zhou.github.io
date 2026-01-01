@@ -1,6 +1,7 @@
 // Typography - Classic, tasteful serif
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,400&family=VT323&display=swap');
 $base-font-family: 'Merriweather', Georgia, 'Times New Roman', serif;
+$mono-font-family: 'VT323', 'Courier New', monospace;
 $heading-font-family: $base-font-family;
 
 // Font Sizes
@@ -27,8 +28,18 @@ $black-color: #000000; // legacy black alias
 $action-color: $accent-color; // alias for interactive elements
 $medium-gray-color: lighten($muted-color, 28%); // alias for medium gray backgrounds
 $light-gray-color: lighten($muted-color, 45%); // alias for light gray text
+// Retro 80s accents (subtle)
+$retro-pink: #ff4da6;
+$retro-cyan: #00d1ff;
+$retro-accent: $retro-pink;
+$retro-bg: linear-gradient(180deg, #FBF6FF 0%, #FAF7F2 100%);
+
+@mixin subtle-scanlines($color, $opacity: 0.02) {
+  background-image: repeating-linear-gradient(transparent, transparent 6px, rgba($color, $opacity) 6px, rgba($color, $opacity) 7px);
+}
+
 $text-color: #222222; // dark charcoal
-$link-color: $primary-color;
+$link-color: $retro-accent;
 $border-color: #e6e2d9; // soft border
 
 // Font Colors
