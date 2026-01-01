@@ -1,46 +1,46 @@
-// Typography - Retro CRT Terminal Style
-@import url('https://fonts.googleapis.com/css?family=Courier+Prime:400,700');
-$base-font-family: 'Courier Prime', 'Courier New', monospace;
+// Typography - Classic, tasteful serif
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,400&display=swap');
+$base-font-family: 'Merriweather', Georgia, 'Times New Roman', serif;
 $heading-font-family: $base-font-family;
 
 // Font Sizes
-$base-font-size: 0.9em;
+$base-font-size: 1em;
 
 // Line height
-$base-line-height: 1.8;
-$heading-line-height: 1.2;
+$base-line-height: 1.6;
+$heading-line-height: 1.25;
 
 // Other Sizes
-$base-border-radius: 0;
-$base-spacing: $base-line-height * 1.5em;
+$base-border-radius: 6px;
+$base-spacing: $base-line-height * 1em;
 $small-spacing: $base-spacing / 2;
 $base-z-index: 0;
 
-// Colors - Retro CRT Green Palette
-$primary-color: #00ff00;
-$action-color: #00cc00;
-$white-color: #001100;
-$black-color: #00ff00;
-$blue-color: #00ff00;
-$dark-gray-color: #003300;
-$medium-gray-color: #005500;
-$light-gray-color: #007700;
+// Colors - Classic palette (cream, navy, burgundy, muted gray)
+$primary-color: #0b2545; // deep navy
+$accent-color: #7b3f3f; // warm burgundy
+$muted-color: #6b6b6b; // muted gray
+$background-color: #FAF7F2; // warm cream
+$surface-color: #ffffff; // white for cards
+$text-color: #222222; // dark charcoal
+$link-color: $primary-color;
+$border-color: #e6e2d9; // soft border
 
 // Font Colors
-$base-font-color: $black-color;
+$base-font-color: $text-color;
 
 // Border
-$base-border-color: $black-color;
-$base-border: 4px solid $base-border-color;
+$base-border-color: $border-color;
+$base-border: 1px solid $base-border-color;
 
 // Background Colors
-$base-background-color: #FFE66D;
-$secondary-background-color: #8338EC;
+$base-background-color: $background-color;
+$secondary-background-color: $surface-color;
 
 // Forms
-$form-box-shadow: inset 0 1px 3px rgba($black-color, 0.06);
-$form-box-shadow-focus: $form-box-shadow, 0 0 5px adjust-color($action-color, $lightness: -5%, $alpha: -0.3);
+$form-box-shadow: inset 0 1px 2px rgba(10, 10, 10, 0.04);
+$form-box-shadow-focus: $form-box-shadow, 0 0 6px rgba(red($accent-color), green($accent-color), blue($accent-color), 0.12);
 
 // Animations
-$base-duration: 150ms;
-$base-timing: ease;
+$base-duration: 200ms;
+$base-timing: ease-out;

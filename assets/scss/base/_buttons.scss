@@ -1,7 +1,7 @@
 .button {
   appearance: none;
-  background-color: $action-color;
-  border: 1px solid #ccc;
+  background-color: $accent-color;
+  border: 1px solid $base-border-color;
   border-radius: $base-border-radius;
   color: white;
   cursor: pointer;
@@ -22,10 +22,10 @@
 
   &:hover,
   &:focus {
-    background-color: darken($action-color, 10%);
+    background-color: darken($accent-color, 10%);
     color: white;
     transform: none;
-    box-shadow: 0 2px 4px rgba($black-color, 0.1);
+    box-shadow: 0 6px 18px rgba($primary-color, 0.06);
   }
 
   &:disabled {
@@ -33,8 +33,8 @@
     opacity: 0.5;
 
     &:hover {
-      background-color: $action-color;
+      background-color: $accent-color;
       color: white;
     }
   }
-}
+} 
