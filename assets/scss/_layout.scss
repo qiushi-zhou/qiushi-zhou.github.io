@@ -28,13 +28,10 @@ body {
 }
 
 body {
-  background: $retro-bg;
-  @include subtle-scanlines($primary-color, 0.02);
+  background-color: $base-background-color;
   border: 1px solid $base-border-color;
   box-shadow: 0 6px 24px rgba($primary-color, 0.06);
   margin: 2em;
-  font-family: $base-font-family;
-  color: $text-color;
 } 
 
 hr {
@@ -50,10 +47,10 @@ hr {
   margin-right: auto;
   max-width: 720px;
   font-weight: normal;
-  border: 2px solid $retro-cyan;
-  background-color: $surface-color;
+  border: 2px solid $primary-color;
+  background-color: $white-color;
   margin-bottom: 2em;
-  box-shadow: 0 0 12px rgba($primary-color, 0.08), inset 0 0 10px rgba($primary-color, 0.03);
+  box-shadow: 0 0 20px rgba($primary-color, 0.3), inset 0 0 20px rgba($primary-color, 0.1);
   transition: all 300ms ease;
 }
 
@@ -68,7 +65,7 @@ hr {
 .link {
   color: $link-color;
   padding-bottom: .05em;
-  border-bottom: 2px solid rgba($retro-accent, 0.12);
+  border-bottom: 2px solid rgba($accent-color, 0.18);
   text-decoration: none;
   font-weight: bold;
 
@@ -77,21 +74,20 @@ hr {
   &:hover,
   &:focus,
   &:active {
-    background-color: rgba($retro-accent, 0.06);
-    color: $retro-accent;
-    text-shadow: 0 0 6px rgba($retro-accent, 0.12);
-    border-bottom: 2px solid $retro-accent;
+    background-color: rgba($accent-color, 0.08);
+    color: darken($accent-color, 6%);
+    border-bottom: 2px solid darken($accent-color, 6%);
     padding: 2px 4px;
   }
 } 
 
 .site-header {
-  border-bottom: 2px solid rgba($retro-accent, 0.16);
+  border-bottom: 2px solid $primary-color;
   margin-bottom: 2em;
   min-height: 70px;
-  background: transparent;
+  background: $white-color;
+  box-shadow: 0 0 20px rgba($primary-color, 0.3);
   padding: 1em 2em;
-  box-shadow: none;
 }
 
 .intro {
@@ -158,7 +154,7 @@ hr {
 
     &:hover {
       box-shadow: 0 8px 18px rgba($primary-color, 0.06), inset 0 0 6px rgba($primary-color, 0.02);
-      border-color: $retro-cyan;
+      border-color: $accent-color;
     }
   }
 
@@ -170,7 +166,7 @@ hr {
     letter-spacing: 1px;
 
     &:hover {
-      color: darken($retro-accent, 8%);
+      color: darken($accent-color, 8%);
     }
   }
 }
@@ -204,14 +200,14 @@ hr {
   transition: all 300ms ease;
 
   &:hover {
-    border-color: $retro-accent;
+    border-color: $action-color;
     box-shadow: 0 0 25px rgba($primary-color, 0.4), inset 0 0 15px rgba($primary-color, 0.12);
     transform: translateY(-2px);
   }
 
   a {
     text-decoration: underline;
-    text-decoration-color: $retro-accent;
+    text-decoration-color: $action-color;
 
     &:hover {
       color: $white-color;
@@ -284,7 +280,7 @@ hr {
     padding: 0.3em 0.5em;
     margin: 2px;
     border: 2px solid $black-color;
-    background-color: $retro-accent;
+    background-color: $action-color;
     font-weight: 700;
   }
 
@@ -335,7 +331,7 @@ hr {
     font-weight: 700;
     transition: all 200ms ease;
     text-decoration: underline;
-    text-decoration-color: $retro-accent;
+    text-decoration-color: $action-color;
 
     &:hover,
     &:focus,
@@ -409,8 +405,8 @@ hr {
     &:hover,
     &:focus,
     &:active {
-      border-bottom: 3px solid $retro-accent;
-      color: $retro-accent;
+      border-bottom: 3px solid $action-color;
+      color: $action-color;
     }
   }
 }
