@@ -23,10 +23,6 @@ $muted-color: #6b6b6b; // muted gray
 $background-color: #FAF7F2; // warm cream
 $surface-color: #ffffff; // white for cards
 $white-color: $surface-color; // alias for legacy variable name
-$black-color: #000000; // legacy black alias
-$action-color: $accent-color; // alias for interactive elements
-$medium-gray-color: lighten($muted-color, 28%); // alias for medium gray backgrounds
-$light-gray-color: lighten($muted-color, 45%); // alias for light gray text
 $text-color: #222222; // dark charcoal
 $link-color: $primary-color;
 $border-color: #e6e2d9; // soft border
