@@ -28,11 +28,11 @@ body {
 }
 
 body {
-  background-color: $base-background-color;
-  border: 1px solid $base-border-color;
-  box-shadow: 0 6px 24px rgba($primary-color, 0.06);
+  background-color: $white-color;
+  border: 2px solid $primary-color;
+  box-shadow: 0 0 30px rgba($primary-color, 0.4);
   margin: 2em;
-} 
+}
 
 hr {
   border-top: none;
@@ -63,23 +63,23 @@ hr {
 }
 
 .link {
-  color: $link-color;
+  color: #00ff00;
   padding-bottom: .05em;
-  border-bottom: 2px solid rgba($accent-color, 0.18);
+  border-bottom: 3px solid #00cc00;
   text-decoration: none;
   font-weight: bold;
 
-  @include transition(all 120ms linear);
+  @include transition(all 100ms linear);
 
   &:hover,
   &:focus,
   &:active {
-    background-color: rgba($accent-color, 0.08);
-    color: darken($accent-color, 6%);
-    border-bottom: 2px solid darken($accent-color, 6%);
+    background-color: #00ff00;
+    color: #001100;
+    border-bottom: 3px solid #001100;
     padding: 2px 4px;
   }
-} 
+}
 
 .site-header {
   border-bottom: 2px solid $primary-color;
@@ -124,10 +124,10 @@ hr {
   span {
     font-weight: 700;
     background-color: transparent;
-    color: $accent-color;
+    color: $action-color;
     padding: 0;
-    text-shadow: none;
-  } 
+    text-shadow: 0 0 12px rgba($action-color, 0.5);
+  }
 }
 
 .nav {
@@ -145,16 +145,19 @@ hr {
   li {
     display: inline-block;
     padding: 0.5em 1em;
-    border: 1px solid $base-border-color;
-    background-color: $surface-color;
+    border: 2px solid $primary-color;
+    background-color: $white-color;
     margin: 0 8px;
-    box-shadow: 0 4px 12px rgba($primary-color, 0.04), inset 0 0 6px rgba($primary-color, 0.02);
+    box-shadow: 0 0 10px rgba($primary-color, 0.3), inset 0 0 10px rgba($primary-color, 0.1);
     font-weight: 700;
     transition: all 200ms ease;
 
     &:hover {
-      box-shadow: 0 8px 18px rgba($primary-color, 0.06), inset 0 0 6px rgba($primary-color, 0.02);
-      border-color: $accent-color;
+      box-shadow: 0 0 20px rgba($primary-color, 0.6), inset 0 0 15px rgba($primary-color, 0.15);
+      border-color: $action-color;
+    }
+  }
+
   a {
     color: $primary-color;
     font-weight: 700;
@@ -163,7 +166,8 @@ hr {
     letter-spacing: 1px;
 
     &:hover {
-      color: darken($accent-color, 8%);
+      color: $action-color;
+      text-shadow: 0 0 12px rgba($action-color, 0.5);
     }
   }
 }
@@ -174,26 +178,26 @@ hr {
   color: $primary-color;
   padding: 0.8em 0;
   border: none;
-  border-top: 1px solid $base-border-color;
-  border-bottom: 1px solid $base-border-color;
+  border-top: 2px solid $primary-color;
+  border-bottom: 2px solid $primary-color;
   text-transform: uppercase;
   font-size: 12px;
-  text-shadow: none;
+  text-shadow: 0 0 15px rgba($primary-color, 0.4);
   font-weight: 700;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
 
   &:first-child {
     margin-top: 0;
   }
-} 
+}
 
 .post-item {
   margin-bottom: 1.5em;
   display: block;
-  border: 1px solid $base-border-color;
+  border: 2px solid $primary-color;
   padding: 1.2em;
-  background: $surface-color;
-  box-shadow: 0 6px 18px rgba($primary-color, 0.04), inset 0 0 6px rgba($primary-color, 0.02);
+  background: $white-color;
+  box-shadow: 0 0 15px rgba($primary-color, 0.2), inset 0 0 15px rgba($primary-color, 0.08);
   transition: all 300ms ease;
 
   &:hover {

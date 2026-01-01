@@ -1,6 +1,6 @@
 fieldset {
-  background-color: $surface-color;
-  border: 1px solid $base-border-color;
+  background-color: #f9f9f9;
+  border: 1px solid #e0e0e0;
   margin: 0 0 $small-spacing;
   padding: $base-spacing;
   box-shadow: none;
@@ -17,7 +17,7 @@ select {
 label {
   font-weight: 700;
   margin-bottom: $small-spacing / 2;
-  color: $text-color;
+  color: $black-color;
 
   &.required::after {
     content: "*";
@@ -30,9 +30,9 @@ label {
 
 #{$all-text-inputs},
 select[multiple] {
-  border: 1px solid $base-border-color;
+  border: 1px solid #ccc;
   border-radius: $base-border-radius;
-  box-shadow: inset 0 1px 3px rgba($text-color, 0.04);
+  box-shadow: inset 0 1px 3px rgba($black-color, 0.05);
   box-sizing: border-box;
   font-family: $base-font-family;
   font-size: 14px;
@@ -43,26 +43,26 @@ select[multiple] {
   font-weight: 500;
 
   &:hover {
-    border-color: $base-border-color;
-    box-shadow: inset 0 1px 3px rgba($text-color, 0.06);
+    border-color: #999;
+    box-shadow: inset 0 1px 3px rgba($black-color, 0.08);
   }
 
   &:focus {
-    border-color: $accent-color;
-    box-shadow: inset 0 1px 3px rgba($text-color, 0.06), 0 0 6px rgba($accent-color, 0.12);
+    border-color: $action-color;
+    box-shadow: inset 0 1px 3px rgba($black-color, 0.08), 0 0 5px rgba($action-color, 0.3);
     outline: none;
   }
 
   &:disabled {
-    background-color: lighten($surface-color, 2%);
+    background-color: #f5f5f5;
     cursor: not-allowed;
 
     &:hover {
-      border-color: $base-border-color;
-      box-shadow: inset 0 1px 3px rgba($text-color, 0.04);
+      border-color: #999;
+      box-shadow: inset 0 1px 3px rgba($black-color, 0.05);
     }
   }
-} 
+}
 
 textarea {
   resize: vertical;
