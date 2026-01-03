@@ -17,8 +17,8 @@ h6 {
   line-height: $heading-line-height;
   margin: $small-spacing 0 $small-spacing 0;
   font-weight: 700;
-  color: #00ff00;
-  text-shadow: 0 0 15px rgba(#00ff00, 0.4);
+  color: #2a2a2a;
+  text-shadow: 0 0 15px rgba(#2a2a2a, 0.4);
 }
 
 h1 {
@@ -52,9 +52,9 @@ p {
 }
 
 a {
-  color: #00ff00;
+  color: #2a2a2a;
   text-decoration: underline;
-  text-decoration-color: #00cc00;
+  text-decoration-color: #2a2a2a;
   text-decoration-thickness: 2px;
   text-underline-offset: 3px;
   transition: all 200ms ease;
@@ -63,7 +63,7 @@ a {
   &:focus,
   &:hover {
     color: #001100;
-    background-color: #00ff00;
+    background-color: #2a2a2a;
     padding: 2px 4px;
     text-decoration: underline;
     text-decoration-color: #001100;
