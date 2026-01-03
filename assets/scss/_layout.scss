@@ -63,9 +63,9 @@ hr {
 }
 
 .link {
-  color: #e6e6e6;
+  color: #121212;
   padding-bottom: .05em;
-  border-bottom: 3px solid #cfcfcf;
+  border-bottom: 3px solid #121212;
   text-decoration: none;
   font-weight: bold;
 
@@ -75,7 +75,7 @@ hr {
   &:focus,
   &:active {
     background-color: #e6e6e6;
-    color: #f4f4f4;
+    color: #121212;
     border-bottom: 3px solid #f4f4f4;
     padding: 2px 4px;
   }
