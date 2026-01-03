@@ -3,9 +3,8 @@ layout: page
 title: Recent Publications
 permalink: /publications/
 ---
-<img src="/assets/images/arrow.png"
-     alt=""
-     />
+
+<img src="/assets/images/arrow.png" width="400" style="display:block; margin: 0 auto;">
 
 **UIST 2025** <a href="https://qiushi-zhou.github.io/PDF/UIST-2025-SightWarp.pdf">PDF</a>
 ## At A Glance To Your Fingertips: Enabling Direct Manipulation for Distant Objects Through Gaze-based Summoning
