@@ -74,16 +74,3 @@ body {
   .container { padding: 0.75rem; margin: 1rem; }
   .post-title { font-size: 1.25rem; }
 }
-  .article-title {
-    border-bottom: none !important;
-  }
-
-  .post-link {
-    &:hover,
-    &:focus,
-    &:active {
-      border-bottom: 3px solid $action-color;
-      color: $action-color;
-    }
-  }
-}
