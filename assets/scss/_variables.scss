@@ -1,55 +1,32 @@
-// Typography - Retro CRT Terminal Style
-@import url('https://fonts.googleapis.com/css?family=Courier+Prime:400,700');
-$base-font-family: 'Courier Prime', 'Courier New', monospace;
+// Minimal site variables
+
+// Use a system UI font stack for a clean, neutral look
+$base-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 $heading-font-family: $base-font-family;
 
-// Font Sizes
-$base-font-size: 0.9em;
+// Typography
+$base-font-size: 1em;
+$base-line-height: 1.6;
 
-// Line height
-$base-line-height: 1.8;
-$heading-line-height: 1.2;
-
-// Other Sizes
+// Spacing
 $base-border-radius: 0;
-$base-spacing: $base-line-height * 1.5em;
-$small-spacing: $base-spacing / 2;
-$base-z-index: 0;
+$base-spacing: 1em;
 
-// Colors - Retro CRT Green Palette
-//$primary-color: #00ff00;
-//$action-color: #00cc00;
-//$white-color: #001100;
-//$black-color: #00ff00;
-//$blue-color: #00ff00;
-//$dark-gray-color: #003300;
-//$medium-gray-color: #005500;
-//$light-gray-color: #007700;
+// Colors
+$primary-color: #000000;
+$action-color: #111111;
+$white-color: #ffffff;
+$black-color: #000000;
+$light-gray-color: #f5f5f5;
+$medium-gray-color: #e5e5e5;
 
-// Colors – Charcoal & Off-White
-$primary-color: #3a3a3a;
-$action-color: #121212;
-$white-color: #f4f4f4;
-$black-color: #121212;
-$blue-color: #8aa8ff;
-$dark-gray-color: #1e1e1e;
-$medium-gray-color: #2a2a2a;
-$light-gray-color: #e6e6e6;
-
-// Font Colors
+// Font color
 $base-font-color: $black-color;
 
-// Border
-$base-border-color: $black-color;
-$base-border: 4px solid $base-border-color;
-
-// Background Colors
-$base-background-color: #FFE66D;
-$secondary-background-color: #8338EC;
-
-// Forms
-$form-box-shadow: inset 0 1px 3px rgba($black-color, 0.06);
-$form-box-shadow-focus: $form-box-shadow, 0 0 5px adjust-color($action-color, $lightness: -5%, $alpha: -0.3);
+// Borders / form shadows - minimal
+$base-border: none;
+$form-box-shadow: none;
+$form-box-shadow-focus: none;
 
 // Animations
 $base-duration: 150ms;
