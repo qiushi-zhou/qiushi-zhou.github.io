@@ -60,6 +60,12 @@ body {
   font-size: 0.9rem;
 }
 
+/* Divider */
+.divider {
+  border-top: 1px solid $medium-gray-color;
+  margin: 1rem 0;
+}
+
 /* Footer */
 .site-footer {
   padding: 2rem 0;
