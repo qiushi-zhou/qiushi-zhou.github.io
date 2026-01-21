@@ -7,6 +7,34 @@ permalink: /publications/
 <img src="/assets/images/arrow.png" width="100" style="display:block; margin: 0 auto;">
 <img src="/assets/images/future.png" width="66" style="display:block; margin: 0 auto;">
 
+
+**CHI 2026** <a href="">PDF</a>
+## StylusPort: Investigating Teleportation using Stylus in VR
+
+_Yang Liu, **Qiushi Zhou**, Mathias N. Lystbæk, Aidan Kehoe, Mario Gutierrez, Hans Gellersen, Ken Pfeuffer_
+
+The stylus is unique and useful for 3D design and drawing in VR. We explore multimodal stylus-based teleportation, tailored to integrate with the default stylus use. Specifically, we introduce a novel use of gaze for orientating in combination with stylus-pointing for positioning, and a novel mode-switching approach based on stylus flip. We present a user study of a teleport-and-sketch task, where six techniques are evaluated, covering two mode-switching methods (button, stylus flip) and three orienting approaches (stylus roll, stylus point, gaze point). The results offer new insights into the relative merits and limitations of each technique. Our work contributes to knowledge about teleportation in XR, and fills the gap in the seamless integration of teleportation into stylus input.
+
+<div class="divider"></div>
+
+**CHI 2026** <a href="">PDF</a>
+## Preshaping: Preparatory Hand Behaviour during Direct and Gaze-Assisted Indirect, Pinch and Controller Manipulation of 3D Objects
+
+_Thorbjørn Mikkelsen, **Qiushi Zhou**, Mar Gonzalez-Franco, Hans Gellersen, Ken Pfeuffer_
+
+Effortless manipulation informs and relies on preshaping: the subconscious posing of the hand before grasping. Virtual environments and the design of interaction techniques alters interaction requirements like contact and reach, forcing behavioural adaptation. We present a comparative study investigating preshaping behaviour across direct versus indirect (gaze-assisted) and bare-hand versus controller techniques on a docking task. Results reveal that response patterns scale with anticipated task difficulty, and that direct techniques elicit effective posing of the hand. Indirect techniques shortcut hand transport and in turn lacks the sensory feedback to guide planning, inducing efficient but attenuated responses that necessitate compensatory manipulation and clutching. Notably, controllers that afford in-hand rotation allow users to extend their range of motion. These findings can inform interaction design to better afford preshaping and optimise 3D manipulation tasks.
+
+<div class="divider"></div>
+
+**Augmented Humans 2026** <a href="https://qiushi-zhou.github.io/PDF/AH_s_26___Ghost_Arm.pdf">PDF</a>
+## Ghost Arm: Aligning Human and Robot Kinematics through AR Overlays in MoCap-Based Teleoperation of Robot Arm
+
+_**Qiushi Zhou**, Antony Chacon, Jiahe Pan, Wafa Johal_
+
+Teleoperating a robot arm typically requires either positioning its end-effector directly or programming joint movements. The former limits posture and trajectory control, while the latter lacks intuitive, real-time feedback. Unlike controlling their own arms through integrated visual and proprioceptive cues, humans face difficulties with robot arms due to mismatched orientations and joint kinematic configuration. In this work, we investigate how different augmented reality (AR) visualisations can support teleoperation via motion capture (MoCap). Across two user studies (N=24, N=24), we evaluate how overlaying a virtual human arm alongside the robot arm affects user performance and experience. Our results show that the humanoid AR overlay facilitates learning the control mapping, but its benefits diminish once users become familiar with the task. We contribute empirical evidence and design insights for AR- and MoCap-based approaches to more effective robot arm teleoperation.
+
+<div class="divider"></div>
+
 **UIST 2025** <a href="https://qiushi-zhou.github.io/PDF/UIST-2025-SightWarp.pdf">PDF</a>
 ## At A Glance To Your Fingertips: Enabling Direct Manipulation for Distant Objects Through Gaze-based Summoning
 
