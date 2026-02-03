@@ -18,7 +18,7 @@ Eye–hand interaction (EHI) has become a default input paradigm in extended rea
 
 <div class="divider"></div>
 
-**CHI 2026** <a href="">PDF</a>
+**CHI 2026** <a href="https://qiushi-zhou.github.io/PDF/CHI_26_stylusport.pdf">PDF</a>
 ## StylusPort: Investigating Teleportation using Stylus in VR
 
 _Yang Liu, **Qiushi Zhou**, Mathias N. Lystbæk, Aidan Kehoe, Mario Gutierrez, Hans Gellersen, Ken Pfeuffer_
@@ -27,7 +27,7 @@ The stylus is unique and useful for 3D design and drawing in VR. We explore mult
 
 <div class="divider"></div>
 
-**CHI 2026** <a href="">PDF</a>
+**CHI 2026** <a href="https://qiushi-zhou.github.io/PDF/CHI_26_Preshaping.pdf">PDF</a>
 ## Preshaping: Preparatory Hand Behaviour during Direct and Gaze-Assisted Indirect, Pinch and Controller Manipulation of 3D Objects
 
 _Thorbjørn Mikkelsen, **Qiushi Zhou**, Mar Gonzalez-Franco, Hans Gellersen, Ken Pfeuffer_
