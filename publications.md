@@ -8,7 +8,17 @@ permalink: /publications/
 <img src="/assets/images/future.png" width="66" style="display:block; margin: 0 auto;">
 
 
-**CHI 2026** <a href="">PDF</a>
+
+**IEEE VR 2026 GEMINI Workshop** <a href="https://qiushi-zhou.github.io/PDF/GEMINI26EHI.pdf">PDF</a>
+## Eye-Hand Interaction in XR through the Lens of Instrumental Interaction
+
+_**Qiushi Zhou**, Ken Pfeuffer_
+
+Eye–hand interaction (EHI) has become a default input paradigm in extended reality (XR). Existing research largely evaluates these techniques in terms of performance and usability, as extensions of previously established WIMP techniques, whereas lacking theoretical and conceptual reflections. In this paper, we take a different approach and examine EHI through the theoretical lens of Instrumental Interaction. By conceptualising EHI as interaction instruments rather than mere user actions, we offer a novel perspective for understanding its mediating role between users and XR systems. We characterise representative EHI techniques using instrumental properties such as degree of indirection, integration, compatibility, and spatial and temporal offsets. This analysis highlights distinctive qualities of EHI, including its always-on activation, malleable indirection, and grounding in human perception–action loops, which enable fast and expressive interaction with both nearby and distant objects. Building on this perspective, we discuss design implications for XR interfaces and outline research directions that move beyond individual techniques toward the design of EHI as a foundational, XR-native interaction instrument.
+
+<div class="divider"></div>
+
+**CHI 2026** <a href="https://qiushi-zhou.github.io/PDF/CHI_26_stylusport.pdf">PDF</a>
 ## StylusPort: Investigating Teleportation using Stylus in VR
 
 _Yang Liu, **Qiushi Zhou**, Mathias N. Lystbæk, Aidan Kehoe, Mario Gutierrez, Hans Gellersen, Ken Pfeuffer_
@@ -17,7 +27,7 @@ The stylus is unique and useful for 3D design and drawing in VR. We explore mult
 
 <div class="divider"></div>
 
-**CHI 2026** <a href="">PDF</a>
+**CHI 2026** <a href="https://qiushi-zhou.github.io/PDF/CHI_26_Preshaping.pdf">PDF</a>
 ## Preshaping: Preparatory Hand Behaviour during Direct and Gaze-Assisted Indirect, Pinch and Controller Manipulation of 3D Objects
 
 _Thorbjørn Mikkelsen, **Qiushi Zhou**, Mar Gonzalez-Franco, Hans Gellersen, Ken Pfeuffer_
