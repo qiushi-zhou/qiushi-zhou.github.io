@@ -36,7 +36,7 @@ Effortless manipulation informs and relies on preshaping: the subconscious posin
 
 <div class="divider"></div>
 
-**Augmented Humans 2026** <a href="https://qiushi-zhou.github.io/PDF/AHs-26-GhostArm.pdf">PDF</a>
+**Augmented Humans 2026** <a href="https://qiushi-zhou.github.io/PDF/AH_s_26___Ghost_Arm.pdf">PDF</a>
 ## Ghost Arm: Aligning Human and Robot Kinematics through AR Overlays in MoCap-Based Teleoperation of Robot Arm
 
 _**Qiushi Zhou**, Antony Chacon, Jiahe Pan, Wafa Johal_
