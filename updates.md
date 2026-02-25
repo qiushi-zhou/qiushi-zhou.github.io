@@ -1,13 +1,13 @@
 ---
 layout: default
-title: All Updates
+title: All Articles
 permalink: /updates/
 ---
 
 <section class="post-list">
 <div class="container">
   <div class="container">
-    <h2 class="category-title">All Updates</h2>
+    <h2 class="category-title">All Articles</h2>
     {% for post in site.posts %}
       {% unless post.next %}
         <h2 class="category-title">{{ post.date | date: '%Y' }}</h2>

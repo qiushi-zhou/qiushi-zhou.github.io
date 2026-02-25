@@ -10,7 +10,7 @@ title: Home
   <img src="/assets/images/side.jpg" alt="">
   </div>
   <div class="container">
-    <h2 class="category-title">Recent Updates</h2>
+    <h2 class="category-title">Blog</h2>
     {% for post in site.posts limit:2 %}
       <article class="post-item">
         <span class="post-meta date-label">{{ post.date | date: "%b %d, %Y" }}</span>
@@ -18,7 +18,7 @@ title: Home
       </article>
     {% endfor %}
     <div style="margin-top: 2em; padding-top: 2em; ">
-      <a href="/updates/" style="font-weight: 700; letter-spacing: 1px;">→ View all updates</a>
+      <a href="/updates/" style="font-weight: 700; letter-spacing: 1px;">→ View all articles</a>
     </div>
   </div>
   
