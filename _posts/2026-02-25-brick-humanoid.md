@@ -8,6 +8,7 @@ keywords: ""
 
 *多年来，每当我跟朋友解释我做的 “人机交互” 研究时，大家十有八九会理解成 “人工智能”，“脑机接口”，或者 “机器人”，基本取决于时下流行的技术现象和社会讨论。再加上现在的 “人机” 在流行语汇中的意义，人机交互作为一个研究领域的意义就越发模糊。恰逢今年春晚人形机器人汇报演出火遍海内外，借机讲讲我理解的人机交互，以及它在当下这个每年都能换算成五个什么元年的时代应该有什么价值和意义。*
 
+
 ## 春晚
 
 春晚作为春晚，表里的各种意义自不必说，而其中对新技术的表现也尤其值得玩味。1983 年，央视初试牛刀，办了一个类似机关单位新年联谊会的活动，面向数量有限的观众（其时平均每一百个家庭拥有一台电视），节目组决定接收来电点播群众（北京市民）喜闻乐见的节目 [1]。两张桌子四台座机，致使北京电信局线路濒临崩溃。这是新技术伴随春晚的首次亮相：新的不是技术本身而是使用方法（点播电视节目），新的交互方式（主持人直播反馈），还有可及性（能打电话的新兴市民阶层）。
@@ -15,6 +16,7 @@ keywords: ""
 <div class="container">
     <img src="/assets/images/blog/brick-humanoid/Pasted image 20260223025818.png" alt="">
 </div>
+
 
 ## 技术在早期春晚作品中的呈现
 
@@ -30,6 +32,7 @@ keywords: ""
 某种意义上，在这个农转非的高峰期，官方和民间对待新技术的态度在春晚得到了相对统一：被动，保守，允许戏谑。因其时代蒸蒸日上，全社会都忙于参与阶级跃迁，此时春晚承担的责任还是多去表现那些人们所熟知的传统价值。技术本身作为配角让位于乡土，家，和爱的前现代永恒主题，藏身于时代浪潮的背景之中。虽然技术的使用者和使用方式被用来出梗，但作品结尾虽迟但到的主题升华总是让观众站在农民和老年人这一边，被动接受新技术。
 
 而机器人，则是另一个故事。 
+
 
 ## 机器人在春晚舞台的呈现
 
@@ -56,6 +59,7 @@ keywords: ""
 <div class="container">
     <img src="/assets/images/blog/brick-humanoid/Screenshot_20260222-175455.png" alt="">
 </div>
+
 
 ## 技术的复杂性
 
@@ -91,22 +95,36 @@ keywords: ""
 而在这两者之间， 天然对技术同时具有 “百科全书式的” 认识和一手实践能力和经验的，能够同时回答杨立昆和闫师傅的质疑和疑问，并为人工智能和人形机器人在中国语境中赋予意义的，在我看来正*应该*是 “人机交互” 的研究者。
 
 （未完待续，
+
 下篇关键词：
 苏联理论， 脑机接口， 冯巩骑郭冬临， 手机， XR， AI 生成自己）
   
 [1] 1983年中央广播电视总台春节联欢晚会 https://www.bilibili.com/bangumi/play/ep1352732
+
 [2] 1994 蔡明 郭达《越洋电话》 https://www.bilibili.com/video/BV1PUZ4YMEv2
+
 [3] 1998 黄宏 宋丹丹《回家》 https://www.bilibili.com/video/BV1xYfABeEai
+
 [4] 2016 孙楠《冲向巅峰》 https://www.bilibili.com/video/BV1Ac411y7Xr
+
 [5] 2019 群星《青春畅想》 https://www.bilibili.com/video/BV1kmkLB9EoB
+
 [6] 2026 杨立昆质疑人形机器人 https://www.bilibili.com/video/BV18G6iBHEza
+
 [7] 2021 许煜 《論中國的技術問題 —宇宙技術初論》 https://digitalmilieu.net/the-question-concerning-technology-in-china-cn/
+
 [8] 1637 宋应星《天工开物》 https://old.shuge.org/ebook/tian-gong-kai-wu/
+
 [9] 维基百科 “师夷长技以制夷” https://zh.wikipedia.org/wiki/师夷长技以制夷
+
 [10] 2014 军事科学院 《人民日报刊文纪念甲午战争120周年：必须有强大的实力》 http://theory.people.com.cn/n/2014/0724/c40531-25332273.html
+
 [11] 2025《秧BOT》 https://www.bilibili.com/video/BV1fVFxeFEb6
+
 [12] 2026《武BOT》 https://www.bilibili.com/video/BV13mZuBsEao
+
 [13] 2017 Gilbert Simondon, "On the Mode of Existence of Technical Objects." https://www.upress.umn.edu/9781517904876/on-the-mode-of-existence-of-technical-objects/
+
 [14] 2026 Sam Altman, "But it also takes a lot of energy to train a human." https://x.com/TheChiefNerd/status/2025184575316471971
 
 
