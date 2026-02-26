@@ -7,7 +7,14 @@ permalink: /publications/
 <img src="/assets/images/arrow.png" width="100" style="display:block; margin: 0 auto;">
 <img src="/assets/images/future.png" width="66" style="display:block; margin: 0 auto;">
 
+**IEEE TVCG** <a href="https://qiushi-zhou.github.io/PDF/TVCG-2026-Meta.pdf">PDF</a>
+## A Probabilistic Approach to Understanding User Preferences for Adaptive Placement of AR Interfaces in Different Physical Environments
 
+_**Qiushi Zhou**, Jean Paul Vera Soto, Zhongyi Bai, Mark Parent, Kashyap Todi, Tanya R. Jonker, Eduardo Velloso_
+
+We develop a probabilistic approach to understanding user preferences for adaptive placement of augmented reality (AR) interfaces in the physical environment through a series of user studies conducted using simulated desktop and virtual reality (VR) environments. From the first online crowdsourcing study and its validation in VR, we derived a set of potential factors behind user preferences for AR interface adaptation by assessing user-created layouts and analysing subjective user feedback. Building on this prior knowledge, we implemented a probabilistic optimisation system to generate adapted AR interfaces. Using generated layout pairs that prioritise different factors, we conducted a second online crowdsourcing study (N = 250) to elicit user preference rating data to quantify posterior probabilities for the weighting coefficients of the factors in the optimisation utility function. Overall, we found that the overall structures of layouts, such as shape and distribution, are more important to users than adapting to specific features of the environment, such as semantic associations between AR widgets and objects in the physical environments. We contribute a statistical model containing probabilistic distributions of different factors as a universal prior model that represents user preferences for AR interface placement that adapts to changing physical environments. Based on the results, we distil concrete guidelines for future adaptive AR interface systems regarding layout consistency, structure, and relationships between virtual widgets and physical objects.
+
+<div class="divider"></div>
 
 **IEEE VR 2026 GEMINI Workshop** <a href="https://qiushi-zhou.github.io/PDF/GEMINI26EHI.pdf">PDF</a>
 ## Eye-Hand Interaction in XR through the Lens of Instrumental Interaction
