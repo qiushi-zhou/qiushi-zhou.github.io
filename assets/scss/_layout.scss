@@ -120,6 +120,41 @@ img:hover {
   opacity: 1;
 }
 
+/* Blog list on updates page */
+.blog-list-container {
+  max-width: 900px;
+}
+
+.blog-list-item {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  gap: 1.5rem;
+  align-items: start;
+  padding: 1.5rem 0;
+  border-bottom: 1px dashed $bg-light;
+}
+
+.blog-list-item:last-child {
+  border-bottom: none;
+}
+
+.blog-item-image {
+  width: 100%;
+}
+
+.blog-item-image img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border: 1px solid $tan;
+}
+
+.blog-item-content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
 /* Post list section */
 .post-list {
   display: grid;
@@ -251,6 +286,18 @@ img:hover {
   img {
     filter: grayscale(100%) sepia(60%) saturate(150%) hue-rotate(-15deg) brightness(0.85);
   }
+
+  /* Mobile blog list layout */
+  .blog-list-item {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .blog-item-image img {
+    height: 120px;
+    max-width: 100%;
+  }
+
   .navbar {
     flex-wrap: wrap;
   }
