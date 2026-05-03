@@ -123,6 +123,8 @@ img:hover {
 /* Blog list on updates page */
 .blog-list-container {
   max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
 }
 
 .blog-list-item-wide {
@@ -130,6 +132,7 @@ img:hover {
   padding: 1.5rem 0;
   border-bottom: 1px dashed $bg-light;
   text-align: center;
+  margin: 0 auto;
 }
 
 .blog-list-item-wide:last-child {
@@ -140,7 +143,10 @@ img:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   gap: 0.5rem;
+  max-width: 600px;
+  margin: 0 auto;
 }
 
 .blog-item-content-wide .date-label {
@@ -152,6 +158,11 @@ img:hover {
 
 .blog-item-content-wide .article-title {
   font-size: 1.1rem;
+  max-width: 100%;
+}
+
+.blog-item-content-wide .article-title a {
+  display: inline-block;
   max-width: 100%;
 }
 
@@ -297,7 +308,15 @@ img:hover {
     padding: 1rem 0;
   }
 
+  .blog-list-container {
+    padding: 1rem;
+  }
+
   .blog-item-content-wide .article-title {
+    font-size: 1rem;
+  }
+
+  .blog-item-content-wide .post-link {
     font-size: 1rem;
   }
 
