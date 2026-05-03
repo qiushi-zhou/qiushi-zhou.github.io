@@ -4,7 +4,7 @@ title: Recent Publications
 permalink: /publications/
 ---
 
-<img src="/assets/images/arrow.png" width="100" style="display:block; margin: 0 auto;">
+<img src="/assets/images/arrow.png" width="300" style="display:block; margin: 0 auto;">
 <img src="/assets/images/future.png" width="66" style="display:block; margin: 0 auto;">
 
 **IEEE TVCG** <a href="https://qiushi-zhou.github.io/PDF/TVCG-2026-Meta.pdf">PDF</a>

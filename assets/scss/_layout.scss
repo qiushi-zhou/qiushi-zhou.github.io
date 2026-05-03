@@ -120,70 +120,44 @@ img:hover {
   opacity: 1;
 }
 
-/* Blog list on updates page */
+/* Blog list on updates page - match publications layout */
 .blog-list-container {
-  max-width: 800px;
+  max-width: 680px;
   margin: 0 auto;
-  padding: 2rem 1rem;
+  padding: 1rem;
 }
 
-.blog-list-item-wide {
-  display: block;
-  padding: 1.5rem 0;
-  border-bottom: 1px dashed $bg-light;
-  text-align: center;
-  margin: 0 auto;
-}
-
-.blog-list-item-wide:last-child {
-  border-bottom: none;
-}
-
-.blog-item-content-wide {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 0.5rem;
-  max-width: 600px;
-  margin: 0 auto;
-}
-
-.blog-item-content-wide .date-label {
-  font-size: 12px;
-  color: $tan;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-}
-
-.blog-item-content-wide .article-title {
-  font-size: 1.1rem;
-  max-width: 100%;
-}
-
-.blog-item-content-wide .article-title a {
-  display: inline-block;
-  max-width: 100%;
-}
-
-.blog-item-content-wide .post-link {
-  font-size: 1.1rem;
-  line-height: 1.5;
-}
-
-/* Post list section */
 .post-list {
-  display: grid;
-  grid-template-columns: 300px 1fr;
-  gap: 2rem;
-  max-width: 900px;
+  display: block;
+  max-width: 680px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 1rem;
 }
 
 .post-list-image img {
   width: 100%;
   height: 280px;
+  object-fit: cover;
+}
+
+/* Home page intro section - keep grid layout */
+.intro {
+  .container {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    gap: 2rem;
+    align-items: start;
+    
+    @media (max-width: 700px) {
+      grid-template-columns: 1fr;
+    }
+  }
+}
+
+.intro img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
   object-fit: cover;
 }
 
@@ -287,15 +261,16 @@ img:hover {
 /* Small adjustments for mobile */
 @media (max-width: 700px) {
   .container { padding: 1rem; }
-  .post-list,
+  
   .intro .container {
     grid-template-columns: 1fr;
     padding: 1rem;
   }
-  .post-list-image img,
+  
   .intro img {
     max-width: 300px;
-    height: 200px;
+    margin: 0 auto;
+    display: block;
   }
 
   /* Mobile image filter - maintain warm theme */
@@ -304,20 +279,12 @@ img:hover {
   }
 
   /* Mobile blog list layout */
-  .blog-list-item-wide {
-    padding: 1rem 0;
-  }
-
   .blog-list-container {
     padding: 1rem;
   }
 
-  .blog-item-content-wide .article-title {
-    font-size: 1rem;
-  }
-
-  .blog-item-content-wide .post-link {
-    font-size: 1rem;
+  .post-list {
+    padding: 1rem;
   }
 
   .navbar {
