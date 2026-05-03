@@ -120,6 +120,50 @@ img:hover {
   opacity: 1;
 }
 
+/* Page title styling */
+.page-title {
+  font-size: 13px;
+  font-weight: normal;
+  text-transform: uppercase;
+  color: $tan;
+  border-bottom: 1px solid $tan;
+  padding-bottom: 0.5rem;
+  margin-bottom: 2rem;
+  letter-spacing: 2px;
+}
+
+/* Page content */
+.page-content {
+  h2 {
+    font-size: 1.1rem;
+    font-weight: normal;
+    color: $text-color;
+    margin: 1.5rem 0 0.5rem 0;
+    text-transform: none;
+    border: none;
+    padding: 0;
+    letter-spacing: normal;
+  }
+  
+  h3 {
+    font-size: 1rem;
+    font-weight: normal;
+    color: $tan;
+    margin: 1rem 0 0.5rem 0;
+    text-transform: none;
+    border: none;
+    padding: 0;
+    letter-spacing: normal;
+  }
+}
+
+/* Page layout */
+.page {
+  max-width: 680px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
 /* Blog list on updates page - match publications layout */
 .blog-list-container {
   max-width: 680px;
