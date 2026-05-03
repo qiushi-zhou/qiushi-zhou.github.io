@@ -97,6 +97,16 @@ img,
 picture {
   margin: 0;
   max-width: 100%;
+  filter: grayscale(100%) sepia(60%) saturate(150%) hue-rotate(-15deg) brightness(0.85);
+  border: 1px solid $tan;
+  opacity: 0.95;
+  transition: filter 0.3s ease, opacity 0.3s ease;
+}
+
+img:hover,
+picture:hover {
+  filter: grayscale(0%) sepia(20%) saturate(120%) hue-rotate(-10deg) brightness(0.95);
+  opacity: 1;
 }
 
 blockquote {
