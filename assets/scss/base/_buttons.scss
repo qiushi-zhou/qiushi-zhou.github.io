@@ -1,15 +1,15 @@
 .button {
   appearance: none;
-  background-color: $action-color;
-  border: 1px solid #ccc;
+  background-color: transparent;
+  border: 1px solid $tan;
   border-radius: $base-border-radius;
-  color: white;
+  color: $tan;
   cursor: pointer;
   display: inline-block;
   font-family: $base-font-family;
-  font-size: 14px;
+  font-size: 12px;
   -webkit-font-smoothing: antialiased;
-  font-weight: 600;
+  font-weight: normal;
   line-height: 1.2;
   padding: $small-spacing $base-spacing;
   text-decoration: none;
@@ -18,14 +18,15 @@
   vertical-align: middle;
   white-space: nowrap;
   box-shadow: none;
-  text-transform: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 
   &:hover,
   &:focus {
-    background-color: darken($action-color, 10%);
-    color: white;
+    background-color: $tan;
+    color: $bg-dark;
     transform: none;
-    box-shadow: 0 2px 4px rgba($black-color, 0.1);
+    box-shadow: none;
   }
 
   &:disabled {
@@ -33,8 +34,8 @@
     opacity: 0.5;
 
     &:hover {
-      background-color: $action-color;
-      color: white;
+      background-color: transparent;
+      color: $tan;
     }
   }
 }

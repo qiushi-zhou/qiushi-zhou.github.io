@@ -1,7 +1,6 @@
 body {
   color: $base-font-color;
   font-family: $base-font-family;
-  //font-feature-settings: "kern", "liga", "pnum";
   font-size: $base-font-size;
   line-height: $base-line-height;
 }
@@ -16,59 +15,78 @@ h6 {
   font-size: $base-font-size;
   line-height: $heading-line-height;
   margin: 0.75rem 0;
-  font-weight: 700;
+  font-weight: normal;
   color: inherit;
   text-shadow: none;
 }
 
 h1 {
-  font-size: rem(30);
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: $tan;
 }
 
 h2 {
-  font-size: rem(26);
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: $tan;
+  border-bottom: 1px solid $tan;
+  padding-bottom: 0.5rem;
 }
 
 h3 {
-  font-size: rem(24);
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: $tan;
 }
 
 h4 {
-  font-size: rem(20);
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: $tan;
 }
 
 h5,
 h6 {
-  font-size: rem(16);
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: $tan;
 }
 
 p {
   margin: 0 0 $small-spacing;
 
   &.lead {
-    font-size: rem(22);
-    font-weight: 300;
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 1.7;
   }
 }
 
 a {
-  color: $action-color;
-  text-decoration: underline;
+  color: $coral;
+  text-decoration: none;
+  border-bottom: 1px dotted $coral;
   text-underline-offset: 2px;
-  transition: color 120ms $base-timing;
+  transition: all 0.2s;
 
   &:hover,
   &:focus,
   &:active {
-    color: darken($action-color, 10%);
+    color: $coral-light;
+    border-bottom-style: solid;
     background: none;
     padding: 0;
-    text-decoration: underline;
   }
 }
 
 hr {
-  border-bottom: $base-border;
+  border-bottom: 1px dashed $tan;
   border-left: 0;
   border-right: 0;
   border-top: 0;
@@ -84,9 +102,9 @@ picture {
 blockquote {
   padding: .75rem;
   margin: .75rem 0;
-  color: #444;
+  color: $text-muted;
   line-height: 1.6;
-  border-left: 3px solid $medium-gray-color;
+  border-left: 3px solid $tan;
   background-color: transparent;
   border: none;
   font-weight: 400;
@@ -94,39 +112,44 @@ blockquote {
 }
 
 code {
-  border: 2px solid $black-color;
-  font-family: "SFMono-Regular",Menlo,Consolas,"Courier New",monospace;
+  border: 1px solid $tan;
+  font-family: "SFMono-Regular", Menlo, Consolas, "Courier New", monospace;
   font-size: 1em;
   margin: 0;
   padding: 2px 5px;
-  background-color: $light-gray-color;
-  color: $black-color;
-  font-weight: 700;
+  background-color: $bg-light;
+  color: $text-color;
+  font-weight: normal;
 }
 
 pre {
   -webkit-overflow-scrolling: touch;
-  font-family: "SFMono-Regular",Menlo,Consolas,"Inconsolata",monospace;
+  font-family: "SFMono-Regular", Menlo, Consolas, "Inconsolata", monospace;
   font-size: 1em;
   margin: 0;
   padding: 5px 10px !important;
   overflow: auto;
   max-height: 60em;
   white-space: pre;
-  border: 1px solid $light-gray-color;
+  border: 1px solid $tan;
+  background-color: $bg-light;
 
   code {
     line-height: 1.75em;
     padding: 0 !important;
+    border: none;
+    background-color: transparent;
   }
 }
 
 strong {
-  font-weight: bold;
+  font-weight: normal;
+  color: $tan;
 }
 
 em {
   font-style: italic;
+  color: $coral;
 }
 
 ul,
@@ -138,4 +161,7 @@ dl {
     list-style-type: square;
     list-style-position: outside;
     list-style-image: none;
+    li {
+      margin-bottom: 0.5rem;
+    }
 }
