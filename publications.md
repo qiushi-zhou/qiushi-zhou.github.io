@@ -4,8 +4,7 @@ title: Recent Publications
 permalink: /publications/
 ---
 
-<img src="/assets/images/arrow.png" width="300" style="display:block; margin: 0 auto;">
-<img src="/assets/images/future.png" width="66" style="display:block; margin: 0 auto;">
+<img src="/qiushi.JPG" width="200" style="display:block; margin: 0 auto; border-radius: 50%;">
 
 **IEEE TVCG** <a href="https://qiushi-zhou.github.io/PDF/TVCG-2026-Meta.pdf">PDF</a>
 ## A Probabilistic Approach to Understanding User Preferences for Adaptive Placement of AR Interfaces in Different Physical Environments
