@@ -5,11 +5,11 @@ title: Home
 
 {% include intro.html %}
 
-<section class="post-list">
-<div class="container">
-  <img src="/assets/images/side.jpg" alt="">
+<section class="home-post-list">
+  <div class="home-image-col">
+    <img src="/assets/images/side.jpg" alt="">
   </div>
-  <div class="container">
+  <div class="home-content-col">
     <h2 class="category-title">Blog</h2>
     {% for post in site.posts limit:2 %}
       <article class="post-item">
@@ -21,5 +21,4 @@ title: Home
       <a href="/updates/" style="font-weight: 700; letter-spacing: 1px;">→ View all articles</a>
     </div>
   </div>
-  
 </section>

@@ -70,9 +70,25 @@ body {
   }
 }
 
-/* Intro section */
+/* Intro section - homepage specific */
 .intro {
   padding: 2rem 0;
+  
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    align-items: start;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    
+    @media (max-width: 700px) {
+      grid-template-columns: 1fr;
+      padding: 1rem;
+    }
+  }
+  
   .lead {
     font-size: 15px;
     font-weight: normal;
@@ -88,7 +104,12 @@ body {
       }
     }
   }
-  a[href*="scholar"], a[href*="linkedin"], a[href*="twitter"], a[href*="bsky"] {
+  
+  /* Social links on homepage */
+  a[href*="scholar"], 
+  a[href*="linkedin"], 
+  a[href*="twitter"], 
+  a[href*="bsky"] {
     display: inline-block;
     margin-right: 0.5rem;
     margin-bottom: 0.5rem;
@@ -164,15 +185,15 @@ img:hover {
   padding: 2rem 1rem;
 }
 
-/* Blog list on updates page - match publications layout */
+/* Blog list on updates page */
 .blog-list-container {
   max-width: 680px;
   margin: 0 auto;
   padding: 1rem;
 }
 
-/* Home page post-list - two column grid */
-.post-list {
+/* Home page specific post list - two column grid */
+.home-post-list {
   display: grid;
   grid-template-columns: 300px 1fr;
   gap: 2rem;
@@ -181,34 +202,15 @@ img:hover {
   padding: 2rem;
 }
 
-.post-list-image img {
-  width: 100%;
-  height: 280px;
-  object-fit: cover;
-}
-
-/* Home page intro section - keep grid layout */
-.intro {
-  .container {
-    display: grid;
-    grid-template-columns: 300px 1fr;
-    gap: 2rem;
-    align-items: start;
-    
-    @media (max-width: 700px) {
-      grid-template-columns: 1fr;
-    }
+.home-image-col {
+  img {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
   }
 }
 
-.intro img {
-  width: 100%;
-  max-width: 300px;
-  height: auto;
-  object-fit: cover;
-}
-
-.post-list-content {
+.home-content-col {
   /* content styling */
 }
 
@@ -270,7 +272,7 @@ img:hover {
 }
 
 /* View all link */
-.post-list a[href*="/updates/"] {
+.home-content-col a[href*="/updates/"] {
   display: inline-block;
   margin-top: 1rem;
   padding: 0.5rem 1rem;
@@ -314,10 +316,16 @@ img:hover {
     padding: 1rem;
   }
   
-  .intro img {
+  .home-post-list {
+    grid-template-columns: 1fr;
+    padding: 1rem;
+  }
+  
+  .home-image-col img {
     max-width: 300px;
     margin: 0 auto;
     display: block;
+    height: auto;
   }
 
   /* Mobile image filter - maintain warm theme */
@@ -327,11 +335,6 @@ img:hover {
 
   /* Mobile blog list layout */
   .blog-list-container {
-    padding: 1rem;
-  }
-
-  .post-list {
-    grid-template-columns: 1fr;
     padding: 1rem;
   }
 
