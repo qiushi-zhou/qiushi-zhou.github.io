@@ -171,11 +171,14 @@ img:hover {
   padding: 1rem;
 }
 
+/* Home page post-list - two column grid */
 .post-list {
-  display: block;
-  max-width: 680px;
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  gap: 2rem;
+  max-width: 900px;
   margin: 0 auto;
-  padding: 1rem;
+  padding: 2rem;
 }
 
 .post-list-image img {
@@ -328,6 +331,7 @@ img:hover {
   }
 
   .post-list {
+    grid-template-columns: 1fr;
     padding: 1rem;
   }
 
