@@ -73,27 +73,30 @@ body {
 /* Intro section - homepage specific */
 .intro {
   padding: 2rem 0;
+}
+
+/* Intro container - two column layout */
+.intro-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  align-items: start;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 2rem;
   
-  .container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 3rem;
-    align-items: start;
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 1rem 2rem;
-    
-    @media (max-width: 700px) {
-      grid-template-columns: 1fr;
-      padding: 1rem;
-    }
+  @media (max-width: 700px) {
+    grid-template-columns: 1fr;
+    padding: 0 1rem;
   }
-  
+}
+
+.intro-text {
   .lead {
     font-size: 15px;
     font-weight: normal;
     line-height: 1.7;
-    margin-bottom: 1.5rem;
+    margin-bottom: 0;
     a {
       color: $coral;
       text-decoration: none;
@@ -104,15 +107,16 @@ body {
       }
     }
   }
+}
+
+/* Social links grid */
+.intro-social {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.5rem;
   
-  /* Social links on homepage */
-  a[href*="scholar"], 
-  a[href*="linkedin"], 
-  a[href*="twitter"], 
-  a[href*="bsky"] {
+  a {
     display: inline-block;
-    margin-right: 0.5rem;
-    margin-bottom: 0.5rem;
     padding: 0.4rem 0.8rem;
     border: 1px solid $tan;
     color: $tan;
@@ -121,6 +125,8 @@ body {
     text-transform: uppercase;
     letter-spacing: 0.5px;
     transition: all 0.2s;
+    text-align: left;
+    
     &:hover {
       background-color: $tan;
       color: $bg-dark;
@@ -310,10 +316,14 @@ img:hover {
 /* Small adjustments for mobile */
 @media (max-width: 700px) {
   .container { padding: 1rem; }
-  
-  .intro .container {
+  /* Mobile intro layout */
+  .intro-container {
     grid-template-columns: 1fr;
-    padding: 1rem;
+    padding: 0 1rem;
+  }
+  
+  .intro-social {
+    grid-template-columns: 1fr 1fr;
   }
   
   .home-post-list {
