@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:podcast="https://podcastindex.org/namespace/1.0" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>与奇人相遇｜Meetings with Remarkable Humans</title>
+    <link>https://qiushi-zhou.github.io/</link>
+    <language>zh</language>
+    <copyright>&#xA9; Qiushi Zhou</copyright>
+    <description>与奇人相遇｜Meetings with Remarkable Humans</description>
+    <itunes:type>episodic</itunes:type>
+    <itunes:author>Qiushi Zhou</itunes:author>
+    <itunes:owner>
+      <itunes:name>Qiushi Zhou</itunes:name>
+      <itunes:email>qiushi.zhou@example.com</itunes:email>
+    </itunes:owner>
+    <itunes:summary>与奇人相遇｜Meetings with Remarkable Humans</itunes:summary>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:image href="https://qiushi-zhou.github.io/assets/images/podcast-cover.jpg"/>
+    <podcast:locked>no</podcast:locked>
+    <item>
+      <title>Podcast EP 01: Mark Grimshaw-Aagaard</title>
+      <link>https://qiushi-zhou.github.io/2026/06/10/podcast-episode-1/</link>
+      <guid isPermaLink="false">ep-01-mark-grimshaw-aagaard</guid>
+      <description>与奇人相遇｜Meetings with Remarkable Humans</description>
+      <content:encoded><![CDATA[
+<audio controls preload="metadata" style="width: 100%;">
+  <source src="https://qiushi-zhou.github.io/podcast/EP-01_Mark+Grimshaw-Aagaard.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+]]></content:encoded>
+      <enclosure url="https://qiushi-zhou.github.io/podcast/EP-01_Mark+Grimshaw-Aagaard.mp3" length="74230953" type="audio/mpeg"/>
+      <pubDate>Wed, 10 Jun 2026 10:00:00 +0800</pubDate>
+      <itunes:title>Mark Grimshaw-Aagaard</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>00:00:00</itunes:duration>
+      <itunes:image href="https://qiushi-zhou.github.io/assets/images/mark.png"/>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+  </channel>
+</rss>
