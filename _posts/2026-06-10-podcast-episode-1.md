@@ -29,8 +29,19 @@ keywords: "podcast, episode 1, mark grimshaw-aagaard"
 
 第一期的嘉宾，是 Mark Grimshaw-Aargaard 教授。Mark 是各种意义上的一个奇人。从出生起就辗转于不同大陆，年轻时在矿井里摸黑干过活，后来学音乐，做过声音工程师，给乐队跑过巡演——再后来，以电子游戏里的声音这个独特的话题为切入口，走进了学术研究，并逐渐建立起对声音最为全面的理解之一，从工程到感知，从心理学到哲学，无所不包。希望你能通过这期节目认识 Mark，也希望这段漫无边际的对谈，值得你花这段时间。
 
+<br/>
+<br/>
+
+
+
 Mark's Sound Research Group: https://srg.hkust-gz.edu.cn/
 
+<br/>
+<br/>
+
 Mark Grimshaw-Aagaard has a BMus (Hons) from the University of Natal, South Africa, an MSc (Music Technology) from the University of York, UK, and a PhD on the Acoustic Ecology of the First-Person Shooter (which became the first academic monograph on computer game sound) from the University of Waikato, New Zealand. He has held managerial and academic positions at various universities in the United Kingdom and, most recently, in Denmark where, from 2012 to 2024, he was the Obel Professor of Music (now Professor Emeritus).
+
+<br/>
+<br/>
 
 Mark has published over 100 works ranging from monographs to anthologies to journal articles to music recordings across subjects as diverse as sound, biofeedback in computer games, virtuality, the Uncanny Valley, presence/immersion, ultrasound, and IT systems, and he also writes free, opensource software for virtual research environments (WIKINDX). He has been invited to present several keynote addresses and public talks, undertakes reviewing for numerous conference series, journals, and publishers such as OUP, CUP, Routledge, and MIT, and is a member of the Oxford Handbooks Online Music Advisory Board. Mark is series editor for the Palgrave Macmillan series PalgraveStudies in Sound, and his books include the anthologies Game Sound Technology & Player Interaction(IGI Global 2011), The Oxford Handbook of Virtuality(OUP 2014), The Oxford Handbook of Sound & Imagination (OUP 2019), The Oxford Handbook of Video Game Music & Sound(OUP 2024), and the co-authored monographs Sonic Virtuality(OUP 2015) and The Recording, Mixing, & Mastering Reference Handbook(OUP 2019).
