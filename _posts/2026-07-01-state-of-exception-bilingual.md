@@ -403,40 +403,66 @@ Over time.
 ---
 
 <div class="bilingual-references">
-<div class="ref-col">
+<div class="ref-col" markdown="1">
 ### 参考资源
 
 [1] 万能青年旅店《杀死那个石家庄人》，2010。
+
 [2] Martin Heidegger,《存在与时间》（Sein und Zeit），1927。中文参考陈嘉映、王庆节译本，商务印书馆。
+
 [3] Giorgio Agamben,《例外状态》（State of Exception），2005。https://press.uchicago.edu/ucp/books/book/chicago/S/bo3534874.html
+
 [4] 关于贝叶斯推理的通识介绍参见 Sharon Bertsch McGrayne,《不会死的理论》（The Theory That Would Not Die），2011。哲学层面的讨论参见 Colin Howson & Peter Urbach, Scientific Reasoning: The Bayesian Approach, 2005。
+
 [5] Michel Foucault, "Of Other Spaces"（Des Espace Autres），1986。https://web.mit.edu/allanmc/www/foucault1.pdf
+
 [6] Erving Goffman,《日常生活中的自我呈现》（The Presentation of Self in Everyday Life），1956。
+
 [7] David Lynch,《蓝丝绒》（Blue Velvet），1986。同参《穆赫兰道》（Mulholland Drive），2001；《双峰》（Twin Peaks），1990-2017。
+
 [8] Lars von Trier,《此房是我造》（The House That Jack Built），2018。
+
 [9] 三池崇史（Takashi Miike），《拜访者 Q》（Visitor Q），2001。
+
 [10] Aleksandr Solzhenitsyn,《癌症楼》（Раковый корпус / Cancer Ward），1968。中文参考姜明河译本，译林出版社。
+
 [11] Gilbert Simondon, L'Individuation psychique et collective de Gilbert Simondon – Editions Flammarion.
+
 [12] Bernard Stiegler,《技术与时间》（La Technique et le Temps），1994-2001。中文参考裴程译本，译林出版社。
+
 [13] Yuk Hui,《论中国的技术问题》（The Question Concerning Technology in China），2016。https://digitalmilieu.net/the-question-concerning-technology-in-china-cn/
+
 [14] G. I. Gurdjieff, 关于 "self-remembering" 的论述散见于 P. D. Ouspensky,《探索奇迹》（In Search of the Miraculous），1949。同参 Gurdjieff,《与奇人相遇》（Meetings with Remarkable Men），1963。
 </div>
-<div class="ref-col">
+<div class="ref-col" markdown="1">
 ### References
 
 [1] The Beatles, "Yesterday," 1965. Written by Paul McCartney.
+
 [2] Martin Heidegger, Being and Time (Sein und Zeit), 1927.
+
 [3] Giorgio Agamben, State of Exception, 2005. https://press.uchicago.edu/ucp/books/book/chicago/S/bo3534874.html
+
 [4] For an accessible introduction to Bayesian reasoning, see Sharon Bertsch McGrayne, The Theory That Would Not Die, 2011. For a philosophical treatment, see Colin Howson & Peter Urbach, Scientific Reasoning: The Bayesian Approach, 2005.
+
 [5] Michel Foucault, "Of Other Spaces" (Des Espaces Autres), 1986. https://web.mit.edu/allanmc/www/foucault1.pdf
+
 [6] Erving Goffman, The Presentation of Self in Everyday Life, 1956.
+
 [7] David Lynch, Blue Velvet, 1986. See also Mulholland Drive, 2001; Twin Peaks, 1990–2017.
+
 [8] Lars von Trier, The House That Jack Built, 2018.
+
 [9] Takashi Miike (三池崇史), Visitor Q (ビジターQ), 2001.
+
 [10] Aleksandr Solzhenitsyn, Cancer Ward (Раковый корпус), 1968.
+
 [11] Gilbert Simondon, L'Individuation psychique et collective, Editions Flammarion.
+
 [12] Bernard Stiegler, Technics and Time (La Technique et le Temps), 1994–2001.
+
 [13] Yuk Hui, The Question Concerning Technology in China, 2016. https://digitalmilieu.net/the-question-concerning-technology-in-china-cn/
+
 [14] G. I. Gurdjieff, on "self-remembering," discussed extensively in P. D. Ouspensky, In Search of the Miraculous, 1949. See also Gurdjieff, Meetings with Remarkable Men, 1963.
 </div>
 </div>
