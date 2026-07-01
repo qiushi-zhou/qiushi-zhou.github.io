@@ -18,7 +18,7 @@ keywords: "Agamben, Heidegger, Foucault, state of exception, 阿甘本, 海德�
 <div class="bilingual-col bilingual-col-en" markdown="1">
 ### Popular literature
 
-"Living like this for thirty years, until the edifice collapses [1]." Everyone gets it: a presumed normality, and the rupture of that normality.
+"Yesterday, all my troubles seemed so far away / Now it looks as though they're here to stay [1]." Everyone gets it: a presumed normality, and the rupture of that normality.
 </div>
 </div>
 
@@ -424,7 +424,7 @@ Over time.
 <div class="ref-col">
 ### References
 
-[1] Omnipotent Youth Society (万能青年旅店), "Kill That Man from Shijiazhuang" (杀死那个石家庄人), 2010.
+[1] The Beatles, "Yesterday," 1965. Written by Paul McCartney.
 [2] Martin Heidegger, Being and Time (Sein und Zeit), 1927.
 [3] Giorgio Agamben, State of Exception, 2005. https://press.uchicago.edu/ucp/books/book/chicago/S/bo3534874.html
 [4] For an accessible introduction to Bayesian reasoning, see Sharon Bertsch McGrayne, The Theory That Would Not Die, 2011. For a philosophical treatment, see Colin Howson & Peter Urbach, Scientific Reasoning: The Bayesian Approach, 2005.
