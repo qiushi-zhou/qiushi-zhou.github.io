@@ -1,0 +1,93 @@
+// Bilingual side-by-side layout for dual-language posts
+
+.bilingual-post {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 1rem 2rem;
+
+  @media (max-width: 700px) {
+    padding: 1rem;
+  }
+}
+
+.bilingual-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px dashed rgba($tan, 0.3);
+
+  @media (max-width: 700px) {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  &:last-of-type {
+    border-bottom: none;
+  }
+}
+
+.bilingual-col {
+  font-size: 13px;
+  line-height: 1.7;
+
+  h3, h4 {
+    margin-top: 0;
+    font-size: 13px;
+  }
+
+  p {
+    margin-bottom: 0.75rem;
+  }
+}
+
+.bilingual-col-cn {
+  border-right: 1px dashed rgba($tan, 0.2);
+  padding-right: 2rem;
+
+  @media (max-width: 700px) {
+    border-right: none;
+    padding-right: 0;
+    border-bottom: 1px dashed rgba($tan, 0.2);
+    padding-bottom: 1rem;
+  }
+}
+
+.bilingual-col-en {
+  padding-left: 0;
+}
+
+// Bilingual references / footnotes section
+.bilingual-references {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  margin-top: 2rem;
+  padding-top: 2rem;
+  border-top: 1px solid $tan;
+  font-size: 12px;
+  line-height: 1.6;
+
+  @media (max-width: 700px) {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .ref-col {
+    p {
+      margin-bottom: 0.25rem;
+    }
+  }
+}
+
+// Column labels for clarity
+.bilingual-label {
+  display: block;
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: $text-muted;
+  margin-bottom: 1rem;
+  opacity: 0.6;
+}
