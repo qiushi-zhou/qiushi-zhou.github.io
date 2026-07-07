@@ -36,5 +36,24 @@
       <itunes:image href="https://qiushi-zhou.github.io/assets/images/mark.png"/>
       <itunes:explicit>no</itunes:explicit>
     </item>
+    <item>
+      <title>Podcast EP 02: AI 与 文学性</title>
+      <link>https://qiushi-zhou.github.io/2026/06/28/podcast-episode-2/</link>
+      <guid isPermaLink="false">ep-02-lin-li</guid>
+      <description>与奇人相遇｜Meetings with Remarkable Humans</description>
+      <content:encoded><![CDATA[
+<audio controls preload="metadata" style="width: 100%;">
+  <source src="https://qiushi-zhou.github.io/podcast/EP-02_林莉.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+]]></content:encoded>
+      <enclosure url="https://qiushi-zhou.github.io/podcast/EP-02_林莉.mp3" length="101416410" type="audio/mpeg"/>
+      <pubDate>Sun, 29 Jun 2026 10:00:00 +0800</pubDate>
+      <itunes:title>AI 与 文学性</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>01:45:38</itunes:duration>
+      <itunes:image href="https://qiushi-zhou.github.io/assets/images/ep2.jpg"/>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
   </channel>
 </rss>
