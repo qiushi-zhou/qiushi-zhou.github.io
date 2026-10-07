@@ -3,35 +3,44 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Theory in HCI Symposium · HKUST(GZ)</title>
-<meta name="description" content="Theory in HCI Symposium, 13–14 October 2026, HKUST (Guangzhou), Computational Media and Arts.">
-<meta property="og:title" content="Theory in HCI Symposium">
+<title>Theory as Organon · Symposium on Theory in HCI · HKUST(GZ)</title>
+<meta name="description" content="Theory as Organon: Symposium on Theory in HCI, 13–14 October 2026, HKUST (Guangzhou), Computational Media and Arts.">
+<meta property="og:title" content="Theory as Organon — Symposium on Theory in HCI">
 <meta property="og:description" content="Tue 13 &amp; Wed 14 October 2026 · HKUST (Guangzhou)">
+<meta property="og:image" content="https://qiushi-zhou.github.io/theory-in-hci/img/2c61b4f25894660247e5666976138774.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,100..900&amp;family=IBM+Plex+Mono:wght@400;500&amp;display=swap">
 <style>
-:root{--bg:#000;--fg:#EDEAE2;--mute:#8C8C8C;--dim:#6E6E6E;--abs:#BDBDBD;--accent:#EDEAE2}
+:root{--bg:#000;--fg:#EDEAE2;--mute:#8C8C8C;--dim:#6E6E6E;--abs:#BDBDBD}
 *{box-sizing:border-box}
 html{scroll-behavior:smooth}
 body{margin:0;background:var(--bg);color:var(--fg);font-family:'Archivo',sans-serif}
 p{margin:0}
 a{color:var(--fg)}
+a:hover{color:#fff}
 a:focus-visible,summary:focus-visible,button:focus-visible{outline:2px solid var(--fg);outline-offset:4px}
+img{image-rendering:pixelated}
 .page{min-height:100vh;padding:clamp(28px,6vw,88px) clamp(20px,5vw,72px) 96px}
 .wrap{max-width:1040px;margin:0 auto;display:flex;flex-direction:column}
 .mono{font-family:'IBM Plex Mono',monospace;font-size:14px;letter-spacing:.1em;color:var(--mute);text-transform:uppercase}
-.mast{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px 32px;font-family:'IBM Plex Mono',monospace;font-size:14px;letter-spacing:.08em;color:var(--mute);text-transform:uppercase}
+.mast{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:12px 32px;font-family:'IBM Plex Mono',monospace;font-size:14px;letter-spacing:.08em;color:var(--mute);text-transform:uppercase}
+.mast .logos{display:flex;flex-wrap:wrap;align-items:center;gap:12px 20px}
+.mast .logos img{display:block;width:auto;image-rendering:auto}
 .mast nav{display:flex;gap:24px;flex-wrap:wrap}
-.mast a{color:var(--mute);text-decoration:none}
-.mast a:hover{color:var(--fg)}
-h1{margin:clamp(48px,9vw,120px) 0 0;display:flex;flex-direction:column;font-weight:800;font-stretch:72%;letter-spacing:-.035em;line-height:.84}
-h1 .a{font-size:clamp(88px,19vw,240px);color:var(--accent)}
-h1 .b{font-size:clamp(88px,19vw,240px);color:var(--dim)}
-h1 .c{margin-top:16px;font-size:clamp(48px,10vw,120px);font-weight:200;letter-spacing:-.02em;color:var(--fg)}
-.date{margin-top:40px;display:flex;flex-direction:column;gap:8px}
-.date .d{font-size:clamp(22px,3vw,32px);font-weight:600}
-.date .v{font-size:clamp(18px,2.4vw,24px);color:var(--mute)}
+.mast nav a{color:var(--mute);text-decoration:none}
+.mast nav a:hover{color:var(--fg)}
+.hero{margin-top:clamp(48px,9vw,120px);display:flex;flex-direction:column}
+h1{margin:0;display:flex;flex-direction:column;font-weight:800;font-stretch:72%;letter-spacing:-.035em;line-height:.84}
+h1 .a{display:block;font-size:clamp(68px,14.6vw,184px);white-space:nowrap}
+h1 .o{position:relative;display:block;margin-top:8px;font-size:clamp(88px,19vw,240px);width:3.036em;height:.84em}
+h1 .o img{position:absolute;left:-.3333em;top:-.3333em;display:block;width:3.708em;height:1.508em}
+h1 .s{margin-top:28px;font-size:clamp(20px,8.6vw,96px);font-weight:200;line-height:1.1;letter-spacing:-.01em;color:var(--mute);white-space:nowrap}
+.plant{position:relative;margin-top:24px;width:100%;max-width:1000px;aspect-ratio:1080/1160;overflow:hidden}
+.plant>img{position:absolute;left:0;top:-11.2%;display:block;width:100%;height:auto}
+.plant .d1,.plant .d2{position:absolute;top:55%;font-size:clamp(20px,5vw,54px);line-height:1.1}
+.plant .d1{left:4%;width:38%;font-weight:600}
+.plant .d2{left:58%;width:38%;font-weight:700;line-height:1.15;margin-top:clamp(20px,5vw,54px)}
 .block{display:flex;flex-wrap:wrap;gap:20px 48px}
 .block>.lab{flex:1 1 160px}
 .block>.body{flex:999 1 560px;min-width:0;display:flex;flex-direction:column}
@@ -43,14 +52,28 @@ h1 .c{margin-top:16px;font-size:clamp(48px,10vw,120px);font-weight:200;letter-sp
 .days .body{gap:32px}
 .days .k{font-family:'IBM Plex Mono',monospace;font-size:14px;color:var(--mute);margin-bottom:6px}
 .days .h{font-size:clamp(30px,4.6vw,48px);font-weight:700;font-stretch:80%;line-height:1.05}
+.spk{margin-top:96px;display:flex;flex-direction:column;gap:40px}
+.spk .head{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:20px 48px}
+.spk h2.sec{margin:0;font-size:clamp(30px,4.6vw,48px);font-weight:700;font-stretch:80%;line-height:1.05;color:var(--fg)}
+.spk .head img{display:block;width:380px;max-width:100%;height:auto}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,200px);justify-content:space-between;gap:40px 24px}
+.sp{display:flex;flex-direction:column;gap:14px;width:200px;color:inherit;text-decoration:none}
+.ph{position:relative;display:block;width:200px;height:240px}
+.ph img{display:block;width:200px;height:240px}
+.ph .ph-c{position:absolute;left:0;top:0;object-fit:cover;opacity:0;transition:opacity .25s ease;image-rendering:auto}
+.sp:hover .ph-c,.sp:focus-visible .ph-c{opacity:1}
+.spn{display:flex;flex-direction:column;gap:4px}
+.spn .n{font-size:20px;font-weight:600;line-height:1.15;text-decoration:underline;text-decoration-color:var(--dim);text-underline-offset:4px}
+.spn .a{font-size:15px;line-height:1.3;color:var(--mute)}
 .ctl{margin-top:120px;display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:16px}
-.ctl button{min-height:44px;padding:0 4px;background:none;border:none;cursor:pointer;font:inherit;font-family:'IBM Plex Mono',monospace;font-size:14px;letter-spacing:.1em;text-transform:uppercase;color:var(--fg)}
-.day{margin-top:40px}
-.day+.day{margin-top:96px}
-h2{margin:0;font-size:clamp(56px,10vw,104px);font-weight:800;font-stretch:72%;line-height:.95;color:var(--accent)}
-.day .sub{margin-top:10px;font-family:'IBM Plex Mono',monospace;font-size:14px;color:var(--mute);text-transform:uppercase}
-.list{margin-top:24px}
+.ctl button{min-height:44px;padding:0 4px;background:none;border:none;cursor:pointer;font-family:'IBM Plex Mono',monospace;font-size:14px;letter-spacing:.1em;text-transform:uppercase;color:var(--fg)}
+.day{margin-top:40px;display:flex;flex-direction:column}
+.day.wed{margin-top:96px}
+h2.d{margin:0;font-size:clamp(56px,10vw,104px);font-weight:800;font-stretch:72%;line-height:.95;color:var(--fg)}
+.day .subt{margin-top:10px;font-family:'IBM Plex Mono',monospace;font-size:14px;color:var(--mute);text-transform:uppercase}
+.list{margin-top:24px;display:flex;flex-direction:column}
 .row{display:flex;flex-wrap:wrap;gap:6px 40px;padding:28px 0}
+.row.sub{padding:18px 0 18px clamp(0px,4vw,56px)}
 .when{flex:1 1 160px;font-family:'IBM Plex Mono',monospace;font-size:15px;line-height:1.6}
 .when span{color:var(--mute)}
 .what{flex:999 1 560px;min-width:0;display:flex;flex-direction:column;gap:10px}
@@ -61,18 +84,30 @@ details summary::-webkit-details-marker{display:none}
 details[open] .sign::before{content:'–'}
 .who{display:flex;flex-direction:column;gap:2px}
 .who b{font-size:19px;font-weight:600}
-.who span{font-size:16px;color:var(--mute)}
-.abs{margin-top:8px;max-width:720px;font-size:18px;line-height:1.6;color:var(--abs)}
+.who .wl{align-self:flex-start;display:inline-flex;align-items:center;gap:8px;min-height:32px;font-size:19px;font-weight:600;text-decoration:underline;text-decoration-color:var(--dim);text-underline-offset:5px}
+.who .wl span{font-family:'IBM Plex Mono',monospace;font-size:15px;font-weight:400;color:var(--mute)}
+.who .aff{font-size:16px;color:var(--mute)}
+.abs{margin-top:8px;max-width:720px;white-space:pre-line;font-size:18px;line-height:1.6;color:var(--abs)}
+.rhizome{margin-top:96px;display:block;width:100%;max-width:920px;height:auto}
+.divider{margin:32px auto;display:block;width:176px;max-width:70%;height:auto}
 #audit{margin-top:120px;display:flex;flex-wrap:wrap;gap:56px 64px}
-#audit>div{flex:1 1 380px;min-width:0;display:flex;flex-direction:column;gap:20px}
-h3{margin:0;font-size:clamp(36px,5vw,52px);font-weight:700;font-stretch:80%;line-height:1;color:var(--accent)}
-#audit p{font-size:18px;line-height:1.55;color:var(--mute)}
-#audit ol,#audit ul{margin:8px 0 0;padding:0;list-style:none;display:flex;flex-direction:column;gap:14px;font-size:18px;line-height:1.5}
-#audit li{display:flex;gap:18px}
+#audit>div{flex:1 1 380px;min-width:0;max-width:820px;display:flex;flex-direction:column;gap:20px}
+#audit .tt{display:flex;align-items:center;justify-content:space-between;gap:24px}
+#audit h2{margin:0;font-size:clamp(36px,5vw,52px);font-weight:700;font-stretch:80%;line-height:1;color:var(--fg)}
+#audit .tt img{flex:0 1 320px;min-width:0;display:block;width:320px;max-width:50%;height:auto}
+#audit p{max-width:441px;font-size:18px;line-height:1.55;color:var(--mute)}
+#audit ol{margin:8px 0 0;padding:0;list-style:none;display:flex;flex-direction:column;gap:14px;font-size:18px;line-height:1.5}
+#audit li{display:flex;gap:18px;max-width:465px}
 #audit li>span:first-child{font-family:'IBM Plex Mono',monospace;color:var(--dim)}
-#register{margin-top:140px;display:flex;flex-direction:column;gap:20px}
-#register .go{align-self:flex-start;font-size:clamp(64px,12vw,132px);font-weight:800;font-stretch:72%;line-height:.9;color:var(--accent);text-decoration:none}
-#register .ph{font-family:'IBM Plex Mono',monospace;font-size:16px;color:var(--mute)}
+#register{margin-top:140px;display:flex;flex-direction:column;gap:32px}
+#register .go{font-size:clamp(64px,12vw,132px);font-weight:800;font-stretch:72%;line-height:.9;color:var(--fg)}
+.qrs{display:flex;flex-wrap:wrap;align-items:flex-start;gap:40px 64px}
+.qr{flex:0 1 280px;display:flex;flex-direction:column;gap:14px}
+.qr p{font-size:20px;font-weight:500;line-height:1.3}
+.qr a.code{display:block;width:280px;max-width:100%;background:#fff;padding:14px}
+.qr a.code img{display:block;width:100%;height:auto}
+.qr a.code img.crisp{image-rendering:pixelated}
+.qr a.code img.smooth{image-rendering:auto}
 .foot{margin-top:56px;display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px;font-family:'IBM Plex Mono',monospace;font-size:13px;letter-spacing:.08em;color:var(--dim);text-transform:uppercase}
 .foot a{color:var(--dim);text-decoration:none}
 .foot a:hover{color:var(--fg)}
@@ -82,93 +117,131 @@ h3{margin:0;font-size:clamp(36px,5vw,52px);font-weight:700;font-stretch:80%;line
 <div class="page"><div class="wrap">
 
 <header class="mast">
-<span>HKUST(GZ) · Computational Media and Arts</span>
-<nav aria-label="Sections"><a href="#tue">Tue</a><a href="#wed">Wed</a><a href="#audit">Audit</a><a href="#register">Register</a></nav>
+<div class="logos">
+<img src="img/55f90106123434558dca1c0785c56597.png" alt="The Hong Kong University of Science and Technology (Guangzhou), Information Hub" style="height:40px;max-width:100%">
+<img src="img/ec5f59282f684309ba3c69c5e5ab51d9.png" alt="Computational Media and Arts, HKUST(GZ)" style="height:42px">
+</div>
+<nav aria-label="Sections"><a href="#tue">Tue</a><a href="#wed">Wed</a><a href="#audit">Clinic</a><a href="#register">Register</a></nav>
 </header>
 
-<h1><span class="a">Theory</span><span class="b">in HCI</span><span class="c">Symposium</span></h1>
-
-<div class="date"><div class="d">Tue 13 &amp; Wed 14 October 2026</div><div class="v">HKUST (Guangzhou)</div></div>
+<div class="hero">
+<h1>
+<span class="a">Theory as</span>
+<span class="o"><img src="img/bb7a351823eb2396758a9732f2507446.png" alt="Organon"></span>
+<span class="s">Symposium on Theory in HCI</span>
+</h1>
+<div class="plant">
+<img src="img/2c61b4f25894660247e5666976138774.png" alt="A dithered, recursively branching plant with roots and a fallen seed">
+<div class="d1">Tue 13<br>Wed 14<br>October 2026</div>
+<div class="d2">HKUST<br>(Guangzhou)</div>
+</div>
+</div>
 
 <section class="block about">
-<div class="lab mono">01 — About</div>
+<div class="lab mono">Welcome</div>
 <div class="body">
-<p>To introduce, motivate and sensitise the awareness, use and development of theory for HCI researchers and students in the Greater Bay Area and beyond.</p>
-<p>And to encourage exchange and connection between HCI researchers in the region who share an interest in theory.</p>
+<p>We invite you to join our symposium that aims to introduce, motivate, and sensitise the awareness, use, and development of theory in HCI for researchers in the Greater Bay Area.</p>
+<p>We encourage exchange and connection between HCI researchers in the region who share an interest in theory, over two days.</p>
 </div>
 </section>
 
 <section class="block days">
-<div class="lab mono">02 — Two days</div>
+<div class="lab mono"></div>
 <div class="body">
-<div><div class="k">TUE 13 OCT</div><div class="h">Why HCI needs theory.</div></div>
-<div><div class="k">WED 14 OCT</div><div class="h">What kinds of theory there are, and how to work with them.</div></div>
+<div><div class="k">TUE 13 OCT</div><div class="h">Questions Concerning Theory</div></div>
+<div><div class="k">WED 14 OCT</div><div class="h">Multiplicity of Theory</div></div>
+</div>
+</section>
+
+<section class="spk" aria-labelledby="speakers">
+<div class="head">
+<h2 class="sec" id="speakers">Speakers</h2>
+<img src="img/1cf53e79984140d35b2ac1358b55110d.png" alt="Dithered vine with leaves and spiral tendrils">
+</div>
+<div class="grid">
+<a class="sp" href="https://di.ku.dk/english/staff/?pure=en/persons/540723" target="_blank" rel="noopener noreferrer"><span class="ph"><img src="img/5205806b54ac31dd0b2180660bca5fbf.png" alt="Pixelated black-and-white portrait of Joanna Bergström"><img class="ph-c" src="img/04ca58e30f64937eb945fd43eaf3fd70.jpg" alt=""></span><span class="spn"><span class="n">Joanna Bergström</span><span class="a">University of Copenhagen</span></span></a>
+<a class="sp" href="https://www.kasperhornbaek.dk/" target="_blank" rel="noopener noreferrer"><span class="ph"><img src="img/72a08252f87f8499df82439db6fbe0c3.png" alt="Pixelated black-and-white portrait of Kasper Hornbæk"><img class="ph-c" src="img/ee22f53431f50bda8408ee2fd19cd98a.jpg" alt=""></span><span class="spn"><span class="n">Kasper Hornbæk</span><span class="a">University of Copenhagen</span></span></a>
+<a class="sp" href="https://sweb.cityu.edu.hk/canliu/index.html" target="_blank" rel="noopener noreferrer"><span class="ph"><img src="img/86731ecc5bba7c9304aff4048c4f71da.png" alt="Pixelated black-and-white portrait of Can Liu"><img class="ph-c" src="img/9299e8eccf3c2d74d20eeca12349c0a8.jpg" alt=""></span><span class="spn"><span class="n">Can Liu</span><span class="a">City University of Hong Kong</span></span></a>
+<a class="sp" href="https://designschool.sustech.edu.cn/about/team/faculty/375.html" target="_blank" rel="noopener noreferrer"><span class="ph"><img src="img/ea8d80eed9cf27585be0cc9562a7493e.png" alt="Pixelated black-and-white portrait of Tao Luo"><img class="ph-c" src="img/3c3151d7b8ecc5c7096f833cbe5459fb.jpg" alt=""></span><span class="spn"><span class="n">Tao Luo</span><span class="a">SUSTech</span></span></a>
+<a class="sp" href="https://www.cse.ust.hk/~mxj/" target="_blank" rel="noopener noreferrer"><span class="ph"><img src="img/b39596d5e1d5301eb6f8d394c3ca2b74.png" alt="Pixelated black-and-white portrait of Xiaojuan Ma"><img class="ph-c" src="img/ea85ad4fd713d171d8e53b97ad3c4d45.jpg" alt=""></span><span class="spn"><span class="n">Xiaojuan Ma</span><span class="a">HKUST</span></span></a>
+<a class="sp" href="https://www.difeng.me/" target="_blank" rel="noopener noreferrer"><span class="ph"><img src="img/f30277b9775af515f2ff9295ee287e7d.png" alt="Pixelated black-and-white portrait of Difeng Yu"><img class="ph-c" src="img/4302514ec66b859eb2faa349e7722cf8.jpg" alt=""></span><span class="spn"><span class="n">Difeng Yu</span><span class="a">Nanjing University</span></span></a>
+<a class="sp" href="https://www.shengdongzhao.com/" target="_blank" rel="noopener noreferrer"><span class="ph"><img src="img/b720ac2efa9c86d312b0ae810414b5f8.png" alt="Pixelated black-and-white portrait of Shengdong Zhao"><img class="ph-c" src="img/1319550b4fc6c3ee0d3e340f1682d0ed.jpg" alt=""></span><span class="spn"><span class="n">Shengdong Zhao</span><span class="a">City University of Hong Kong</span></span></a>
+<a class="sp" href="https://qiushi-zhou.github.io/" target="_blank" rel="noopener noreferrer"><span class="ph"><img src="img/35fc57a894cb1f21342f2608ad4674f8.png" alt="Pixelated black-and-white portrait of Qiushi Zhou"><img class="ph-c" src="img/fdd7dd1c9c5e844a83a21df69644aa09.jpg" alt=""></span><span class="spn"><span class="n">Qiushi Zhou</span><span class="a">HKUST(GZ)</span></span></a>
 </div>
 </section>
 
 <div class="ctl">
-<div class="mono">03 — Programme · click a title to read the abstract</div>
+<div class="mono">Programme · click a title to read the abstract</div>
 <button type="button" id="all">Expand all +</button>
 </div>
 
 <section id="tue" class="day">
-<h2>Tue 13 Oct</h2>
-<div class="sub">Why HCI needs theory · Hall A</div>
+<h2 class="d">Tue 13 Oct</h2>
+<div class="subt">Questions Concerning Theory · Hall A · Hall B</div>
 <div class="list">
-<div class="row"><div class="when">13:00–13:20<br><span>HALL A</span></div><div class="what"><details><summary><span class="t">Welcome + Provocation</span><span class="sign" aria-hidden="true"></span></summary><p class="abs">An opening provocation that invites discussion on how to do theory in HCI.</p></details><div class="who"><b>Qiushi Zhou</b><span>Assistant Professor, CMA, HKUST(GZ)</span></div></div></div>
-<div class="row"><div class="when">13:20–13:50<br><span>HALL A</span></div><div class="what"><details><summary><span class="t">The Dance of Abstraction: Between the Particular and the General in Human–Computer Interaction</span><span class="sign" aria-hidden="true"></span></summary><p class="abs">Research in human-computer interaction (HCI) deals with a host of emerging phenomena created by new technologies, new uses of them, new user groups, and the proliferation of computing into ever more areas of life. At the same time, research seeks to generalize and cumulate across these particulars, often through theoretical contributions and claims intended to apply across settings. This talk argues that both the particular and the general are crucial to an adequate understanding of phenomena in HCI. It discusses the problems that arise when research focuses primarily on either, and the challenges involved in moving between and connecting the two. The central argument is that progress in HCI depends not on choosing between the particular and the general. Instead, HCI advances when particulars challenge our abstractions, and abstractions change how we understand the particulars.</p></details><div class="who"><b>Kasper Hornbæk</b><span>Professor, University of Copenhagen</span></div></div></div>
-<div class="row"><div class="when">13:50–14:20<br><span>HALL A</span></div><div class="what"><details><summary><span class="t">Equations of the Mind: A Short Tour of Computational Models of Human Behavior for HCI</span><span class="sign" aria-hidden="true"></span></summary><p class="abs">Human perception, learning, and decision-making can be described by a small set of mathematical models, and these models increasingly shape how we understand and design interaction. This talk traces that body of work through a few formulas, each presented at an intuitive level. It begins with laws familiar to HCI researchers, Fitts' law and the Hick–Hyman law, which predict performance without explaining it. It then introduces models that supply explanations. Bayesian cue combination treats perception as inference from unreliable signals. Prediction-error learning accounts for how people adapt through experience. Drift diffusion and prospect theory describe choice under noise and risk. The talk then presents resource rationality, which unifies these models by treating behavior as the best use of limited information and limited cognitive computation, and shows how computational rationality carries this view into HCI. It closes with recent efforts to learn models of human behavior directly from large datasets, including foundation models of cognition. These efforts raise an open question for the field: what counts as an explanation of user behavior when prediction and interpretability diverge? No mathematical background beyond basic probability is assumed.</p></details><div class="who"><b>Shengdong Zhao</b><span>Professor, City University of Hong Kong</span></div></div></div>
-<div class="row"><div class="when">14:20–14:50<br><span>HALL A</span></div><div class="what"><details><summary><span class="t">Rethinking Human-Centered Computing in the Age of AI</span><span class="sign" aria-hidden="true"></span></summary><p class="abs">As the integration of artificial intelligence (AI) increasingly automates the design, operation, and study of computing systems, the paradigm of &quot;human-centered computing&quot; (HCC) is undergoing a fundamental redefinition. Traditionally, HCC views the &quot;human&quot; as a user in the system loop, a source of training/testing data, or a final recipient of computing services. However, such human-computer relationship and dynamics have shifted radically under the emerging technological landscape dominated by large AI models and autonomous agents. Consequently, conventional human-centered conceptualization and design methodologies require profound adjustment, prompting researchers to rethink the core priorities of future computing. This talk explores diverse theoretical frameworks and methodological practices aimed at reshaping the &quot;centeredness&quot; principles within human-computer interaction (HCI).</p></details><div class="who"><b>Xiaojuan Ma</b><span>Associate Professor, HKUST</span></div></div></div>
+<div class="row"><div class="when">13:00–13:20<br><span>HALL A</span></div><div class="what"><details><summary><span class="t">Opening and Welcome</span><span class="sign" aria-hidden="true"></span></summary><p class="abs">Theory as Organon: Why and how do we do theory in HCI?</p></details><div class="who"><a class="wl" href="https://qiushi-zhou.github.io/" target="_blank" rel="noopener noreferrer">Qiushi Zhou<span aria-hidden="true">↗</span></a><span class="aff">HKUST(GZ)</span></div></div></div>
+<div class="row"><div class="when">13:20–13:50<br><span>HALL A</span></div><div class="what"><details><summary><span class="t">The Dance of Abstraction: Between the Particular and the General in Human–Computer Interaction</span><span class="sign" aria-hidden="true"></span></summary><p class="abs">Research in human-computer interaction (HCI) deals with a host of emerging phenomena created by new technologies, new uses of them, new user groups, and the proliferation of computing into ever more areas of life. At the same time, research seeks to generalize and cumulate across these particulars, often through theoretical contributions and claims intended to apply across settings. This talk argues that both the particular and the general are crucial to an adequate understanding of phenomena in HCI. It discusses the problems that arise when research focuses primarily on either, and the challenges involved in moving between and connecting the two. The central argument is that progress in HCI depends not on choosing between the particular and the general. Instead, HCI advances when particulars challenge our abstractions, and abstractions change how we understand the particulars.</p></details><div class="who"><a class="wl" href="https://www.kasperhornbaek.dk/" target="_blank" rel="noopener noreferrer">Kasper Hornbæk<span aria-hidden="true">↗</span></a><span class="aff">University of Copenhagen</span></div></div></div>
+<div class="row"><div class="when">13:50–14:20<br><span>HALL A</span></div><div class="what"><details><summary><span class="t">Equations of the Mind: A Short Tour of Computational Models of Human Behavior for HCI</span><span class="sign" aria-hidden="true"></span></summary><p class="abs">Human perception, learning, and decision-making can be described by a small set of mathematical models, and these models increasingly shape how we understand and design interaction. This talk traces that body of work through a few formulas, each presented at an intuitive level. It begins with laws familiar to HCI researchers, Fitts' law and the Hick–Hyman law, which predict performance without explaining it. It then introduces models that supply explanations. Bayesian cue combination treats perception as inference from unreliable signals. Prediction-error learning accounts for how people adapt through experience. Drift diffusion and prospect theory describe choice under noise and risk. The talk then presents resource rationality, which unifies these models by treating behavior as the best use of limited information and limited cognitive computation, and shows how computational rationality carries this view into HCI. It closes with recent efforts to learn models of human behavior directly from large datasets, including foundation models of cognition. These efforts raise an open question for the field: what counts as an explanation of user behavior when prediction and interpretability diverge? No mathematical background beyond basic probability is assumed.</p></details><div class="who"><a class="wl" href="https://www.shengdongzhao.com/" target="_blank" rel="noopener noreferrer">Shengdong Zhao<span aria-hidden="true">↗</span></a><span class="aff">City University of Hong Kong</span></div></div></div>
+<div class="row"><div class="when">14:20–14:50<br><span>HALL A</span></div><div class="what"><details><summary><span class="t">Rethinking Human-Centered Computing in the Age of AI</span><span class="sign" aria-hidden="true"></span></summary><p class="abs">As the integration of artificial intelligence (AI) increasingly automates the design, operation, and study of computing systems, the paradigm of &quot;human-centered computing&quot; (HCC) is undergoing a fundamental redefinition. Traditionally, HCC views the &quot;human&quot; as a user in the system loop, a source of training/testing data, or a final recipient of computing services. However, such human-computer relationship and dynamics have shifted radically under the emerging technological landscape dominated by large AI models and autonomous agents. Consequently, conventional human-centered conceptualization and design methodologies require profound adjustment, prompting researchers to rethink the core priorities of future computing. This talk explores diverse theoretical frameworks and methodological practices aimed at reshaping the &quot;centeredness&quot; principles within human-computer interaction (HCI).</p></details><div class="who"><a class="wl" href="https://www.cse.ust.hk/~mxj/" target="_blank" rel="noopener noreferrer">Xiaojuan Ma<span aria-hidden="true">↗</span></a><span class="aff">HKUST</span></div></div></div>
 <div class="row"><div class="when">15:00–16:20<br><span>HALL B</span></div><div class="what"><div class="t">Panel discussion + Q&amp;A</div><div class="who"><b>Speakers with CMA faculty · moderated by Qiushi Zhou</b></div></div></div>
 </div>
 </section>
 
-<section id="wed" class="day">
-<h2>Wed 14 Oct</h2>
-<div class="sub">What kinds of theory, and how to work with them · W4-102 · CMA Lab</div>
+<img class="rhizome" src="img/cd50f7ee5f5070723bf3e09dfb27fd00.png" alt="Dithered rhizome with shoots and roots at its nodes">
+
+<section id="wed" class="day wed">
+<h2 class="d">Wed 14 Oct</h2>
+<div class="subt">The Multiplicity of Theory · W4-102 · CMA Lab</div>
 <div class="list">
-<div class="row"><div class="when">10:30–11:50<br><span>W4-102</span></div><div class="what"><div class="t">Distinguished Lecture (school-wide)</div><div class="who"><b>Kasper Hornbæk</b><span>Professor, University of Copenhagen</span></div></div></div>
-<div class="row"><div class="when">13:30–13:40<br><span>CMA LAB</span></div><div class="what"><div class="t">Introduction to speakers</div><div class="who"><b>Qiushi Zhou</b><span>Assistant Professor, CMA, HKUST(GZ)</span></div></div></div>
-<div class="row"><div class="when">13:40–14:45<br><span>CMA LAB · 1/4</span></div><div class="what"><details><summary><span class="t">Motor Learning as Theory for Interaction Techniques</span><span class="sign" aria-hidden="true"></span></summary><p class="abs">An interaction technique maps a user's movement to an effect, and that mapping has to be learned. Yet the movement theories most used in HCI describe how people perform once a mapping is learned, not how they get there. In this talk I argue that motor learning, a field of neuroscience, offers theory for that gap, and I use it as a case of borrowing theory from another discipline. I show three things we have taken from it: concepts that characterise a technique by the kind of learning it demands, either adapting an existing controller or building a new one; experimental paradigms that reveal after-effects and savings that completion time hides; and models of sensory feedback that let us reason about a design before building it. Drawing on our studies of virtual reality techniques, I also show what the borrowing cost: the concepts, measures, and models have to be rebuilt to fit HCI tasks, but in return they might contribute back to neuroscience. I close with what remains open, including the difference between learning to control a body and a tool.</p></details><div class="who"><b>Joanna Bergström</b><span>Associate Professor, University of Copenhagen</span></div></div></div>
-<div class="row"><div class="when">13:40–14:45<br><span>CMA LAB · 2/4</span></div><div class="what"><details><summary><span class="t">Deriving Interaction Techniques based on Motor Control Models</span><span class="sign" aria-hidden="true"></span></summary><p class="abs">Designing efficient selection techniques for graphical user interfaces (GUIs) is fundamental in human-computer interaction research. The field of motor control has developed models to understand how goal-directed reaching movements, such as target selection in GUIs, are planned and executed, which can inform the design of selection techniques. However, it is non-trivial to derive techniques directly from models because the aims differ: motor control models aim to understand and predict how selection occurs, whereas interaction techniques in HCI aim to improve selection. In this talk, I will first provide an overview of three main types of motor control models: information-theoretical models, control-theoretical models, and process models. I will then introduce a method, called justified concepts, for deriving interaction techniques based on models, which will lead to techniques with stronger theoretical support.</p></details><div class="who"><b>Difeng Yu</b><span>Assistant Professor, Nanjing University</span></div></div></div>
-<div class="row"><div class="when">13:40–14:45<br><span>CMA LAB · 3/4</span></div><div class="what"><details><summary><span class="t">Operation–Feedback Correspondence: Formalizing the Operational Logic of Interaction Technique</span><span class="sign" aria-hidden="true"></span></summary><p class="abs">Interaction technique is among the most familiar concepts in HCI and among the least precisely specified. Modeling an interaction technique requires capturing its relevant physical structure, causal relationships, and temporal behavior simultaneously — yet existing taxonomies, design spaces, and specification languages organize interaction by modality, device, or implementation, leaving its underlying structure — how user operations correspond to system feedback over time — without a characterization that is both modality-independent and mathematically precise. This talk briefly presents the Operation–Feedback Correspondence (OFC) framework to fill this gap. Grounded in category theory, the framework models interactive properties as persistence modules and interaction mappings as natural transformations, and proves that any coherent correspondence between operations and feedback must be one of exactly two types, Absolute or Relative — a mathematical necessity, not a design choice. This result makes ill-formed mappings detectable and cross-modal equivalences derivable. By revealing a structural layer common to all interaction techniques, OFC provides an explanatory foundation that makes interaction knowledge cumulative, transferable, and reusable across existing and emerging interactive technologies. In particular, the cross-modal equivalence between a pitch and a pinch is not an independent, tangential claim: it follows from the same structural result once operation–feedback correspondence is defined at this level.</p></details><div class="who"><b>Tao Luo</b><span>Assistant Professor, SUSTech</span></div></div></div>
-<div class="row"><div class="when">13:40–14:45<br><span>CMA LAB · 4/4</span></div><div class="what"><details><summary><span class="t">Theories for Understanding Speech Input: Articulation and Memory</span><span class="sign" aria-hidden="true"></span></summary><p class="abs">Why does writing by speaking feel so different from writing by hand or keyboard? This talk introduces several theories from cognitive science and linguistics that help explain the difference. Hyperarticulation describes how speakers adapt their articulation to the listener, including to machines. Accounts of the flow of consciousness describe how spoken thought unfolds in short, unrevised bursts. Fuzzy Trace Theory explains why we keep the gist of what we said but quickly lose the exact words. This talk will discuss what these theories tell us about speech as an input modality, and how they might inform the design of speech input interfaces in HCI.</p></details><div class="who"><b>Can Liu</b><span>Associate Professor, City University of Hong Kong</span></div></div></div>
-<div class="row"><div class="when">15:00–16:00<br><span>CMA LAB</span></div><div class="what"><div class="t">Panel discussion</div><div class="who"><b>Speakers + Kasper Hornbæk</b></div></div></div>
-<div class="row"><div class="when">16:00–17:00<br><span>CMA LAB</span></div><div class="what"><details><summary><span class="t">Theory Clinic</span><span class="sign" aria-hidden="true"></span></summary><p class="abs">Students come with a pre-filled theory card (see below) and discuss it with faculty: the claim in one sentence, where theory appears in the paper, the job it does, what would count against the claim, and the findings in plain words.</p></details><div class="who"><b>Joanna Bergström</b><span>Associate Professor, University of Copenhagen</span></div></div></div>
+<div class="row"><div class="when">10:30–11:50<br><span>W4-102 · INFH Distinguished Lecture (school-wide)</span></div><div class="what"><details><summary><span class="t">Advancing Theoretical Research in Human-Computer Interaction</span><span class="sign" aria-hidden="true"></span></summary><p class="abs">Theory is often treated as a cornerstone of research, including in human-computer interaction (HCI). Yet its role in HCI has been contested for decades. Some question what theory can realistically contribute to the design and understanding of interactive systems; others have argued that theoretical development in HCI remains limited, and empirical studies have often shown limited use of theory. At the same time, HCI poses distinctive challenges for theoretical research, including rapidly changing technologies and practices and a need to inform design.
+
+In this talk, I will introduce TRACTION (Theoretical Research in Human-Computer Interaction), a research center supported by the VILLUM Foundation that seeks to advance theoretical research in HCI. The center has four main goals: to describe how theory is currently used and developed in HCI; to develop and test approaches for building theory; to advance theoretical work on key conceptual problems in the field; and to develop resources that can support HCI researchers in doing theoretical work. I will outline these goals and illustrate them through examples from our work, including studies of how HCI researchers build theory and attempts to develop new ways of working with theory.</p></details><div class="who"><a class="wl" href="https://www.kasperhornbaek.dk/" target="_blank" rel="noopener noreferrer">Kasper Hornbæk<span aria-hidden="true">↗</span></a><span class="aff">University of Copenhagen</span></div></div></div>
+<img class="divider" src="img/120de91143bf3b26a1896ea1a7439c94.png" alt="A dithered stem forking in two, and again, shown upside down"><div class="row"><div class="when">13:30–14:45<br><span>CMA LAB</span></div><div class="what"><div class="t">The Multitude of Theory</div><div class="who"><b>Introduced by Qiushi Zhou</b></div></div></div>
+<div class="row"><div class="when">13:40–13:55<br><span>CMA LAB</span></div><div class="what"><details><summary><span class="t">Deriving Interaction Techniques based on Motor Control Models</span><span class="sign" aria-hidden="true"></span></summary><p class="abs">Designing efficient selection techniques for graphical user interfaces (GUIs) is fundamental in human-computer interaction research. The field of motor control has developed models to understand how goal-directed reaching movements, such as target selection in GUIs, are planned and executed, which can inform the design of selection techniques. However, it is non-trivial to derive techniques directly from models because the aims differ: motor control models aim to understand and predict how selection occurs, whereas interaction techniques in HCI aim to improve selection. In this talk, I will first provide an overview of three main types of motor control models: information-theoretical models, control-theoretical models, and process models. I will then introduce a method, called justified concepts, for deriving interaction techniques based on models, which will lead to techniques with stronger theoretical support.</p></details><div class="who"><a class="wl" href="https://www.difeng.me/" target="_blank" rel="noopener noreferrer">Difeng Yu<span aria-hidden="true">↗</span></a><span class="aff">Nanjing University</span></div></div></div>
+<div class="row"><div class="when">13:55–14:10<br><span>CMA LAB</span></div><div class="what"><details><summary><span class="t">Motor Learning as Theory for Interaction Techniques</span><span class="sign" aria-hidden="true"></span></summary><p class="abs">An interaction technique maps a user's movement to an effect, and that mapping has to be learned. Yet the movement theories most used in HCI describe how people perform once a mapping is learned, not how they get there. In this talk I argue that motor learning, a field of neuroscience, offers theory for that gap, and I use it as a case of borrowing theory from another discipline. I show three things we have taken from it: concepts that characterise a technique by the kind of learning it demands, either adapting an existing controller or building a new one; experimental paradigms that reveal after-effects and savings that completion time hides; and models of sensory feedback that let us reason about a design before building it. Drawing on our studies of virtual reality techniques, I also show what the borrowing cost: the concepts, measures, and models have to be rebuilt to fit HCI tasks, but in return they might contribute back to neuroscience. I close with what remains open, including the difference between learning to control a body and a tool.</p></details><div class="who"><a class="wl" href="https://di.ku.dk/english/staff/?pure=en/persons/540723" target="_blank" rel="noopener noreferrer">Joanna Bergström<span aria-hidden="true">↗</span></a><span class="aff">University of Copenhagen</span></div></div></div>
+<div class="row"><div class="when">14:10–14:25<br><span>CMA LAB</span></div><div class="what"><details><summary><span class="t">Theories for Understanding Speech Input: Articulation and Memory</span><span class="sign" aria-hidden="true"></span></summary><p class="abs">Why does writing by speaking feel so different from writing by hand or keyboard? This talk introduces several theories from cognitive science and linguistics that help explain the difference. Hyperarticulation describes how speakers adapt their articulation to the listener, including to machines. Accounts of the flow of consciousness describe how spoken thought unfolds in short, unrevised bursts. Fuzzy Trace Theory explains why we keep the gist of what we said but quickly lose the exact words. This talk will discuss what these theories tell us about speech as an input modality, and how they might inform the design of speech input interfaces in HCI.</p></details><div class="who"><a class="wl" href="https://sweb.cityu.edu.hk/canliu/index.html" target="_blank" rel="noopener noreferrer">Can Liu<span aria-hidden="true">↗</span></a><span class="aff">City University of Hong Kong</span></div></div></div>
+<div class="row"><div class="when">14:25–14:40<br><span>CMA LAB</span></div><div class="what"><details><summary><span class="t">Operation–Feedback Correspondence: Formalizing the Operational Logic of Interaction Technique</span><span class="sign" aria-hidden="true"></span></summary><p class="abs">Interaction technique is among the most familiar concepts in HCI and among the least precisely specified. Modeling an interaction technique requires capturing its relevant physical structure, causal relationships, and temporal behavior simultaneously — yet existing taxonomies, design spaces, and specification languages organize interaction by modality, device, or implementation, leaving its underlying structure — how user operations correspond to system feedback over time — without a characterization that is both modality-independent and mathematically precise. This talk briefly presents the Operation–Feedback Correspondence (OFC) framework to fill this gap. Grounded in category theory, the framework models interactive properties as persistence modules and interaction mappings as natural transformations, and proves that any coherent correspondence between operations and feedback must be one of exactly two types, Absolute or Relative — a mathematical necessity, not a design choice. This result makes ill-formed mappings detectable and cross-modal equivalences derivable. By revealing a structural layer common to all interaction techniques, OFC provides an explanatory foundation that makes interaction knowledge cumulative, transferable, and reusable across existing and emerging interactive technologies. In particular, the cross-modal equivalence between a pitch and a pinch is not an independent, tangential claim: it follows from the same structural result once operation–feedback correspondence is defined at this level.</p></details><div class="who"><a class="wl" href="https://designschool.sustech.edu.cn/about/team/faculty/375.html" target="_blank" rel="noopener noreferrer">Tao Luo<span aria-hidden="true">↗</span></a><span class="aff">SUSTech</span></div></div></div>
+<div class="row"><div class="when">15:00–17:00<br><span>CMA LAB</span></div><div class="what"><div class="t">Panel Discussion + Theory Clinic</div><div class="who"><b>Difeng Yu · Joanna Bergström · Can Liu · Tao Luo · Kasper Hornbæk</b><span class="aff">Moderated by Qiushi Zhou</span></div></div></div>
+<div class="row sub"><div class="when">15:00–16:00<br><span>CMA LAB</span></div><div class="what"><details><summary><span class="t">Panel discussion</span><span class="sign" aria-hidden="true"></span></summary><p class="abs">Following the four talks, all of the day’s speakers sit together on stage for an open panel discussion.</p></details><div class="who"><b>The day’s speakers on stage together</b></div></div></div>
+<div class="row sub"><div class="when">16:00–17:00<br><span>CMA LAB</span></div><div class="what"><details><summary><span class="t">Theory Clinic</span><span class="sign" aria-hidden="true"></span></summary><p class="abs">Qiushi will read aloud the theory cards that students submitted beforehand, and asks the relevant speakers to discuss each one.</p></details><div class="who"></div></div></div>
 </div>
 </section>
 
 <section id="audit">
 <div>
-<div class="mono">04 — Before you come</div>
-<h3>Theory audit</h3>
-<p>A six-question form for every student and faculty member who registers. Its answers open Tuesday, fill the theory wall, and select the student panel.</p>
-<ol>
-<li><span>01</span><span>Your latest project in one sentence.</span></li>
-<li><span>02</span><span>Which theory are you using for your current project, if any? (“None yet” is a fine answer.)</span></li>
-<li><span>03</span><span>Where in the paper does/will the theory appear: background or positioning, a lens in the discussion, a scheme for classifying data, constructs in a questionnaire, the reason for a design decision, or not at all?</span></li>
-<li><span>04</span><span>What result would negate your main claim?</span></li>
-<li><span>05</span><span>One question you would like the speakers to discuss/answer.</span></li>
-<li><span>06</span><span>Would you sit on the student panel on Wednesday?</span></li>
-</ol>
+<div class="mono">Before you come</div>
+<div class="tt">
+<h2>Theory clinic</h2>
+<img src="img/c8cac3b53a65901554e583841af90d0a.png" alt="Dithered open pod with a row of seeds">
 </div>
-<div>
-<div class="mono">Wed · 16:00–17:00</div>
-<h3>Theory clinic card</h3>
-<p>Students come with a pre-filled theory card and discuss it with faculty:</p>
-<ul>
-<li><span>→</span><span>the theoretical/contribution claim in one sentence;</span></li>
-<li><span>→</span><span>where in the paper theory would appear;</span></li>
-<li><span>→</span><span>the job theory does here (defines the phenomenon, explains, predicts, generates designs, or nothing yet);</span></li>
-<li><span>→</span><span>what observation would count against the claim;</span></li>
-<li><span>→</span><span>the result/findings in plain words that a participant would recognise.</span></li>
-</ul>
+<p>Questions for everyone who registers. Your answers will help us understand the current status of HCI theory in the region, and will be discussed at the panels.</p>
+<ol>
+<li><span>01</span><span>Brief introduction to your latest research project.</span></li>
+<li><span>02</span><span>The contribution claim in one sentence (if any).</span></li>
+<li><span>03</span><span>Which theory are you using, if any? “None” is fine.</span></li>
+<li><span>04</span><span>The job theory does here (defines the phenomenon, explains, predicts, generates designs, or nothing yet).</span></li>
+<li><span>05</span><span>Where in the paper does the theory appear?</span></li>
+<li><span>06</span><span>What result would negate your main claim?</span></li>
+<li><span>07</span><span>The finding in plain words anyone would understand.</span></li>
+<li><span>08</span><span>One question you would like the speakers to answer.</span></li>
+</ol>
 </div>
 </section>
 
 <section id="register">
-<a class="go" href="#register">Register →</a>
-<div class="ph">[REGISTRATION LINK]</div>
+<div class="go">Register →</div>
+<div class="qrs">
+<div class="qr">
+<div class="mono">1 · Everyone</div>
+<p>Event registration and questionnaire. Required for all attendees, including HKUST(GZ) students/staff.</p>
+<a class="code" href="https://docs.google.com/forms/d/e/1FAIpQLSefuuerq9FkJh3jGveX0DczjeFhRP6eJJ_g3Rqwgak8y5xKEA/viewform?usp=sharing&amp;ouid=101388762969529546546" target="_blank" rel="noopener noreferrer"><img class="crisp" src="img/4405931bb2e4e5c25062d0a5a0f0835b.png" alt="QR code for event registration and questionnaire"></a>
+</div>
+<div class="qr">
+<div class="mono">2 · Outside visitors</div>
+<p>Campus access. If you are coming from outside HKUST(GZ), scan this code to enter the campus.</p>
+<a class="code" href="https://vis.hkust-gz.edu.cn/#/visitor/{%22intervieweeUserId%22:68898,%22inviteId%22:78468,%22lang%22:%22en%22,%22needApproval%22:true}" target="_blank" rel="noopener noreferrer"><img class="smooth" src="img/fa83135d7af9de8f7d5198fd91064fd1.png" alt="QR code to register for HKUST(GZ) campus access as an external visitor"></a>
+</div>
+</div>
 <div class="foot"><span>Computational Media and Arts</span><span><a href="/">Qiushi Zhou</a> · HKUST(GZ)</span></div>
 </section>
 
@@ -176,13 +249,11 @@ h3{margin:0;font-size:clamp(36px,5vw,52px);font-weight:700;font-stretch:80%;line
 <script>
 (function () {
   var ds = document.querySelectorAll('details'), btn = document.getElementById('all');
-  function sync() {
-    var all = Array.prototype.every.call(ds, function (d) { return d.open; });
-    btn.textContent = all ? 'Collapse all –' : 'Expand all +';
-  }
+  function allOpen() { return Array.prototype.every.call(ds, function (d) { return d.open; }); }
+  function sync() { btn.textContent = allOpen() ? 'Collapse all –' : 'Expand all +'; }
   btn.addEventListener('click', function () {
-    var all = Array.prototype.every.call(ds, function (d) { return d.open; });
-    Array.prototype.forEach.call(ds, function (d) { d.open = !all; });
+    var open = !allOpen();
+    Array.prototype.forEach.call(ds, function (d) { d.open = open; });
     sync();
   });
   Array.prototype.forEach.call(ds, function (d) { d.addEventListener('toggle', sync); });
