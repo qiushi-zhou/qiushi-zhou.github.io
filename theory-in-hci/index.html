@@ -108,6 +108,13 @@ details[open] .sign::before{content:'–'}
 .qr a.code img{display:block;width:100%;height:auto}
 .qr a.code img.crisp{image-rendering:pixelated}
 .qr a.code img.smooth{image-rendering:auto}
+#thanks{margin-top:140px;display:flex;flex-direction:column;gap:20px}
+#thanks .lead{max-width:720px;font-size:clamp(20px,2.6vw,28px);font-weight:500;line-height:1.35}
+#thanks .sub{max-width:720px;font-size:18px;line-height:1.55;color:var(--mute)}
+#thanks .crew{margin:8px 0 0;padding:0;list-style:none;display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:6px 32px;max-width:720px}
+#thanks .crew a{display:inline-flex;align-items:center;gap:8px;min-height:44px;font-size:19px;font-weight:600;text-decoration:underline;text-decoration-color:var(--dim);text-underline-offset:5px}
+#thanks .crew a span{font-family:'IBM Plex Mono',monospace;font-size:15px;font-weight:400;color:var(--mute)}
+#thanks .lead a{text-decoration-color:var(--dim);text-underline-offset:5px}
 .foot{margin-top:56px;display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px;font-family:'IBM Plex Mono',monospace;font-size:13px;letter-spacing:.08em;color:var(--dim);text-transform:uppercase}
 .foot a{color:var(--dim);text-decoration:none}
 .foot a:hover{color:var(--fg)}
@@ -242,6 +249,21 @@ In this talk, I will introduce TRACTION (Theoretical Research in Human-Computer 
 <a class="code" href="https://vis.hkust-gz.edu.cn/#/visitor/{%22intervieweeUserId%22:68898,%22inviteId%22:78468,%22lang%22:%22en%22,%22needApproval%22:true}" target="_blank" rel="noopener noreferrer"><img class="smooth" src="img/fa83135d7af9de8f7d5198fd91064fd1.png" alt="QR code to register for HKUST(GZ) campus access as an external visitor"></a>
 </div>
 </div>
+</section>
+
+<section id="thanks">
+<div class="mono">Acknowledgements</div>
+<p class="lead">This symposium was made possible by the support of the <a href="https://cma.hkust-gz.edu.cn/" target="_blank" rel="noopener noreferrer">Computational Media and Arts (CMA) Thrust</a> and the <a href="https://iott.hkust-gz.edu.cn/" target="_blank" rel="noopener noreferrer">Internet of Things (IoT) Thrust</a> of the Information Hub, HKUST(GZ).</p>
+<p class="sub">We also thank everyone who helped organise and run the symposium:</p>
+<ul class="crew">
+<li><a href="https://scholar.google.com/citations?user=u_gpRfAAAAAJ&amp;hl=da" target="_blank" rel="noopener noreferrer">Alexander Bie<span aria-hidden="true">↗</span></a></li>
+<li><a href="https://diyangdai.github.io/" target="_blank" rel="noopener noreferrer">Diyang Dai<span aria-hidden="true">↗</span></a></li>
+<li><a href="https://yangyanghe.com/" target="_blank" rel="noopener noreferrer">Yangyang He<span aria-hidden="true">↗</span></a></li>
+<li><a href="https://jing-yi-li.github.io" target="_blank" rel="noopener noreferrer">Jingyi Li<span aria-hidden="true">↗</span></a></li>
+<li><a href="https://cma.hkust-gz.edu.cn/faculty-regular/hai-ning-liang/" target="_blank" rel="noopener noreferrer">Hai-Ning Liang<span aria-hidden="true">↗</span></a></li>
+<li><a href="https://scholar.google.com/citations?user=0VF4NWIAAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Rongkai Shi<span aria-hidden="true">↗</span></a></li>
+<li><a href="https://xuanyizhang.com/" target="_blank" rel="noopener noreferrer">Xuanyi Zhang<span aria-hidden="true">↗</span></a></li>
+</ul>
 <div class="foot"><span><a href="/">Qiushi Zhou</a></span><span>HKUST(GZ)</span></div>
 </section>
 
