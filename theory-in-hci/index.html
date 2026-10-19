@@ -136,6 +136,20 @@ strong{font-weight:600;color:var(--ink)}
 .legend{font-family:var(--mono);font-size:12px;line-height:1.6;color:var(--mute);margin-top:8px}
 .eqdesc{font-size:15px;line-height:1.8;color:var(--mute);margin-top:10px}
 
+
+/* audio slot */
+.audio{border-top:1px solid var(--rule);border-bottom:1px solid var(--rule)}
+.audio .wrap{display:grid;grid-template-columns:var(--rail) minmax(0,var(--measure));column-gap:var(--gap);padding-block:clamp(28px,4vw,48px);align-items:center}
+.audio h2{font-family:var(--display);font-stretch:72%;font-weight:800;font-size:clamp(30px,4.6vw,52px);line-height:1.2;margin-top:10px}
+.audio .a-btn{display:flex;align-items:center;gap:20px;border:1px solid var(--dim);padding:20px 24px;text-decoration:none;color:var(--ink);font-family:var(--mono);font-size:15px;letter-spacing:.06em;line-height:1.5}
+.audio .a-btn .gl{flex:none;width:44px;height:44px;border:1px solid var(--ink);display:grid;place-items:center;font-size:16px}
+.audio .a-btn .t{display:block;font-family:var(--display);font-stretch:72%;font-weight:800;font-size:28px;letter-spacing:-.005em}
+.audio .a-btn .s{display:block;color:var(--mute);font-size:13px}
+.audio .a-btn[href]:hover{background:var(--ink);color:var(--ground)}
+.audio .a-btn[href]:hover .s{color:var(--ground)}.audio .a-btn[href]:hover .gl{border-color:var(--ground)}
+.audio .a-btn:not([href]){border-style:dashed;color:var(--mute)}
+@media (max-width:900px){.audio .wrap{grid-template-columns:minmax(0,1fr);row-gap:20px}}
+
 /* acknowledgements */
 .ack{border-top:1px solid var(--rule);padding-block:clamp(56px,8vw,96px);display:grid;grid-template-columns:var(--rail) minmax(0,var(--measure));column-gap:var(--gap)}
 .ack>*{grid-column:2}
@@ -155,7 +169,7 @@ strong{font-weight:600;color:var(--ink)}
 </style>
 
 <header class="bar"><div class="wrap"><a class="mk" href="#top">Theory as Organon</a>
-<nav aria-label="章节"><a href="#video1">视频</a><a href="#day1">第一天</a><a href="#day2">第二天</a><a href="#panel">Panel</a><a href="#summary">总结</a><a href="#ack">致谢</a></nav></div></header>
+<nav aria-label="章节"><a href="#video1">视频</a><a href="#audio">音频</a><a href="#day1">第一天</a><a href="#day2">第二天</a><a href="#panel">Panel</a><a href="#summary">总结</a><a href="#ack">致谢</a></nav></div></header>
 <main id="top">
 <section class="hero"><div class="wrap">
 <div class="logos"><div class="l"><img class="l1" src="img/f5703b76238c49ea87dacc8a913405ad.png" alt="HKUST(GZ) Internet of Things Thrust"><img class="l2" src="img/ec5f59282f684309ba3c69c5e5ab51d9.png" alt="Computational Media and Arts, HKUST(GZ)"></div><div class="date">13—14<br>10.2026</div></div>
@@ -163,6 +177,7 @@ strong{font-weight:600;color:var(--ink)}
 <div class="hero-meta"><div><div class="mono">TUE 13 — WED 14 OCT 2026<br>HKUST(GZ)</div><div class="links" id="reclinks"></div></div><img src="img/2c61b4f25894660247e5666976138774.png" alt="" width="540" height="660"></div>
 </div></section>
 
+<section class="audio" id="audio"><div class="wrap"><div><div class="eyebrow">AUDIO</div><h2>音频记录</h2></div><a class="a-btn" id="xyz"><span class="gl">▶</span><span><span class="t">小宇宙 Xiaoyuzhou</span><span class="s">链接即将添加</span></span></a></div></section>
 <div class="wrap">
 <section class="day" id="day1"><div class="eyebrow">TUE 13 OCT · 第一天</div>
 <h2 class="daytitle">Questions Concerning Theory</h2>
@@ -298,7 +313,7 @@ strong{font-weight:600;color:var(--ink)}
 <p class="dim"><strong>付清“重构成本”，深化跨学科理论迁移：</strong>从神经科学、语言学与范畴论中借用理论时，必须建立模式无关（Modality-Independent）的形式化表达，使交互知识能够超越具体硬件实现跨模态累积。</p>
 <p class="dim"><strong>培育理论社区与“脚手架”式教学：</strong>将哲学与数学思想转化为理论工具，在大湾区及国际学术社区中培育常态化的理论建构与批判氛围。</p>
 </section>
-<section class="ack" id="ack"><div class="eyebrow">ACKNOWLEDGEMENTS</div><h2>致谢</h2><p class="dim">本次研讨会由香港科技大学（广州）信息枢纽（Information Hub）<strong>计算媒体与艺术学域（CMA）</strong>与<strong>物联网学域（IoT）</strong>支持举办。</p><p class="dim">感谢协助组织与运营研讨会的志愿者们：</p><ul class="names"><li><b>Alexander Bie</b></li><li><b>代涤杨</b><span>Diyang Dai</span></li><li><b>何杨炀</b><span>Yangyang He</span></li><li><b>李靖谊</b><span>Jingyi Li</span></li><li><b>梁海宁</b><span>Hai-Ning Liang</span></li><li><b>罗伊琳</b><span>Yilin Luo</span></li><li><b>施荣凯</b><span>Rongkai Shi</span></li><li><b>夏书淇</b><span>Shuqi Xia</span></li><li><b>张轩逸</b><span>Xuanyi Zhang</span></li></ul></section>
+<section class="ack" id="ack"><div class="eyebrow">ACKNOWLEDGEMENTS</div><h2>致谢</h2><p class="dim">本次研讨会由香港科技大学（广州）信息枢纽（Information Hub）<strong>计算媒体与艺术学域（CMA）</strong>与<strong>物联网学域（IoT）</strong>支持举办。</p><p class="dim">感谢协助组织与运营研讨会的志愿者们：</p><ul class="names"><li><b>Alexander Bie</b></li><li><b>戴涤杨</b><span>Diyang Dai</span></li><li><b>何杨炀</b><span>Yangyang He</span></li><li><b>李靖谊</b><span>Jingyi Li</span></li><li><b>梁海宁</b><span>Hai-Ning Liang</span></li><li><b>罗伊琳</b><span>Yilin Luo</span></li><li><b>施荣凯</b><span>Rongkai Shi</span></li><li><b>夏书淇</b><span>Shuqi Xia</span></li><li><b>张轩逸</b><span>Xuanyi Zhang</span></li></ul></section>
 </div>
 </main>
 <footer class="foot"><div class="wrap"><div class="l"><img class="l1" src="img/f5703b76238c49ea87dacc8a913405ad.png" alt="HKUST(GZ) Internet of Things Thrust"><img class="l2" src="img/ec5f59282f684309ba3c69c5e5ab51d9.png" alt="Computational Media and Arts, HKUST(GZ)"></div><div class="date">13—14.10.2026</div></div></footer>
@@ -308,7 +323,8 @@ strong{font-weight:600;color:var(--ink)}
 // Audio and transcript links: fill in when uploaded.
 const PLAYLIST='PLcNhVZR0hRX8';
 const COUNT=4;
-const AUDIO='';
+const XIAOYUZHOU='';  // paste the 小宇宙 episode / podcast URL here
+const AUDIO=XIAOYUZHOU;
 const TRANSCRIPT='';
 const EMBED=false;
 (function(){
@@ -323,9 +339,11 @@ const EMBED=false;
   });
   var l=document.getElementById('reclinks');
   var ls='<a href="https://www.youtube.com/playlist?list='+PLAYLIST+'" target="_blank" rel="noopener">YouTube 播放列表 ↗</a>';
-  ls+=AUDIO?'<a href="'+AUDIO+'" target="_blank" rel="noopener">音频 ↗</a>':'<span>音频</span>';
+  ls+=AUDIO?'<a href="'+AUDIO+'" target="_blank" rel="noopener">音频 ↗</a>':'<a href="#audio">音频</a>';
   ls+=TRANSCRIPT?'<a href="'+TRANSCRIPT+'" target="_blank" rel="noopener">文字记录 ↗</a>':'<span>文字记录</span>';
   l.innerHTML=ls;
+  var ab=document.getElementById('xyz');
+  if(ab&&XIAOYUZHOU){ab.href=XIAOYUZHOU;ab.target='_blank';ab.rel='noopener';ab.querySelector('.s').textContent='xiaoyuzhoufm.com ↗';}
   var links=[].slice.call(document.querySelectorAll('.bar nav a'));
   var map={};links.forEach(function(a){map[a.getAttribute('href').slice(1)]=a});
   if('IntersectionObserver' in window){
