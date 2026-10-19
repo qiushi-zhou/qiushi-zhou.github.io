@@ -65,10 +65,26 @@ a:focus-visible,button:focus-visible{outline:2px solid var(--ink);outline-offset
 .links a:hover{background:var(--ink);color:var(--ground)}
 .links span{border-color:var(--rule);color:var(--dim)}
 
+/* video embeds, placed with the content they record */
+.vid{margin:clamp(32px,4vw,48px) 0 0;grid-column:1/-1}
+.vid .frame{aspect-ratio:16/9;max-width:100%;border:1px solid var(--rule);background:#000;position:relative;display:grid;place-items:center;overflow:hidden}
+.vid iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.vid .poster{display:flex;flex-direction:column;align-items:center;gap:14px;padding:16px}
+.vid .poster img{height:clamp(60px,10vw,140px);width:auto}
+.vid .poster span{font-family:var(--mono);font-size:13px;letter-spacing:.1em;color:var(--dim)}
+.vid figcaption{display:grid;grid-template-columns:var(--rail) minmax(0,1fr);column-gap:var(--gap);padding-top:16px;border-bottom:1px solid var(--rule);padding-bottom:18px}
+.vno{font-family:var(--display);font-stretch:72%;font-weight:800;font-size:44px;line-height:1;letter-spacing:-.01em}
+.vno i{font-style:normal;font-family:var(--mono);font-weight:400;font-size:14px;color:var(--mute);letter-spacing:.06em;margin-left:6px}
+.vtxt{display:flex;flex-direction:column;gap:4px;min-width:0}
+.vmeta{font-family:var(--mono);font-size:13px;letter-spacing:.08em;color:var(--mute)}
+.vtitle{font-size:20px;font-weight:700;line-height:1.4}
+.vwho{font-size:15px;color:var(--mute);line-height:1.6}
+.hero-meta .links{margin-top:20px}
+@media (max-width:900px){.vid figcaption{grid-template-columns:auto minmax(0,1fr);column-gap:18px}.vno{font-size:34px}}
 /* days */
 .day{display:grid;grid-template-columns:var(--rail) minmax(0,var(--measure));column-gap:var(--gap);justify-content:start;border-top:1px solid var(--rule);padding-block:clamp(56px,8vw,112px)}
 .day>*{grid-column:2;min-width:0}
-.day>.eyebrow,.day>.daytitle,.day>.daysub,.day>.band,.day>.vine,.day>.h2,.day>article{grid-column:1/-1}
+.day>.eyebrow,.day>.daytitle,.day>.daysub,.day>.band,.day>.vine,.day>.h2,.day>article,.day>.vid{grid-column:1/-1}
 .daytitle{font-family:var(--display);font-stretch:72%;font-weight:800;font-size:clamp(52px,11.5vw,168px);line-height:.94;letter-spacing:-.02em;margin-top:18px;text-wrap:balance}
 .big .daytitle{margin-top:0}
 .daysub{font-size:clamp(20px,3vw,36px);font-weight:300;line-height:1.4;color:var(--mute);margin-top:clamp(12px,2vw,24px)}
@@ -76,6 +92,8 @@ a:focus-visible,button:focus-visible{outline:2px solid var(--ink);outline-offset
 .band{width:100%;margin-top:clamp(28px,4vw,56px);display:block}
 .h2{font-family:var(--display);font-stretch:72%;font-weight:800;font-size:clamp(30px,4.6vw,52px);line-height:1.2;letter-spacing:-.005em;margin-top:clamp(48px,7vw,88px);text-wrap:balance}
 .day>.h2+*{margin-top:28px}
+.day>.vid+*{margin-top:40px}
+.day>.h2+.vid{margin-top:24px}
 .h3{font-size:clamp(20px,2.4vw,24px);font-weight:700;line-height:1.45;margin-top:44px;text-wrap:balance}
 .lead,.dim,.item p{margin-top:22px}
 .h3+*,.h2+*{margin-top:22px}
@@ -118,6 +136,15 @@ strong{font-weight:600;color:var(--ink)}
 .legend{font-family:var(--mono);font-size:12px;line-height:1.6;color:var(--mute);margin-top:8px}
 .eqdesc{font-size:15px;line-height:1.8;color:var(--mute);margin-top:10px}
 
+/* acknowledgements */
+.ack{border-top:1px solid var(--rule);padding-block:clamp(56px,8vw,96px);display:grid;grid-template-columns:var(--rail) minmax(0,var(--measure));column-gap:var(--gap)}
+.ack>*{grid-column:2}
+.ack>.eyebrow,.ack>h2{grid-column:1/-1}
+.ack h2{font-family:var(--display);font-stretch:72%;font-weight:800;font-size:clamp(36px,6vw,72px);line-height:1.1;margin-top:12px}
+.ack p{margin-top:22px}
+.names{list-style:none;padding:0;margin:28px 0 0;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px 24px}
+.names li{display:flex;flex-direction:column;gap:2px}.names b{font-family:var(--display);font-stretch:72%;font-weight:700;font-size:24px;line-height:1.25}.names span{font-family:var(--mono);font-size:13px;letter-spacing:.04em;color:var(--mute)}
+@media (max-width:900px){.ack{grid-template-columns:minmax(0,1fr)}.ack>*{grid-column:1}.names{grid-template-columns:repeat(2,minmax(0,1fr))}}
 /* footer */
 .foot{border-top:1px solid var(--rule);padding-block:40px 56px}
 .foot .wrap{display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap}
@@ -128,23 +155,19 @@ strong{font-weight:600;color:var(--ink)}
 </style>
 
 <header class="bar"><div class="wrap"><a class="mk" href="#top">Theory as Organon</a>
-<nav aria-label="章节"><a href="#records">记录</a><a href="#day1">第一天</a><a href="#day2">第二天</a><a href="#panel">Panel</a><a href="#summary">总结</a></nav></div></header>
+<nav aria-label="章节"><a href="#video1">视频</a><a href="#day1">第一天</a><a href="#day2">第二天</a><a href="#panel">Panel</a><a href="#summary">总结</a><a href="#ack">致谢</a></nav></div></header>
 <main id="top">
 <section class="hero"><div class="wrap">
 <div class="logos"><div class="l"><img class="l1" src="img/f5703b76238c49ea87dacc8a913405ad.png" alt="HKUST(GZ) Internet of Things Thrust"><img class="l2" src="img/ec5f59282f684309ba3c69c5e5ab51d9.png" alt="Computational Media and Arts, HKUST(GZ)"></div><div class="date">13—14<br>10.2026</div></div>
 <h1 class="hero-in" aria-label="Theory as Organon — Symposium on Theory in HCI"><div class="t1" aria-hidden="true">Theory as</div><img class="wm" src="img/0d4856ee35118f9a1d028a2d41ffbb05.png" alt="" aria-hidden="true"><div class="t3" aria-hidden="true">Symposium on Theory in HCI</div></h1>
-<div class="hero-meta"><div class="mono">TUE 13 — WED 14 OCT 2026<br>HKUST(GZ)</div><img src="img/2c61b4f25894660247e5666976138774.png" alt="" width="540" height="660"></div>
+<div class="hero-meta"><div><div class="mono">TUE 13 — WED 14 OCT 2026<br>HKUST(GZ)</div><div class="links" id="reclinks"></div></div><img src="img/2c61b4f25894660247e5666976138774.png" alt="" width="540" height="660"></div>
 </div></section>
-<section class="records" id="records"><div class="wrap">
-<div class="eyebrow">RECORDINGS</div><h2>研讨会视频、音频与文字记录</h2>
-<div class="recs" id="recs" data-poster="img/1cf53e79984140d35b2ac1358b55110d.png"></div>
-<div class="links" id="reclinks"></div>
-</div></section>
+
 <div class="wrap">
 <section class="day" id="day1"><div class="eyebrow">TUE 13 OCT · 第一天</div>
 <h2 class="daytitle">Questions Concerning Theory</h2>
 <p class="daysub">人机交互中的理论问题</p>
-<img class="vine" src="img/1cf53e79984140d35b2ac1358b55110d.png" alt="" width="380" height="200">
+<img class="vine" src="img/1cf53e79984140d35b2ac1358b55110d.png" alt="" width="380" height="200"><figure class="vid" id="video1"><div class="frame" data-i="0"><div class="poster"><img src="img/1cf53e79984140d35b2ac1358b55110d.png" alt=""><span>VIDEO 01 / 04</span></div></div><figcaption><span class="vno">01<i>/04</i></span><span class="vtxt"><span class="vmeta">TUE 13 OCT · 13:00–14:50 · HALL A</span><span class="vtitle">开幕与主旨演讲</span><span class="vwho">周秋实 · Kasper Hornbæk · 赵盛东 · 麻晓娟</span></span></figcaption></figure>
 <h3 class="h2">活动主题：理论作为 HCI 的器官/工具</h3>
 <p class="lead">10月13日至14日，周秋实在香港科技大学（广州）举办了“Theory as Organon”（以理论为器官/工具）研讨会，探讨了理论在人机交互（HCI）中的基础性作用。本次研讨会在粤港澳大湾区召开，旨在推动该地区 HCI 研究中有关理论建构的交流与对话。</p>
 <p class="dim">活动名称追溯了清晰的认识论脉络：</p>
@@ -178,7 +201,7 @@ strong{font-weight:600;color:var(--ink)}
 <p class="dim"><strong>归属感/关联性 (Relatedness)：</strong>受到破坏。AI Agent 取代了人类合作者、领域专家和同伴网络，将个体孤立于自动化的单人工作流中，切断了社会性知识交流。</p>
 <blockquote class="pull">麻教授提出了人类参与计算（Human-Engaged Computing）——这一框架旨在通过交互设计去培养人类的主体性（agency）、成长与技能获取。此外，她主张将 HCI 的分析单元从孤立的“用户-构件”对拓展至生态系统、社会系统以及超人类（more-than-human）系统。</blockquote>
 </div></article>
-<h3 class="h2">圆桌讨论与问答：行业与领域的分歧</h3>
+<h3 class="h2">圆桌讨论与问答：行业与领域的分歧</h3><figure class="vid" id="video2"><div class="frame" data-i="1"><div class="poster"><img src="img/1cf53e79984140d35b2ac1358b55110d.png" alt=""><span>VIDEO 02 / 04</span></div></div><figcaption><span class="vno">02<i>/04</i></span><span class="vtxt"><span class="vmeta">TUE 13 OCT · 15:00–16:20 · HALL B</span><span class="vtitle">圆桌讨论与问答</span><span class="vwho">周秋实 · Kasper Hornbæk · 赵盛东 · 麻晓娟 · 梁海宁</span></span></figcaption></figure>
 <p class="lead">周秋实、Kasper Hornbæk、赵盛东、麻晓娟和梁海宁进行无主题圆桌讨论，探讨 HCI 理论工作的系统性问题。周秋实将讨论始于贝尔纳·斯蒂格勒（Bernard Stiegler）的通用器官学（General Organology）上，该理论认为人类认知与生理机能与技术器官协同演化。由于每个技术器官都是一种“双刃药”（pharmakon，既是解药也是毒药），因此不能在孤立情境下评估界面。活动理论（Activity Theory）被强调为一个兼容的框架，用于分析有目的、有社会组织的人类活动中的工具。</p>
 <h4 class="h3">讨论一：追赶工业界与短暂的研究发现</h4>
 <p class="dim">赵教授提出学术出版压力、四年制博士时间表以及高校招聘标准严重偏向对商业 AI 新发布成果进行快速实证研究。理论研究需要更长周期的持续努力，且短期内出版量较低。因此，缺乏理论锚定的研究会随着用户群体适应新界面范式而迅速过时，导致实证基线衰退。</p>
@@ -189,6 +212,7 @@ strong{font-weight:600;color:var(--ink)}
 <p class="dim"><strong>将理论作为脚手架进行教学 (Teaching Theory as Scaffolding)：</strong>在回应如何激励学生阅读理论的问题时，与会者引用了计算机科学家彼得·诺尔（Peter Naur）将科学视为“建筑场地”（building ground）的观点。理论教学不应作为僵化的教条，而应作为实用的脚手架，旨在随着理解的深入被测试、拓展或拆除。</p>
 <p class="dim"><strong>化解认识论张力 (Resolving Epistemological Tensions)：</strong>针对观众关于定性与定量审稿人之间长期摩擦的问题，Hornbæk 引用了卡尔·波普尔（Karl Popper）《框架的神话》（The Myth of the Framework）。解决范式冲突需要研究者消除封闭的行业术语，明确表达分析依据，并对多元方法论保持智识上的开放。</p>
 <p class="dim"><strong>软件熵与“去界面化” (Software Entropy / "De-interface")：</strong>针对现场观众关于现代软件界面正在退化为阻碍深度思考的“去界面”（de-interfaces，相比纸笔而言）的观察，赵教授引用热力学原理提出，除非持续投入计算资源和有意识的设计努力，软件会走向熵增衰退。Hornbæk 补充道，许多 UI 退化是有意为之的，是商业实体旨在变现人类认知脆弱性而工程化设计的。</p>
+</section>
 <section class="day" id="day2"><div class="eyebrow">WED 14 OCT · 第二天</div>
 <h2 class="daytitle">The Multiplicity of Theory</h2>
 <p class="daysub">理论的多样性</p>
@@ -196,7 +220,7 @@ strong{font-weight:600;color:var(--ink)}
 <h3 class="h2">活动主题：理论的多样性</h3>
 <p class="lead">研讨会第二天的核心主题为“理论的多样性”（The Multiplicity of Theory）。第一天的讨论侧重于审视 HCI 理论的哲学根基与危机，第二天则聚焦于如何从神经科学、运动控制、语言学、认知科学及数学（范畴论）等其他学科跨界借用、重构与建构 HCI 专属的理论体系。</p>
 <p class="dim">讨论中提出，跨学科理论不能直接“照搬”，必须付出“重构成本”（borrowing cost）——即重新调整外学科的抽象概念、实验范式与模型，使其适应 HCI 复杂、动态且面向改善与设计的特定目标。</p>
-<h3 class="h2">主旨演讲与专题报告 (Keynote &amp; Talks)</h3>
+<h3 class="h2">主旨演讲与专题报告 (Keynote &amp; Talks)</h3><figure class="vid" id="video3"><div class="frame" data-i="2"><div class="poster"><img src="img/1cf53e79984140d35b2ac1358b55110d.png" alt=""><span>VIDEO 03 / 04</span></div></div><figcaption><span class="vno">03<i>/04</i></span><span class="vtxt"><span class="vmeta">WED 14 OCT · 10:30–11:50 · W4-102</span><span class="vtitle">INFH Distinguished Lecture</span><span class="vwho">Kasper Hornbæk</span></span></figcaption></figure>
 <article class="talk"><header class="who"><img class="portrait" src="img/72a08252f87f8499df82439db6fbe0c3.png" alt="Kasper Hornbæk" width="167" height="200"><div><h3 class="name"><span class="en">Kasper Hornbæk</span></h3><p class="aff">哥本哈根大学</p></div><img class="plate" src="img/64c75915b368b131218f5009d5b1602f.png" alt="" width="200" height="200"></header><div class="body">
 <h4 class="h3">主旨演讲：Kasper Hornbæk "推进人机交互中的理论研究" (Advancing Theoretical Research in HCI)</h4>
 <p class="lead">Kasper Hornbæk 教授（哥本哈根大学）介绍了由 VILLUM 基金会资助的 TRACTION 研究中心。Hornbæk 明确指出 HCI 正面临 “理论危机”（Theory Crisis）：研究者对理论的使用普遍停留在表面，且随着新兴技术的不断涌现，学科或已陷入缺乏知识累积的 “巨大空洞”。</p>
@@ -209,7 +233,7 @@ strong{font-weight:600;color:var(--ink)}
 <div class="item plain"><p><strong>积极产出理论贡献：</strong>在论文中明确“对理论的启示”（implications for theory）；</p></div>
 <div class="item plain"><p><strong>将理论视为多元工具：</strong>借鉴方法论多元主义，推行“混合理论研究”。</p></div>
 </div></article>
-<h3 class="h2">专题演讲：跨学科理论的借用与重构</h3>
+<h3 class="h2">专题演讲：跨学科理论的借用与重构</h3><figure class="vid" id="video4"><div class="frame" data-i="3"><div class="poster"><img src="img/1cf53e79984140d35b2ac1358b55110d.png" alt=""><span>VIDEO 04 / 04</span></div></div><figcaption><span class="vno">04<i>/04</i></span><span class="vtxt"><span class="vmeta">WED 14 OCT · 13:30–16:00 · E1-4F DOIT LAB</span><span class="vtitle">专题演讲与圆桌讨论</span><span class="vwho">俞迪枫 · Joanna Bergström · 刘灿 · 罗涛 · Kasper Hornbæk</span></span></figcaption></figure>
 <article class="talk"><header class="who"><img class="portrait" src="img/f30277b9775af515f2ff9295ee287e7d.png" alt="俞迪枫 Difeng Yu" width="167" height="200"><div><h3 class="name"><span class="zh">俞迪枫</span> <span class="en">Difeng Yu</span></h3><p class="aff">南京大学</p></div><img class="plate" src="img/dd5a3d77add652f3a63f7bfbde96363b.png" alt="" width="200" height="200"></header><div class="body">
 <h4 class="h3">基于运动控制模型的交互技术 (Deriving Interaction Techniques based on Motor Control Models)</h4>
 <p class="dim"><strong>“合理化构念”方法 (Justified Concepts)：</strong>针对“运动控制模型用于预测解释”与“HCI 交互技术用于提升性能”的目标差异，提出 Justified Concepts 桥接方法。</p>
@@ -263,6 +287,7 @@ strong{font-weight:600;color:var(--ink)}
 <p class="dim"><strong>Joanna Bergström：</strong>享受阅读跨学科文献的过程，发挥 HCI 可以自由吸收、组合多学科理论的独特优势。</p>
 <p class="dim"><strong>刘灿：</strong>针对具体科研项目帮学生定义具体问题，后将多个项目结合起来建构理论。</p>
 <p class="dim"><strong>罗涛：</strong>保持理论内部的逻辑严密性；主动寻找反例来挑战和修正自己的理论；站在“使用者”角度检验理论与工具（如开发 IDE）的可操作性。</p>
+</section>
 <section class="day big" id="summary"><h2 class="daytitle">总结与展望</h2>
 <h4 class="h3">论坛总结 (Summary)</h4>
 <p class="lead">本次为期两天的“Theory as Organon”（以理论为器官/工具）研讨会，重新探讨了理论在人机交互（HCI）中的核心位置。从第一天“抽象之舞”、“心灵方程”与“人类参与计算”的认识论危机，到第二天跨界引入运动控制、运动学习、认知语言学与范畴论的理论多样性，研讨会展现出清晰的共识：理论应当是思维的实用脚手架与认知透镜。面对快速迭代的技术浪潮，HCI 研究需要超越盲目“追赶工业界”与重复建造“框架坟场”的现状，在个案与抽象之间建立创造性的连接与严密的验证。</p>
@@ -273,6 +298,7 @@ strong{font-weight:600;color:var(--ink)}
 <p class="dim"><strong>付清“重构成本”，深化跨学科理论迁移：</strong>从神经科学、语言学与范畴论中借用理论时，必须建立模式无关（Modality-Independent）的形式化表达，使交互知识能够超越具体硬件实现跨模态累积。</p>
 <p class="dim"><strong>培育理论社区与“脚手架”式教学：</strong>将哲学与数学思想转化为理论工具，在大湾区及国际学术社区中培育常态化的理论建构与批判氛围。</p>
 </section>
+<section class="ack" id="ack"><div class="eyebrow">ACKNOWLEDGEMENTS</div><h2>致谢</h2><p class="dim">本次研讨会由香港科技大学（广州）信息枢纽（Information Hub）<strong>计算媒体与艺术学域（CMA）</strong>与<strong>物联网学域（IoT）</strong>支持举办。</p><p class="dim">感谢协助组织与运营研讨会的志愿者们：</p><ul class="names"><li><b>Alexander Bie</b></li><li><b>代涤杨</b><span>Diyang Dai</span></li><li><b>何杨炀</b><span>Yangyang He</span></li><li><b>李靖谊</b><span>Jingyi Li</span></li><li><b>梁海宁</b><span>Hai-Ning Liang</span></li><li><b>罗伊琳</b><span>Yilin Luo</span></li><li><b>施荣凯</b><span>Rongkai Shi</span></li><li><b>夏书淇</b><span>Shuqi Xia</span></li><li><b>张轩逸</b><span>Xuanyi Zhang</span></li></ul></section>
 </div>
 </main>
 <footer class="foot"><div class="wrap"><div class="l"><img class="l1" src="img/f5703b76238c49ea87dacc8a913405ad.png" alt="HKUST(GZ) Internet of Things Thrust"><img class="l2" src="img/ec5f59282f684309ba3c69c5e5ab51d9.png" alt="Computational Media and Arts, HKUST(GZ)"></div><div class="date">13—14.10.2026</div></div></footer>
@@ -286,14 +312,15 @@ const AUDIO='';
 const TRANSCRIPT='';
 const EMBED=false;
 (function(){
-  var root=document.getElementById('recs');
-  for(var i=0;i<COUNT;i++){
-    var d=document.createElement('div');d.className='rec';
-    var h='<div class="eyebrow">'+('0'+(i+1))+' / '+('0'+COUNT)+'</div><div class="frame"><div class="poster"><img src="'+root.dataset.poster+'" alt=""><span>VIDEO · '+('0'+(i+1))+'</span></div>';
-    if(EMBED){h+='<iframe src="https://www.youtube-nocookie.com/embed/videoseries?list='+PLAYLIST+'&index='+i+'" title="视频 '+(i+1)+'" loading="lazy" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture; fullscreen" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';}
-    h+='</div>';
-    d.innerHTML=h;root.appendChild(d);
-  }
+  [].forEach.call(document.querySelectorAll('.vid .frame'),function(f){
+    if(!EMBED)return;
+    var i=+f.dataset.i, ifr=document.createElement('iframe');
+    ifr.src='https://www.youtube-nocookie.com/embed/videoseries?list='+PLAYLIST+'&index='+i;
+    ifr.title='视频 '+(i+1); ifr.loading='lazy'; ifr.allowFullscreen=true;
+    ifr.setAttribute('allow','accelerometer; encrypted-media; gyroscope; picture-in-picture; fullscreen');
+    ifr.referrerPolicy='strict-origin-when-cross-origin';
+    f.appendChild(ifr);
+  });
   var l=document.getElementById('reclinks');
   var ls='<a href="https://www.youtube.com/playlist?list='+PLAYLIST+'" target="_blank" rel="noopener">YouTube 播放列表 ↗</a>';
   ls+=AUDIO?'<a href="'+AUDIO+'" target="_blank" rel="noopener">音频 ↗</a>':'<span>音频</span>';
