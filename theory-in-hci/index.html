@@ -11,7 +11,42 @@ html[lang=en] body{line-height:1.7}
 html[lang=en] .name .zh{display:none}
 html[lang=en] .names li>span{display:none}
 html[lang=en] .eqname{font-family:var(--display);font-stretch:72%}
-</style></head><body>
+</style><style>
+/* photo carousel */
+.photos{border-top:1px solid var(--rule);padding-block:clamp(48px,7vw,96px)}
+.photos h2{font-family:var(--display);font-stretch:72%;font-weight:800;font-size:clamp(36px,6vw,72px);line-height:1.1;margin-top:12px}
+.car{margin-top:clamp(24px,4vw,40px)}
+.stage{position:relative}
+.track{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;overscroll-behavior-x:contain;outline:none}
+.track::-webkit-scrollbar{display:none}
+.track:focus-visible{outline:2px solid var(--ink);outline-offset:4px}
+.slide{flex:0 0 100%;scroll-snap-align:start;margin:0}
+.zoom{display:block;width:100%;padding:0;border:0;background:#0b0b0b;cursor:zoom-in;aspect-ratio:4/3;max-height:min(72vh,720px)}
+.zoom img{display:block;width:100%;height:100%;object-fit:contain;image-rendering:auto}
+.slide figcaption{display:flex;gap:16px;align-items:baseline;padding-top:14px;font-family:var(--mono);font-size:13px;letter-spacing:.08em;color:var(--mute)}
+.nv{position:absolute;top:50%;transform:translateY(-50%);width:48px;height:48px;border:1px solid var(--dim);background:rgba(0,0,0,.6);color:var(--ink);font-family:var(--mono);font-size:18px;cursor:pointer;display:grid;place-items:center}
+.nv:hover{background:var(--ink);color:var(--ground)}
+.nv:disabled{opacity:.25;cursor:default;background:rgba(0,0,0,.6);color:var(--ink)}
+.stage .prev{left:12px;top:calc(50% - 20px)}.stage .next{right:12px;top:calc(50% - 20px)}
+.cbar{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;margin-top:18px;font-family:var(--mono);font-size:13px;letter-spacing:.08em;color:var(--mute)}
+.count{color:var(--ink)}
+.thumbs{display:flex;gap:8px;overflow-x:auto;margin-top:16px;padding:4px 2px 8px;scrollbar-width:thin;scrollbar-color:var(--dim) transparent}
+.th{flex:none;width:96px;aspect-ratio:4/3;padding:0;border:1px solid transparent;background:#0b0b0b;cursor:pointer;opacity:.45;transition:opacity .2s}
+.th img{display:block;width:100%;height:100%;object-fit:cover;image-rendering:auto}
+.th:hover{opacity:.8}.th[aria-current="true"]{opacity:1;border-color:var(--ink)}
+@media (max-width:560px){.nv{width:40px;height:40px}.stage .nv{display:none}.th{width:72px}}
+/* lightbox */
+.lb{padding:0;border:0;background:#000;color:var(--ink);width:100vw;height:100vh;max-width:none;max-height:none;margin:0}
+.lb::backdrop{background:#000}
+.lb figure{margin:0;height:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:56px 72px 24px;box-sizing:border-box;gap:12px}
+.lb img{max-width:100%;max-height:calc(100% - 40px);object-fit:contain;image-rendering:auto}
+.lb figcaption{display:flex;gap:16px;font-family:var(--mono);font-size:13px;letter-spacing:.08em;color:var(--mute)}
+.lbx{position:absolute;top:12px;right:12px;width:44px;height:44px;border:1px solid var(--dim);background:none;color:var(--ink);font-size:16px;cursor:pointer}
+.lbx:hover{background:var(--ink);color:var(--ground)}
+.lb .prev{left:12px}.lb .next{right:12px}
+@media (max-width:560px){.lb figure{padding:64px 12px 24px}.lb .nv{top:auto;bottom:16px;transform:none}}
+</style>
+</head><body>
 <link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,100..900&amp;family=IBM+Plex+Mono:wght@400;500&amp;family=Noto+Sans+SC:wght@300;400;500;700;900&amp;display=swap" rel="stylesheet"/>
 <style>
 /* Layout: one long black page. Full-bleed condensed headline, a sticky speaker rail beside each talk, text column ~760px. */
@@ -180,13 +215,27 @@ strong{font-weight:600;color:var(--ink)}
 .foot .date{font-size:14px}
 </style>
 <header class="bar"><div class="wrap"><a class="mk" href="#top">Theory as Organon</a>
-<nav aria-label="章节"><a data-en="Videos" href="#video1">视频</a><a data-en="Audio" href="#audio">音频</a><a data-en="Day 1" href="#day1">第一天</a><a data-en="Day 2" href="#day2">第二天</a><a href="#panel">Panel</a><a data-en="Summary" href="#summary">总结</a><a data-en="Thanks" href="#ack">致谢</a></nav><button aria-label="Switch to English" class="lang" id="lang" type="button">EN</button></div></header>
+<nav aria-label="章节"><a data-en="Photos" href="#photos">照片</a><a data-en="Videos" href="#video1">视频</a><a data-en="Audio" href="#audio">音频</a><a data-en="Day 1" href="#day1">第一天</a><a data-en="Day 2" href="#day2">第二天</a><a href="#panel">Panel</a><a data-en="Summary" href="#summary">总结</a><a data-en="Thanks" href="#ack">致谢</a></nav><button aria-label="Switch to English" class="lang" id="lang" type="button">EN</button></div></header>
 <main id="top">
 <section class="hero"><div class="wrap">
 <div class="logos"><div class="l"><img alt="HKUST(GZ) Internet of Things Thrust" class="l1" src="img/f5703b76238c49ea87dacc8a913405ad.png"/><img alt="Computational Media and Arts, HKUST(GZ)" class="l2" src="img/ec5f59282f684309ba3c69c5e5ab51d9.png"/></div><div class="date">13—14<br/>10.2026</div></div>
 <h1 aria-label="Theory as Organon — Symposium on Theory in HCI" class="hero-in"><div aria-hidden="true" class="t1">Theory as</div><img alt="" aria-hidden="true" class="wm" src="img/0d4856ee35118f9a1d028a2d41ffbb05.png"/><div aria-hidden="true" class="t3">Symposium on Theory in HCI</div></h1>
 <div class="hero-meta"><div><div class="mono">TUE 13 — WED 14 OCT 2026<br/>HKUST(GZ)</div><div class="links" id="reclinks"></div></div><img alt="" height="660" src="img/2c61b4f25894660247e5666976138774.png" width="540"/></div>
 </div></section>
+<section class="photos" id="photos"><div class="wrap">
+<div class="eyebrow">PHOTOS</div><h2 data-en="Photos from the symposium">现场照片</h2>
+<div class="car" aria-roledescription="carousel" aria-label="Symposium photos">
+<div class="stage"><div class="track" tabindex="0">
+<figure class="slide" role="group" aria-roledescription="slide" aria-label="1 / 19"><button class="zoom" type="button" data-i="0" aria-label="Open photo 1 full screen"><img src="photos/pa130055.jpg" width="1600" height="1200" alt="Symposium photo 1 of 19, Day 1 · Tue 13 Oct" decoding="async"></button><figcaption><span data-en="Day 1 · Tue 13 Oct">第一天 · 10月13日</span></figcaption></figure><figure class="slide" role="group" aria-roledescription="slide" aria-label="2 / 19"><button class="zoom" type="button" data-i="1" aria-label="Open photo 2 full screen"><img src="photos/pa130068.jpg" width="1600" height="1200" alt="Symposium photo 2 of 19, Day 1 · Tue 13 Oct" loading="lazy" decoding="async"></button><figcaption><span data-en="Day 1 · Tue 13 Oct">第一天 · 10月13日</span></figcaption></figure><figure class="slide" role="group" aria-roledescription="slide" aria-label="3 / 19"><button class="zoom" type="button" data-i="2" aria-label="Open photo 3 full screen"><img src="photos/pa130105.jpg" width="1600" height="1200" alt="Symposium photo 3 of 19, Day 1 · Tue 13 Oct" loading="lazy" decoding="async"></button><figcaption><span data-en="Day 1 · Tue 13 Oct">第一天 · 10月13日</span></figcaption></figure><figure class="slide" role="group" aria-roledescription="slide" aria-label="4 / 19"><button class="zoom" type="button" data-i="3" aria-label="Open photo 4 full screen"><img src="photos/pa130173.jpg" width="1600" height="1200" alt="Symposium photo 4 of 19, Day 1 · Tue 13 Oct" loading="lazy" decoding="async"></button><figcaption><span data-en="Day 1 · Tue 13 Oct">第一天 · 10月13日</span></figcaption></figure><figure class="slide" role="group" aria-roledescription="slide" aria-label="5 / 19"><button class="zoom" type="button" data-i="4" aria-label="Open photo 5 full screen"><img src="photos/pa130215.jpg" width="1600" height="1200" alt="Symposium photo 5 of 19, Day 1 · Tue 13 Oct" loading="lazy" decoding="async"></button><figcaption><span data-en="Day 1 · Tue 13 Oct">第一天 · 10月13日</span></figcaption></figure><figure class="slide" role="group" aria-roledescription="slide" aria-label="6 / 19"><button class="zoom" type="button" data-i="5" aria-label="Open photo 6 full screen"><img src="photos/pa130218.jpg" width="1600" height="1200" alt="Symposium photo 6 of 19, Day 1 · Tue 13 Oct" loading="lazy" decoding="async"></button><figcaption><span data-en="Day 1 · Tue 13 Oct">第一天 · 10月13日</span></figcaption></figure><figure class="slide" role="group" aria-roledescription="slide" aria-label="7 / 19"><button class="zoom" type="button" data-i="6" aria-label="Open photo 7 full screen"><img src="photos/pa130223.jpg" width="1600" height="1200" alt="Symposium photo 7 of 19, Day 1 · Tue 13 Oct" loading="lazy" decoding="async"></button><figcaption><span data-en="Day 1 · Tue 13 Oct">第一天 · 10月13日</span></figcaption></figure><figure class="slide" role="group" aria-roledescription="slide" aria-label="8 / 19"><button class="zoom" type="button" data-i="7" aria-label="Open photo 8 full screen"><img src="photos/pa130304.jpg" width="1600" height="1200" alt="Symposium photo 8 of 19, Day 1 · Tue 13 Oct" loading="lazy" decoding="async"></button><figcaption><span data-en="Day 1 · Tue 13 Oct">第一天 · 10月13日</span></figcaption></figure><figure class="slide" role="group" aria-roledescription="slide" aria-label="9 / 19"><button class="zoom" type="button" data-i="8" aria-label="Open photo 9 full screen"><img src="photos/pa140428.jpg" width="1600" height="1200" alt="Symposium photo 9 of 19, Day 2 · Wed 14 Oct" loading="lazy" decoding="async"></button><figcaption><span data-en="Day 2 · Wed 14 Oct">第二天 · 10月14日</span></figcaption></figure><figure class="slide" role="group" aria-roledescription="slide" aria-label="10 / 19"><button class="zoom" type="button" data-i="9" aria-label="Open photo 10 full screen"><img src="photos/pa140464.jpg" width="1600" height="1200" alt="Symposium photo 10 of 19, Day 2 · Wed 14 Oct" loading="lazy" decoding="async"></button><figcaption><span data-en="Day 2 · Wed 14 Oct">第二天 · 10月14日</span></figcaption></figure><figure class="slide" role="group" aria-roledescription="slide" aria-label="11 / 19"><button class="zoom" type="button" data-i="10" aria-label="Open photo 11 full screen"><img src="photos/pa140477.jpg" width="1600" height="1200" alt="Symposium photo 11 of 19, Day 2 · Wed 14 Oct" loading="lazy" decoding="async"></button><figcaption><span data-en="Day 2 · Wed 14 Oct">第二天 · 10月14日</span></figcaption></figure><figure class="slide" role="group" aria-roledescription="slide" aria-label="12 / 19"><button class="zoom" type="button" data-i="11" aria-label="Open photo 12 full screen"><img src="photos/pa140513.jpg" width="1600" height="1200" alt="Symposium photo 12 of 19, Day 2 · Wed 14 Oct" loading="lazy" decoding="async"></button><figcaption><span data-en="Day 2 · Wed 14 Oct">第二天 · 10月14日</span></figcaption></figure><figure class="slide" role="group" aria-roledescription="slide" aria-label="13 / 19"><button class="zoom" type="button" data-i="12" aria-label="Open photo 13 full screen"><img src="photos/pa140521.jpg" width="1600" height="1200" alt="Symposium photo 13 of 19, Day 2 · Wed 14 Oct" loading="lazy" decoding="async"></button><figcaption><span data-en="Day 2 · Wed 14 Oct">第二天 · 10月14日</span></figcaption></figure><figure class="slide" role="group" aria-roledescription="slide" aria-label="14 / 19"><button class="zoom" type="button" data-i="13" aria-label="Open photo 14 full screen"><img src="photos/pa140553.jpg" width="1600" height="1200" alt="Symposium photo 14 of 19, Day 2 · Wed 14 Oct" loading="lazy" decoding="async"></button><figcaption><span data-en="Day 2 · Wed 14 Oct">第二天 · 10月14日</span></figcaption></figure><figure class="slide" role="group" aria-roledescription="slide" aria-label="15 / 19"><button class="zoom" type="button" data-i="14" aria-label="Open photo 15 full screen"><img src="photos/pa140583.jpg" width="1600" height="1200" alt="Symposium photo 15 of 19, Day 2 · Wed 14 Oct" loading="lazy" decoding="async"></button><figcaption><span data-en="Day 2 · Wed 14 Oct">第二天 · 10月14日</span></figcaption></figure><figure class="slide" role="group" aria-roledescription="slide" aria-label="16 / 19"><button class="zoom" type="button" data-i="15" aria-label="Open photo 16 full screen"><img src="photos/pa140597.jpg" width="1600" height="1200" alt="Symposium photo 16 of 19, Day 2 · Wed 14 Oct" loading="lazy" decoding="async"></button><figcaption><span data-en="Day 2 · Wed 14 Oct">第二天 · 10月14日</span></figcaption></figure><figure class="slide" role="group" aria-roledescription="slide" aria-label="17 / 19"><button class="zoom" type="button" data-i="16" aria-label="Open photo 17 full screen"><img src="photos/pa140685.jpg" width="1600" height="1200" alt="Symposium photo 17 of 19, Day 2 · Wed 14 Oct" loading="lazy" decoding="async"></button><figcaption><span data-en="Day 2 · Wed 14 Oct">第二天 · 10月14日</span></figcaption></figure><figure class="slide" role="group" aria-roledescription="slide" aria-label="18 / 19"><button class="zoom" type="button" data-i="17" aria-label="Open photo 18 full screen"><img src="photos/pa140721.jpg" width="1600" height="1200" alt="Symposium photo 18 of 19, Day 2 · Wed 14 Oct" loading="lazy" decoding="async"></button><figcaption><span data-en="Day 2 · Wed 14 Oct">第二天 · 10月14日</span></figcaption></figure><figure class="slide" role="group" aria-roledescription="slide" aria-label="19 / 19"><button class="zoom" type="button" data-i="18" aria-label="Open photo 19 full screen"><img src="photos/pa140831.jpg" width="1200" height="1600" alt="Symposium photo 19 of 19, Day 2 · Wed 14 Oct" loading="lazy" decoding="async"></button><figcaption><span data-en="Day 2 · Wed 14 Oct">第二天 · 10月14日</span></figcaption></figure>
+</div>
+<button class="nv prev" type="button" aria-label="Previous photo">←</button><button class="nv next" type="button" aria-label="Next photo">→</button>
+</div>
+<div class="cbar"><span class="count" aria-live="polite">01 / 19</span><span class="hint" data-en="Swipe, use the arrows, or click a photo to enlarge">滑动或点击箭头浏览，点击照片放大</span></div>
+<div class="thumbs"><button class="th" type="button" data-i="0" aria-label="Photo 1"><img src="photos/thumb/pa130055.jpg" alt="" loading="lazy" decoding="async"></button><button class="th" type="button" data-i="1" aria-label="Photo 2"><img src="photos/thumb/pa130068.jpg" alt="" loading="lazy" decoding="async"></button><button class="th" type="button" data-i="2" aria-label="Photo 3"><img src="photos/thumb/pa130105.jpg" alt="" loading="lazy" decoding="async"></button><button class="th" type="button" data-i="3" aria-label="Photo 4"><img src="photos/thumb/pa130173.jpg" alt="" loading="lazy" decoding="async"></button><button class="th" type="button" data-i="4" aria-label="Photo 5"><img src="photos/thumb/pa130215.jpg" alt="" loading="lazy" decoding="async"></button><button class="th" type="button" data-i="5" aria-label="Photo 6"><img src="photos/thumb/pa130218.jpg" alt="" loading="lazy" decoding="async"></button><button class="th" type="button" data-i="6" aria-label="Photo 7"><img src="photos/thumb/pa130223.jpg" alt="" loading="lazy" decoding="async"></button><button class="th" type="button" data-i="7" aria-label="Photo 8"><img src="photos/thumb/pa130304.jpg" alt="" loading="lazy" decoding="async"></button><button class="th" type="button" data-i="8" aria-label="Photo 9"><img src="photos/thumb/pa140428.jpg" alt="" loading="lazy" decoding="async"></button><button class="th" type="button" data-i="9" aria-label="Photo 10"><img src="photos/thumb/pa140464.jpg" alt="" loading="lazy" decoding="async"></button><button class="th" type="button" data-i="10" aria-label="Photo 11"><img src="photos/thumb/pa140477.jpg" alt="" loading="lazy" decoding="async"></button><button class="th" type="button" data-i="11" aria-label="Photo 12"><img src="photos/thumb/pa140513.jpg" alt="" loading="lazy" decoding="async"></button><button class="th" type="button" data-i="12" aria-label="Photo 13"><img src="photos/thumb/pa140521.jpg" alt="" loading="lazy" decoding="async"></button><button class="th" type="button" data-i="13" aria-label="Photo 14"><img src="photos/thumb/pa140553.jpg" alt="" loading="lazy" decoding="async"></button><button class="th" type="button" data-i="14" aria-label="Photo 15"><img src="photos/thumb/pa140583.jpg" alt="" loading="lazy" decoding="async"></button><button class="th" type="button" data-i="15" aria-label="Photo 16"><img src="photos/thumb/pa140597.jpg" alt="" loading="lazy" decoding="async"></button><button class="th" type="button" data-i="16" aria-label="Photo 17"><img src="photos/thumb/pa140685.jpg" alt="" loading="lazy" decoding="async"></button><button class="th" type="button" data-i="17" aria-label="Photo 18"><img src="photos/thumb/pa140721.jpg" alt="" loading="lazy" decoding="async"></button><button class="th" type="button" data-i="18" aria-label="Photo 19"><img src="photos/thumb/pa140831.jpg" alt="" loading="lazy" decoding="async"></button></div>
+</div>
+</div></section>
+<dialog class="lb" aria-label="Photo viewer"><figure><img alt=""><figcaption></figcaption></figure>
+<button class="lbx" type="button" aria-label="Close">✕</button><button class="nv prev" type="button" aria-label="Previous photo">←</button><button class="nv next" type="button" aria-label="Next photo">→</button></dialog>
 <section class="audio" id="audio"><div class="wrap"><div><div class="eyebrow">AUDIO</div><h2 data-en="Audio recording">音频记录</h2></div><a class="a-btn" href="https://www.xiaoyuzhoufm.com/episode/6ad6628766729f5c712e065b" id="xyz" rel="noopener" target="_blank"><span class="gl">▶</span><span><span class="t" data-en="Xiaoyuzhou Podcast">小宇宙 Xiaoyuzhou</span><span class="s">xiaoyuzhoufm.com ↗</span></span></a></div></section>
 <div class="wrap">
 <section class="day" id="day1"><div class="eyebrow" data-en="TUE 13 OCT · Day 1">TUE 13 OCT · 第一天</div>
@@ -384,6 +433,44 @@ const VIDEOS=[
     var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){links.forEach(function(a){a.removeAttribute('aria-current')});var a=map[e.target.id];if(a)a.setAttribute('aria-current','true')}})},{rootMargin:'-30% 0px -60% 0px'});
     Object.keys(map).forEach(function(k){var el=document.getElementById(k);if(el)io.observe(el)});
   }
+})();
+</script>
+<script>
+(function(){
+  var car=document.querySelector('.car'); if(!car)return;
+  var track=car.querySelector('.track'), slides=[].slice.call(track.children), N=slides.length;
+  var prev=car.querySelector('.stage .prev'), next=car.querySelector('.stage .next');
+  var count=car.querySelector('.count'), ths=[].slice.call(car.querySelectorAll('.th'));
+  var cur=0, pad=function(n){return (n<10?'0':'')+n};
+  function go(i,smooth){i=Math.max(0,Math.min(N-1,i));track.scrollTo({left:slides[i].offsetLeft-track.offsetLeft,behavior:smooth===false?'auto':'smooth'});}
+  function mark(i){
+    if(i===cur&&count.textContent!=='')return; cur=i;
+    count.textContent=pad(i+1)+' / '+pad(N);
+    prev.disabled=i===0; next.disabled=i===N-1;
+    ths.forEach(function(t,k){if(k===i){t.setAttribute('aria-current','true');var r=t.parentNode;r.scrollTo({left:t.offsetLeft-r.offsetLeft-(r.clientWidth-t.clientWidth)/2,behavior:'smooth'})}else t.removeAttribute('aria-current')});
+  }
+  var raf=0;
+  track.addEventListener('scroll',function(){cancelAnimationFrame(raf);raf=requestAnimationFrame(function(){mark(Math.round(track.scrollLeft/track.clientWidth))})},{passive:true});
+  prev.addEventListener('click',function(){go(cur-1)});
+  next.addEventListener('click',function(){go(cur+1)});
+  ths.forEach(function(t){t.addEventListener('click',function(){go(+t.dataset.i)})});
+  track.addEventListener('keydown',function(e){if(e.key==='ArrowLeft'){e.preventDefault();go(cur-1)}else if(e.key==='ArrowRight'){e.preventDefault();go(cur+1)}});
+  window.addEventListener('resize',function(){go(cur,false)});
+  count.textContent=''; mark(0);
+
+  // lightbox
+  var lb=document.querySelector('dialog.lb'); if(!lb||!lb.showModal)return;
+  var li=lb.querySelector('img'), lc=lb.querySelector('figcaption'), lp=lb.querySelector('.prev'), ln=lb.querySelector('.next'), at=0;
+  function show(i){at=Math.max(0,Math.min(N-1,i));var im=slides[at].querySelector('img');li.src=im.src;li.alt=im.alt;
+    lc.innerHTML='<span style="color:var(--ink)">'+pad(at+1)+' / '+pad(N)+'</span>'+slides[at].querySelector('figcaption').innerHTML;lp.disabled=at===0;ln.disabled=at===N-1;}
+  [].forEach.call(car.querySelectorAll('.zoom'),function(b){b.addEventListener('click',function(){show(+b.dataset.i);lb.showModal()})});
+  lp.addEventListener('click',function(){show(at-1)}); ln.addEventListener('click',function(){show(at+1)});
+  lb.querySelector('.lbx').addEventListener('click',function(){lb.close()});
+  lb.addEventListener('keydown',function(e){if(e.key==='ArrowLeft')show(at-1);else if(e.key==='ArrowRight')show(at+1)});
+  lb.addEventListener('click',function(e){if(e.target===lb||e.target.tagName==='FIGURE')lb.close()});
+  lb.addEventListener('close',function(){go(at,false)});
+  var sx=null;lb.addEventListener('touchstart',function(e){sx=e.touches[0].clientX},{passive:true});
+  lb.addEventListener('touchend',function(e){if(sx===null)return;var dx=e.changedTouches[0].clientX-sx;if(Math.abs(dx)>50)show(at+(dx<0?1:-1));sx=null});
 })();
 </script>
 </body></html>
