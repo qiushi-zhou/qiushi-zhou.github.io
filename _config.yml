@@ -63,3 +63,6 @@ exclude:
   - "script"
   - "vendor"
   - "thinkspace.gemspec"
+
+  # Original camera files are archived in Git; pages use theory-in-hci/photos/.
+  - "assets/images/symposium photos"
